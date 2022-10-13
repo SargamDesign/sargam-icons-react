@@ -1,0 +1,48 @@
+{
+  "name": "@sargamdesign/icons-react",
+  "version": "0.0.2",
+  "description": "A collection of 700+ open-source icons devoted to match your exquisite designs.",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf src && rimraf dist",
+    "build": "npm run line && npm run duotone && npm run fill && rollup -c --bundleConfigAsCjs",
+    "line": "svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Line assets/Line",
+    "duotone": "svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Duotone assets/Duotone",
+    "fill": "svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Fill assets/Fill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SargamDesign/sargam-icons-react.git"
+  },
+  "keywords": [
+    "icons",
+    "line-icons",
+    "fill-icons",
+    "iconset",
+    "svg",
+    "library"
+  ],
+  "author": "Abhimanyu Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SargamDesign/sargam-icons-react/issues"
+  },
+  "homepage": "https://github.com/SargamDesign/sargam-icons-react#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@svgr/cli": "^6.4.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.1.0",
+    "rollup-plugin-filesize": "^9.1.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.19.4"
+  }
+}
