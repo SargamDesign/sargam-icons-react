@@ -44,5 +44,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.19.4"
-  }
+  },
+  "main": "dist/index.js"
 }
