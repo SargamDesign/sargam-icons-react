@@ -29,7 +29,8 @@ const SvgSiTarget = ({ title, titleId, ...props }) => (
     />
     <path
       d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
-      fill="#DDD"
+      fill="currentColor"
+      fillOpacity={0.16}
       stroke="currentColor"
       strokeWidth={1.5}
       strokeMiterlimit={10}
