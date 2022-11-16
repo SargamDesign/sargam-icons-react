@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSiPlayRewind = ({ title, titleId, ...props }) => (
+const SvgSiMicDetailed = ({ title, titleId, ...props }) => (
   <svg
     width="1em"
     height="1em"
@@ -10,22 +10,27 @@ const SvgSiPlayRewind = ({ title, titleId, ...props }) => (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d="M13 5 3 12l10 7v-4.867L10 12l3-2.313V5Z" fill="#fff" />
     <path
-      d="M13 9.688V5L3 12l10 7v-4.867"
+      d="M6 23h12m-6 0v-4"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      strokeMiterlimit={10}
+      strokeLinecap="round"
+    />
+    <path
+      d="M12 1a6 6 0 0 0-6 6v6a6 6 0 0 0 12 0V7a6 6 0 0 0-6-6Z"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      strokeMiterlimit={10}
+      strokeLinejoin="round"
+    />
+    <path
+      d="M12 10h.1m2.9 0h.1M9 10h.1M12 7h.1M15 7h.1M9 7h.1m2.9 6h.1m-.1 3h.1M12 4h.1m2.9 9h.1M9 13h.1"
       stroke="currentColor"
       strokeWidth={1.5}
       strokeLinecap="round"
       strokeLinejoin="round"
     />
-    <path
-      d="m20 5-10 7 10 7V5Z"
-      fill="currentColor"
-      fillOpacity={0.16}
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeLinejoin="round"
-    />
   </svg>
 );
-export default SvgSiPlayRewind;
+export default SvgSiMicDetailed;

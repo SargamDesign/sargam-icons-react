@@ -22,6 +22,29 @@ function _interopNamespaceDefault(e) {
 
 var React__namespace = /*#__PURE__*/_interopNamespaceDefault(React);
 
+const SvgSiActions = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-5 0L9 7.5v9l8-4.5Z",
+    fill: "currentColor"
+  }));
+};
+
 const SvgSiAdd = _ref => {
   let {
     title,
@@ -3098,6 +3121,29 @@ const SvgSiInput = _ref => {
   }));
 };
 
+const SvgSiInsights = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M4 3a1 1 0 0 0-2 0v17.2A1.8 1.8 0 0 0 3.8 22H21a1 1 0 1 0 0-2H4V3Zm17.707 4.707a1 1 0 0 0-1.414-1.414L14 12.586l-3.293-3.293a1 1 0 0 0-1.414 0l-4 4a1 1 0 1 0 1.414 1.414L10 11.414l3.293 3.293a1 1 0 0 0 1.414 0l7-7Z",
+    fill: "currentColor"
+  }));
+};
+
 const SvgSiInventory = _ref => {
   let {
     title,
@@ -3349,6 +3395,55 @@ const SvgSiMemory = _ref => {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M10 2a1 1 0 0 1 1 1v2h2V3a1 1 0 1 1 2 0v2h1.6A2.4 2.4 0 0 1 19 7.4V9h2a1 1 0 1 1 0 2h-2v2h2a1 1 0 1 1 0 2h-2v1.6a2.4 2.4 0 0 1-2.4 2.4H15v2a1 1 0 1 1-2 0v-2h-2v2a1 1 0 1 1-2 0v-2H7.4A2.4 2.4 0 0 1 5 16.6V15H3a1 1 0 1 1 0-2h2v-2H3a1 1 0 1 1 0-2h2V7.4A2.4 2.4 0 0 1 7.4 5H9V3a1 1 0 0 1 1-1Zm3.4 7h-2.8A1.6 1.6 0 0 0 9 10.6v2.8a1.6 1.6 0 0 0 1.6 1.6h2.8a1.6 1.6 0 0 0 1.6-1.6v-2.8A1.6 1.6 0 0 0 13.4 9Z",
+    fill: "currentColor"
+  }));
+};
+
+const SvgSiMic = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M12 2C9.769 2 8 3.757 8 5.828v6.344C8 14.242 9.769 16 12 16s4-1.758 4-3.828V5.828C16 3.758 14.231 2 12 2Z",
+    fill: "currentColor"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M13 20.945V23a1 1 0 1 1-2 0v-2.055A9 9 0 0 1 3 12a1 1 0 1 1 2 0 7 7 0 1 0 14 0 1 1 0 1 1 2 0 9 9 0 0 1-8 8.945Z",
+    fill: "currentColor"
+  }));
+};
+
+const SvgSiMicDetailed = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M5 7a7 7 0 0 1 14 0v6a7.001 7.001 0 0 1-6 6.93V22h5a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2h5v-2.07A7.001 7.001 0 0 1 5 13V7Zm7-4a1 1 0 1 0 0 2h.1a1 1 0 1 0 0-2H12Zm-1 4a1 1 0 0 1 1-1h.1a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1Zm-3 3a1 1 0 0 1 1-1h.1a1 1 0 0 1 0 2H9a1 1 0 0 1-1-1Zm3 0a1 1 0 0 1 1-1h.1a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1Zm4-1a1 1 0 1 0 0 2h.1a1 1 0 1 0 0-2H15Zm0-3a1 1 0 1 0 0 2h.1a1 1 0 1 0 0-2H15ZM9 6a1 1 0 0 0 0 2h.1a1 1 0 0 0 0-2H9Zm3 6a1 1 0 1 0 0 2h.1a1 1 0 1 0 0-2H12Zm0 3a1 1 0 1 0 0 2h.1a1 1 0 1 0 0-2H12Zm2-2a1 1 0 0 1 1-1h.1a1 1 0 1 1 0 2H15a1 1 0 0 1-1-1Zm-6 0a1 1 0 0 1 1-1h.1a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1Z",
     fill: "currentColor"
   }));
 };
@@ -4137,6 +4232,29 @@ const SvgSiProjects = _ref => {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3ZM9 4h2v5h9v2h-9v9H9v-9H4V9h5V4Z",
+    fill: "currentColor"
+  }));
+};
+
+const SvgSiProjectsAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3ZM8 6a1 1 0 0 0-2 0v8a1 1 0 1 0 2 0V6Zm5 0a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0V6Zm4-1a1 1 0 0 1 1 1v10a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1Z",
     fill: "currentColor"
   }));
 };
@@ -5570,6 +5688,29 @@ const SvgSiUserAlt5 = _ref => {
   }));
 };
 
+const SvgSiVerified = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M21.007 8.27C22.194 9.125 23 10.45 23 12c0 1.55-.806 2.876-1.993 3.73.24 1.442-.134 2.958-1.227 4.05-1.095 1.095-2.61 1.459-4.046 1.225C14.883 22.196 13.546 23 12 23c-1.55 0-2.878-.807-3.731-1.996-1.438.235-2.954-.128-4.05-1.224-1.095-1.095-1.459-2.611-1.217-4.05C1.816 14.877 1 13.551 1 12s.816-2.878 2.002-3.73c-.242-1.439.122-2.955 1.218-4.05 1.093-1.094 2.61-1.467 4.057-1.227C9.125 1.804 10.453 1 12 1c1.545 0 2.88.803 3.732 1.993 1.442-.24 2.956.135 4.048 1.227 1.093 1.092 1.468 2.608 1.227 4.05Zm-4.426-.084a1 1 0 0 1 .233 1.395l-5 7a1 1 0 0 1-1.521.126l-3-3a1 1 0 0 1 1.414-1.414l2.165 2.165 4.314-6.04a1 1 0 0 1 1.395-.232Z",
+    fill: "currentColor"
+  }));
+};
+
 const SvgSiVideo = _ref => {
   let {
     title,
@@ -5842,6 +5983,7 @@ const SvgSiZoomOut = _ref => {
   }));
 };
 
+exports.SiActions = SvgSiActions;
 exports.SiAdd = SvgSiAdd;
 exports.SiAddAlarm = SvgSiAddAlarm;
 exports.SiAddCircle = SvgSiAddCircle;
@@ -5977,6 +6119,7 @@ exports.SiHeartAlt = SvgSiHeartAlt;
 exports.SiHome = SvgSiHome;
 exports.SiHomeDetailed = SvgSiHomeDetailed;
 exports.SiInput = SvgSiInput;
+exports.SiInsights = SvgSiInsights;
 exports.SiInventory = SvgSiInventory;
 exports.SiKeypad = SvgSiKeypad;
 exports.SiLeftDown = SvgSiLeftDown;
@@ -5988,6 +6131,8 @@ exports.SiLockAlt = SvgSiLockAlt;
 exports.SiLockMuted = SvgSiLockMuted;
 exports.SiMail = SvgSiMail;
 exports.SiMemory = SvgSiMemory;
+exports.SiMic = SvgSiMic;
+exports.SiMicDetailed = SvgSiMicDetailed;
 exports.SiMoney = SvgSiMoney;
 exports.SiMoon = SvgSiMoon;
 exports.SiMoreHoriz = SvgSiMoreHoriz;
@@ -6023,6 +6168,7 @@ exports.SiPlayNext = SvgSiPlayNext;
 exports.SiPlayPrevious = SvgSiPlayPrevious;
 exports.SiPlayRewind = SvgSiPlayRewind;
 exports.SiProjects = SvgSiProjects;
+exports.SiProjectsAlt = SvgSiProjectsAlt;
 exports.SiPullRequest = SvgSiPullRequest;
 exports.SiRecord = SvgSiRecord;
 exports.SiRemove = SvgSiRemove;
@@ -6086,6 +6232,7 @@ exports.SiUserAlt2 = SvgSiUserAlt2;
 exports.SiUserAlt3 = SvgSiUserAlt3;
 exports.SiUserAlt4 = SvgSiUserAlt4;
 exports.SiUserAlt5 = SvgSiUserAlt5;
+exports.SiVerified = SvgSiVerified;
 exports.SiVideo = SvgSiVideo;
 exports.SiViewCompact = SvgSiViewCompact;
 exports.SiViewStream = SvgSiViewStream;

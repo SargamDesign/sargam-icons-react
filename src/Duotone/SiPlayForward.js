@@ -10,6 +10,7 @@ const SvgSiPlayForward = ({ title, titleId, ...props }) => (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
+    <path d="m11 5 10 7-10 7v-4.867L13 12l-2-2.313V5Z" fill="#fff" />
     <path
       d="M11 9.688V5l10 7-10 7v-4.867"
       stroke="currentColor"

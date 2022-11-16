@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSiPlayRewind = ({ title, titleId, ...props }) => (
+const SvgSiProjectsAlt = ({ title, titleId, ...props }) => (
   <svg
     width="1em"
     height="1em"
@@ -10,22 +10,21 @@ const SvgSiPlayRewind = ({ title, titleId, ...props }) => (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <path d="M13 5 3 12l10 7v-4.867L10 12l3-2.313V5Z" fill="#fff" />
     <path
-      d="M13 9.688V5L3 12l10 7v-4.867"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <path
-      d="m20 5-10 7 10 7V5Z"
+      d="M18.6 3H5.4A2.4 2.4 0 0 0 3 5.4v13.2A2.4 2.4 0 0 0 5.4 21h13.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 18.6 3Z"
       fill="currentColor"
       fillOpacity={0.16}
       stroke="currentColor"
       strokeWidth={1.5}
-      strokeLinejoin="round"
+      strokeMiterlimit={10}
+    />
+    <path
+      d="M12 12V6m-5 8V6m10 10V6"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      strokeMiterlimit={10}
+      strokeLinecap="round"
     />
   </svg>
 );
-export default SvgSiPlayRewind;
+export default SvgSiProjectsAlt;
