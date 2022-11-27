@@ -1,9 +1,9 @@
 ![](help/cover.gif)
 
 # Sargam Icons React
-A collection of 700+ open-source icons devoted to match your exquisite designs.
+A collection of 250+ open-source icons devoted to match your exquisite designs.
 
-Every single detail in each icon is tuned to present minimalism & elegance. Each icon is designed on a 24 x 24 grid emphasising simplicity, consistency, & flexibility. With 700+ icons, Sargam covers the essential needs for your web, app and visual needs.
+Every single detail in each icon is tuned to present minimalism & elegance. Each icon is designed on a 24 x 24 grid emphasising simplicity, consistency, & flexibility. With 250+ icons, Sargam covers the essential needs for your web, app and visual needs.
 
 1. 700+ free, open-source icons available for any use.
 2. Graceful design with emphasis on simplicity & consistency.
