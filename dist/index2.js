@@ -3412,6 +3412,103 @@ const SvgSiDragIndicatorAlt = _ref => {
   }));
 };
 
+const SvgSiEditDetailed = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M19.92 5.777 18.223 4.08a.8.8 0 0 0-1.132 0L5.636 15.536 4.93 19.07l3.535-.707L19.92 6.909a.8.8 0 0 0 0-1.132Z",
+    fill: "currentColor",
+    fillOpacity: 0.16,
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "m14.828 6.343 2.829 2.829",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round"
+  }));
+};
+
+const SvgSiEditDetailedAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M16.773 5.46a1.25 1.25 0 1 1 1.768 1.767L8.095 17.673l-2.21.442.442-2.21L16.773 5.46Z",
+    fill: "currentColor",
+    fillOpacity: 0.16
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M19.071 7.757 8.464 18.364l-3.535.707.707-3.536L16.243 4.93",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M16.243 4.929a2 2 0 1 1 2.828 2.828",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "m14.828 6.343 2.829 2.829",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round"
+  }));
+};
+
+const SvgSiEditSimple = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M19.92 5.777 18.221 4.08a.8.8 0 0 0-1.13 0L5.635 15.536l-.707 3.535 3.535-.707L19.92 6.909a.8.8 0 0 0 0-1.132Z",
+    fill: "currentColor",
+    fillOpacity: 0.16,
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinejoin: "round"
+  }));
+};
+
 const SvgSiEject = _ref => {
   let {
     title,
@@ -8449,6 +8546,9 @@ exports.SiDownloadOffline = SvgSiDownloadOffline;
 exports.SiDragHandle = SvgSiDragHandle;
 exports.SiDragIndicator = SvgSiDragIndicator;
 exports.SiDragIndicatorAlt = SvgSiDragIndicatorAlt;
+exports.SiEditDetailed = SvgSiEditDetailed;
+exports.SiEditDetailedAlt = SvgSiEditDetailedAlt;
+exports.SiEditSimple = SvgSiEditSimple;
 exports.SiEject = SvgSiEject;
 exports.SiEqualizer = SvgSiEqualizer;
 exports.SiError = SvgSiError;

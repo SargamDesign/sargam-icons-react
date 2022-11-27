@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSiArticle = ({ title, titleId, ...props }) => (
+const SvgSiEditDetailed = ({ title, titleId, ...props }) => (
   <svg
     width="1em"
     height="1em"
@@ -13,9 +13,9 @@ const SvgSiArticle = ({ title, titleId, ...props }) => (
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M4.4 3h15.2A3.4 3.4 0 0 1 23 6.4v11.2a3.4 3.4 0 0 1-3.4 3.4H4.4A3.4 3.4 0 0 1 1 17.6V6.4A3.4 3.4 0 0 1 4.4 3ZM7 9a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Zm1 2a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2H8Zm-1 4a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Z"
+      d="M16.737 3.727a1.3 1.3 0 0 1 1.839 0l1.697 1.697a1.3 1.3 0 0 1 0 1.838L8.818 18.718a.5.5 0 0 1-.256.136l-3.535.707a.5.5 0 0 1-.589-.588l.708-3.535a.5.5 0 0 1 .136-.256l8.84-8.839 3.535 3.536.707-.707-3.536-3.536 1.91-1.91Z"
       fill="currentColor"
     />
   </svg>
 );
-export default SvgSiArticle;
+export default SvgSiEditDetailed;

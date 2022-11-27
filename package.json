@@ -1,11 +1,9 @@
 {
   "name": "@sargamdesign/icons-react",
-  "version": "0.1.0",
-  "description": "A collection of 700+ open-source icons devoted to match your exquisite designs.",
+  "version": "1.2.0",
+  "description": "A collection of 250+ open-source icons devoted to match your exquisite designs.",
   "module": "dist/index.esm.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run line && npm run duotone && npm run fill && rollup -c --bundleConfigAsCjs",
