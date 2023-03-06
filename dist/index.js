@@ -1722,6 +1722,31 @@ const SvgSiCheck = _ref => {
   }));
 };
 
+const SvgSiCheckAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "m5 14 6 6 8-15",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }));
+};
+
 const SvgSiCheckCircle = _ref => {
   let {
     title,
@@ -4073,6 +4098,35 @@ const SvgSiHomeDetailed = _ref => {
   }));
 };
 
+const SvgSiInfo = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M12 8h.008M12 16v-5",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round"
+  }));
+};
+
 const SvgSiInput = _ref => {
   let {
     title,
@@ -4131,8 +4185,11 @@ const SvgSiInsights = _ref => {
     strokeMiterlimit: 10,
     strokeLinecap: "round"
   }), /*#__PURE__*/React__namespace.createElement("path", {
-    d: "M5.47 13.47a.75.75 0 1 0 1.06 1.06l-1.06-1.06ZM10 10l.53-.53a.75.75 0 0 0-1.06 0L10 10Zm4 4-.53.53a.75.75 0 0 0 1.06 0L14 14Zm7.53-6.47a.75.75 0 0 0-1.06-1.06l1.06 1.06Zm-15 7 4-4-1.06-1.06-4 4 1.06 1.06Zm2.94-4 4 4 1.06-1.06-4-4-1.06 1.06Zm5.06 4 7-7-1.06-1.06-7 7 1.06 1.06Z",
-    fill: "currentColor"
+    d: "m6 14 4-4 4 4 7-7",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 };
 
@@ -5046,6 +5103,98 @@ const SvgSiMovie = _ref => {
     strokeWidth: 1.5,
     strokeMiterlimit: 10,
     strokeLinecap: "round"
+  }));
+};
+
+const SvgSiNotifications = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M6 18v-8a6 6 0 1 1 12 0v8",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M20 18H4",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M14 20a2 2 0 1 1-4 0",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React__namespace.createElement("circle", {
+    cx: 12,
+    cy: 3,
+    r: 1,
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }));
+};
+
+const SvgSiNotificationsAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M12 18H5a1 1 0 0 1-.894-1.447L6 12.763V10c0-3.728 2.55-6.86 6-7.748M12 18h7a1 1 0 0 0 .894-1.447L18 12.763V10c0-3.728-2.55-6.86-6-7.748M16 18a4 4 0 0 1-8 0",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }));
+};
+
+const SvgSiNotificationsThick = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M3 18h18a1 1 0 0 0 .894-1.447L20 12.763V10a8 8 0 1 0-16 0v2.764l-1.894 3.789A1 1 0 0 0 3 18Zm13 0a4 4 0 0 1-8 0",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 };
 
@@ -7633,6 +7782,35 @@ const SvgSiWalletDetailed = _ref => {
   }));
 };
 
+const SvgSiWarning = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M12 16h.008M12 8v5",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeMiterlimit: 10,
+    strokeLinecap: "round"
+  }));
+};
+
 const SvgSiWebcam = _ref => {
   let {
     title,
@@ -7836,6 +8014,7 @@ exports.SiCancelPresentation = SvgSiCancelPresentation;
 exports.SiChat = SvgSiChat;
 exports.SiChatText = SvgSiChatText;
 exports.SiCheck = SvgSiCheck;
+exports.SiCheckAlt = SvgSiCheckAlt;
 exports.SiCheckCircle = SvgSiCheckCircle;
 exports.SiCheckSquare = SvgSiCheckSquare;
 exports.SiChecklist = SvgSiChecklist;
@@ -7918,6 +8097,7 @@ exports.SiHeart = SvgSiHeart;
 exports.SiHeartAlt = SvgSiHeartAlt;
 exports.SiHome = SvgSiHome;
 exports.SiHomeDetailed = SvgSiHomeDetailed;
+exports.SiInfo = SvgSiInfo;
 exports.SiInput = SvgSiInput;
 exports.SiInsights = SvgSiInsights;
 exports.SiInventory = SvgSiInventory;
@@ -7951,6 +8131,9 @@ exports.SiMoreVertCircle = SvgSiMoreVertCircle;
 exports.SiMoreVertSquare = SvgSiMoreVertSquare;
 exports.SiMove = SvgSiMove;
 exports.SiMovie = SvgSiMovie;
+exports.SiNotifications = SvgSiNotifications;
+exports.SiNotificationsAlt = SvgSiNotificationsAlt;
+exports.SiNotificationsThick = SvgSiNotificationsThick;
 exports.SiOctagon = SvgSiOctagon;
 exports.SiOctagonCheck = SvgSiOctagonCheck;
 exports.SiPause = SvgSiPause;
@@ -8039,6 +8222,7 @@ exports.SiViewStream = SvgSiViewStream;
 exports.SiWallet = SvgSiWallet;
 exports.SiWalletAlt = SvgSiWalletAlt;
 exports.SiWalletDetailed = SvgSiWalletDetailed;
+exports.SiWarning = SvgSiWarning;
 exports.SiWebcam = SvgSiWebcam;
 exports.SiWindow = SvgSiWindow;
 exports.SiYouTube = SvgSiYouTube;

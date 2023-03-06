@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSiInsights = ({ title, titleId, ...props }) => (
+const SvgSiInfo = ({ title, titleId, ...props }) => (
   <svg
     width="1em"
     height="1em"
@@ -11,19 +11,18 @@ const SvgSiInsights = ({ title, titleId, ...props }) => (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      d="M21 21H3.8a.8.8 0 0 1-.8-.8V3"
+      d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      strokeMiterlimit={10}
+    />
+    <path
+      d="M12 8h.008M12 16v-5"
       stroke="currentColor"
       strokeWidth={1.5}
       strokeMiterlimit={10}
       strokeLinecap="round"
     />
-    <path
-      d="m6 14 4-4 4 4 7-7"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
   </svg>
 );
-export default SvgSiInsights;
+export default SvgSiInfo;

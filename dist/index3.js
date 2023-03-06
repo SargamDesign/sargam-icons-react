@@ -153,10 +153,10 @@ const SvgSiAddToLibrary = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M8.4 3h11.2A2.4 2.4 0 0 1 22 5.4v11.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 16.6V5.4A2.4 2.4 0 0 1 8.4 3ZM14 6a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3V7a1 1 0 0 1 1-1Z",
+    d: "M8.4 2h11.2A2.4 2.4 0 0 1 22 4.4v11.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 15.6V4.4A2.4 2.4 0 0 1 8.4 2ZM14 5a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3V6a1 1 0 0 1 1-1Z",
     fill: "currentColor"
   }), /*#__PURE__*/React__namespace.createElement("path", {
-    d: "M4 5a1 1 0 0 0-2 0v11.6C2 20.132 4.868 23 8.4 23H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 16.6V5Z",
+    d: "M4 4a1 1 0 0 0-2 0v11.6C2 19.132 4.868 22 8.4 22H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 15.6V4Z",
     fill: "currentColor"
   }));
 };
@@ -1180,10 +1180,10 @@ const SvgSiCancelPhoto = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M8.4 3h11.2A2.4 2.4 0 0 1 22 5.4v11.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 16.6V5.4A2.4 2.4 0 0 1 8.4 3Zm3.479 4.464a1 1 0 1 0-1.415 1.415L12.586 11l-2.122 2.121a1 1 0 0 0 1.415 1.415L14 12.414l2.121 2.122a1 1 0 1 0 1.415-1.415L15.414 11l2.122-2.121a1 1 0 0 0-1.415-1.415l-2.12 2.122-2.122-2.122Z",
+    d: "M8.4 2h11.2A2.4 2.4 0 0 1 22 4.4v11.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 15.6V4.4A2.4 2.4 0 0 1 8.4 2Zm3.479 4.464a1 1 0 1 0-1.415 1.415L12.586 10l-2.122 2.121a1 1 0 0 0 1.415 1.415L14 11.414l2.121 2.122a1 1 0 1 0 1.415-1.415L15.414 10l2.122-2.121a1 1 0 0 0-1.415-1.415l-2.12 2.122-2.122-2.122Z",
     fill: "currentColor"
   }), /*#__PURE__*/React__namespace.createElement("path", {
-    d: "M4 5a1 1 0 0 0-2 0v11.6C2 20.132 4.868 23 8.4 23H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 16.6V5Z",
+    d: "M4 4a1 1 0 0 0-2 0v11.6C2 19.132 4.868 22 8.4 22H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 15.6V4Z",
     fill: "currentColor"
   }));
 };
@@ -1274,6 +1274,29 @@ const SvgSiCheck = _ref => {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M19.633 6.226a1 1 0 0 1 .141 1.407l-9 11a1 1 0 0 1-1.481.074l-5-5a1 1 0 1 1 1.414-1.414l4.219 4.219 8.3-10.145a1 1 0 0 1 1.407-.14Z",
+    fill: "currentColor"
+  }));
+};
+
+const SvgSiCheckAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M19.47 4.118a1 1 0 0 1 .412 1.353l-8 15a1 1 0 0 1-1.59.236l-6-6a1 1 0 1 1 1.415-1.414l5.046 5.046 7.365-13.81a1 1 0 0 1 1.353-.411Z",
     fill: "currentColor"
   }));
 };
@@ -2893,10 +2916,10 @@ const SvgSiFilterNone = _ref => {
   }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
-    d: "M8.4 3h11.2A2.4 2.4 0 0 1 22 5.4v11.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 16.6V5.4A2.4 2.4 0 0 1 8.4 3Z",
+    d: "M8.4 2h11.2A2.4 2.4 0 0 1 22 4.4v11.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 15.6V4.4A2.4 2.4 0 0 1 8.4 2Z",
     fill: "currentColor"
   }), /*#__PURE__*/React__namespace.createElement("path", {
-    d: "M4 5a1 1 0 0 0-2 0v11.6C2 20.132 4.868 23 8.4 23H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 16.6V5Z",
+    d: "M4 4a1 1 0 0 0-2 0v11.6C2 19.132 4.868 22 8.4 22H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 15.6V4Z",
     fill: "currentColor"
   }));
 };
@@ -3164,6 +3187,29 @@ const SvgSiHomeDetailed = _ref => {
   }))));
 };
 
+const SvgSiInfo = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM11 8a1 1 0 0 0 1 1h.008a1 1 0 1 0 0-2H12a1 1 0 0 0-1 1Zm1 9a1 1 0 0 0 1-1v-5a1 1 0 1 0-2 0v5a1 1 0 0 0 1 1Z",
+    fill: "currentColor"
+  }));
+};
+
 const SvgSiInput = _ref => {
   let {
     title,
@@ -3315,10 +3361,10 @@ const SvgSiLibraryBooks = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M19.6 3H8.4A2.4 2.4 0 0 0 6 5.4v11.2A2.4 2.4 0 0 0 8.4 19h11.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 19.6 3ZM9 8a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1Zm1 2a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8Zm-1 4a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1Z",
+    d: "M19.6 2H8.4A2.4 2.4 0 0 0 6 4.4v11.2A2.4 2.4 0 0 0 8.4 18h11.2a2.4 2.4 0 0 0 2.4-2.4V4.4A2.4 2.4 0 0 0 19.6 2ZM9 7a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2h-8a1 1 0 0 1-1-1Zm1 2a1 1 0 0 0 0 2h8a1 1 0 1 0 0-2h-8Zm-1 4a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1Z",
     fill: "currentColor"
   }), /*#__PURE__*/React__namespace.createElement("path", {
-    d: "M4 5a1 1 0 0 0-2 0v11.6C2 20.132 4.868 23 8.4 23H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 16.6V5Z",
+    d: "M4 4a1 1 0 0 0-2 0v11.6C2 19.132 4.868 22 8.4 22H20a1 1 0 1 0 0-2H8.4A4.403 4.403 0 0 1 4 15.6V4Z",
     fill: "currentColor"
   }));
 };
@@ -3918,6 +3964,71 @@ const SvgSiMovie = _ref => {
   }));
 };
 
+const SvgSiNotifications = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M12 1.25a1.75 1.75 0 0 0-1.737 1.967A7.003 7.003 0 0 0 5 10v7H4a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2h-1v-7a7.003 7.003 0 0 0-5.263-6.783A1.75 1.75 0 0 0 12 1.25ZM12 23a3 3 0 0 1-3-3h6a3 3 0 0 1-3 3Z",
+    fill: "currentColor"
+  }));
+};
+
+const SvgSiNotificationsAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M5 18a1 1 0 0 1-.894-1.447L6 12.764V10c0-3.728 2.55-6.86 6-7.748 3.45.888 6 4.02 6 7.748v2.764l1.894 3.789A1 1 0 0 1 19 18H5Zm3.126 1a4.002 4.002 0 0 0 7.748 0H8.126Z",
+    fill: "currentColor"
+  }));
+};
+
+const SvgSiNotificationsThick = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    d: "M3 18a1 1 0 0 1-.894-1.447L4 12.763V10a8 8 0 1 1 16 0v2.764l1.894 3.789A1 1 0 0 1 21 18H3Zm9 4a4.002 4.002 0 0 1-3.874-3h7.748A4.002 4.002 0 0 1 12 22Z",
+    fill: "currentColor"
+  }));
+};
+
 const SvgSiOctagon = _ref => {
   let {
     title,
@@ -4460,10 +4571,10 @@ const SvgSiRemoveFromLibrary = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M19.6 3H8.4A2.4 2.4 0 0 0 6 5.4v11.2A2.4 2.4 0 0 0 8.4 19h11.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 19.6 3ZM10 10a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8Z",
+    d: "M19.6 2H8.4A2.4 2.4 0 0 0 6 4.4v11.2A2.4 2.4 0 0 0 8.4 18h11.2a2.4 2.4 0 0 0 2.4-2.4V4.4A2.4 2.4 0 0 0 19.6 2ZM10 9a1 1 0 0 0 0 2h8a1 1 0 1 0 0-2h-8Z",
     fill: "currentColor"
   }), /*#__PURE__*/React__namespace.createElement("path", {
-    d: "M3 4a1 1 0 0 1 1 1v11.6C4 19.028 5.972 21 8.4 21H20a1 1 0 1 1 0 2H8.4A6.403 6.403 0 0 1 2 16.6V5a1 1 0 0 1 1-1Z",
+    d: "M3 3a1 1 0 0 1 1 1v11.6C4 18.028 5.972 20 8.4 20H20a1 1 0 1 1 0 2H8.4A6.403 6.403 0 0 1 2 15.6V4a1 1 0 0 1 1-1Z",
     fill: "currentColor"
   }));
 };
@@ -5932,6 +6043,29 @@ const SvgSiWalletDetailed = _ref => {
   }));
 };
 
+const SvgSiWarning = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    role: "img",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10ZM12 7a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V8a1 1 0 0 1 1-1Zm-1 9a1 1 0 0 1 1-1h.008a1 1 0 1 1 0 2H12a1 1 0 0 1-1-1Z",
+    fill: "currentColor"
+  }));
+};
+
 const SvgSiWebcam = _ref => {
   let {
     title,
@@ -6106,6 +6240,7 @@ exports.SiCancelPresentation = SvgSiCancelPresentation;
 exports.SiChat = SvgSiChat;
 exports.SiChatText = SvgSiChatText;
 exports.SiCheck = SvgSiCheck;
+exports.SiCheckAlt = SvgSiCheckAlt;
 exports.SiCheckCircle = SvgSiCheckCircle;
 exports.SiCheckSquare = SvgSiCheckSquare;
 exports.SiChecklist = SvgSiChecklist;
@@ -6188,6 +6323,7 @@ exports.SiHeart = SvgSiHeart;
 exports.SiHeartAlt = SvgSiHeartAlt;
 exports.SiHome = SvgSiHome;
 exports.SiHomeDetailed = SvgSiHomeDetailed;
+exports.SiInfo = SvgSiInfo;
 exports.SiInput = SvgSiInput;
 exports.SiInsights = SvgSiInsights;
 exports.SiInventory = SvgSiInventory;
@@ -6221,6 +6357,9 @@ exports.SiMoreVertCircle = SvgSiMoreVertCircle;
 exports.SiMoreVertSquare = SvgSiMoreVertSquare;
 exports.SiMove = SvgSiMove;
 exports.SiMovie = SvgSiMovie;
+exports.SiNotifications = SvgSiNotifications;
+exports.SiNotificationsAlt = SvgSiNotificationsAlt;
+exports.SiNotificationsThick = SvgSiNotificationsThick;
 exports.SiOctagon = SvgSiOctagon;
 exports.SiOctagonCheck = SvgSiOctagonCheck;
 exports.SiPause = SvgSiPause;
@@ -6309,6 +6448,7 @@ exports.SiViewStream = SvgSiViewStream;
 exports.SiWallet = SvgSiWallet;
 exports.SiWalletAlt = SvgSiWalletAlt;
 exports.SiWalletDetailed = SvgSiWalletDetailed;
+exports.SiWarning = SvgSiWarning;
 exports.SiWebcam = SvgSiWebcam;
 exports.SiWindow = SvgSiWindow;
 exports.SiYouTube = SvgSiYouTube;
