@@ -1,40 +1,21 @@
 import * as React from "react";
 const SvgSiUnlock = ({ title, titleId, ...props }) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    role="img"
     aria-labelledby={titleId}
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      d="M6.6 10h10.8c.88 0 1.6.72 1.6 1.6v7c0 1.32-1.08 2.4-2.4 2.4H7.4C6.08 21 5 19.92 5 18.6v-7c0-.88.72-1.6 1.6-1.6Z"
       stroke="currentColor"
-      strokeWidth={1.5}
-      strokeMiterlimit={10}
-    />
-    <path
-      d="M8 10V7a4 4 0 0 1 7.874-1"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeMiterlimit={10}
       strokeLinecap="round"
-    />
-    <path
-      d="M12 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
-      stroke="currentColor"
-      strokeWidth={1.5}
+      strokeLinejoin="round"
       strokeMiterlimit={10}
-    />
-    <path
-      d="M12 18v-3"
-      stroke="currentColor"
       strokeWidth={1.5}
-      strokeMiterlimit={10}
-      strokeLinecap="round"
+      d="M8 10V7a4 4 0 0 1 7.874-1M12 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm0 0v3m-5.4-8h10.8c.88 0 1.6.72 1.6 1.6v7c0 1.32-1.08 2.4-2.4 2.4H7.4C6.08 21 5 19.92 5 18.6v-7c0-.88.72-1.6 1.6-1.6Z"
     />
   </svg>
 );

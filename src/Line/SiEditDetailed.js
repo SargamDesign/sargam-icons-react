@@ -1,28 +1,21 @@
 import * as React from "react";
 const SvgSiEditDetailed = ({ title, titleId, ...props }) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    role="img"
     aria-labelledby={titleId}
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      d="M19.92 5.777 18.223 4.08a.8.8 0 0 0-1.132 0L5.636 15.536 4.93 19.07l3.535-.707L19.92 6.909a.8.8 0 0 0 0-1.132Z"
       stroke="currentColor"
-      strokeWidth={1.5}
-      strokeMiterlimit={10}
-      strokeLinejoin="round"
-    />
-    <path
-      d="m14.828 6.343 2.829 2.829"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeMiterlimit={10}
       strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={1.5}
+      d="m14.828 6.343 2.829 2.829m.566-5.092 1.697 1.697a.8.8 0 0 1 0 1.132L8.464 18.364l-3.535.707.707-3.536L17.091 4.08a.8.8 0 0 1 1.132 0Z"
     />
   </svg>
 );
