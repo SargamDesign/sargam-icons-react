@@ -86,6 +86,8 @@ export { default as SiCodeMuted } from "./SiCodeMuted";
 export { default as SiColumns } from "./SiColumns";
 export { default as SiCopy } from "./SiCopy";
 export { default as SiCopyAlt } from "./SiCopyAlt";
+export { default as SiCopyright } from "./SiCopyright";
+export { default as SiCopyrightAlt } from "./SiCopyrightAlt";
 export { default as SiCreditCard } from "./SiCreditCard";
 export { default as SiCreditCardDetailed } from "./SiCreditCardDetailed";
 export { default as SiCreditCardDetailedAlt } from "./SiCreditCardDetailedAlt";

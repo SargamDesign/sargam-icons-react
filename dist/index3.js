@@ -1914,6 +1914,50 @@ const SvgSiCopyAlt = _ref => {
   }));
 };
 
+const SvgSiCopyright = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10Zm-9.773-5C9.512 7 7.66 9.194 7.66 12s1.852 5 4.567 5c.975 0 1.851-.271 2.565-.8.711-.528 1.205-1.27 1.488-2.124a1 1 0 1 0-1.9-.628c-.17.52-.444.896-.78 1.145-.331.246-.779.407-1.373.407-1.414 0-2.567-1.092-2.567-3s1.153-3 2.567-3c.594 0 1.042.161 1.374.407.335.249.608.626.78 1.145a1 1 0 1 0 1.899-.628c-.283-.854-.777-1.596-1.488-2.123-.714-.53-1.59-.801-2.565-.801Z",
+    clipRule: "evenodd"
+  }));
+};
+
+const SvgSiCopyrightAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10Zm-9.863-5c-1.303 0-2.436.493-3.227 1.431-.773.92-1.14 2.17-1.14 3.566v.01c0 1.396.369 2.646 1.144 3.564.792.937 1.925 1.429 3.229 1.429 2.012 0 3.713-1.162 4.07-3.124l-1.968-.358c-.151.833-.864 1.482-2.102 1.482-.773 0-1.325-.275-1.701-.72-.392-.464-.672-1.21-.672-2.272v-.01c0-1.066.28-1.814.67-2.278.375-.445.925-.72 1.697-.72 1.174 0 1.96.706 2.104 1.631l1.977-.307C15.906 8.316 14.183 7 12.138 7Z",
+    clipRule: "evenodd"
+  }));
+};
+
 const SvgSiCreditCard = _ref => {
   let {
     title,
@@ -5396,7 +5440,7 @@ const SvgSiTwitter = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M7.91 20.889c8.302 0 12.845-6.885 12.845-12.845 0-.193 0-.387-.009-.58A9.195 9.195 0 0 0 23 5.121a9.15 9.15 0 0 1-2.597.713 4.542 4.542 0 0 0 1.99-2.5 8.98 8.98 0 0 1-2.87 1.091A4.506 4.506 0 0 0 16.23 3a4.52 4.52 0 0 0-4.516 4.516c0 .352.044.696.114 1.03a12.822 12.822 0 0 1-9.305-4.718 4.526 4.526 0 0 0 1.4 6.03 4.566 4.566 0 0 1-2.043-.563v.061a4.524 4.524 0 0 0 3.62 4.428 4.399 4.399 0 0 1-1.189.159c-.29 0-.572-.027-.845-.08a4.514 4.514 0 0 0 4.217 3.135 9.054 9.054 0 0 1-5.608 1.936A8.69 8.69 0 0 1 1 18.873a12.841 12.841 0 0 0 6.91 2.016Z"
+    d: "M7.91 20.889c8.302 0 12.845-6.885 12.845-12.845 0-.193 0-.387-.009-.58A9.197 9.197 0 0 0 23 5.121a9.15 9.15 0 0 1-2.597.713 4.542 4.542 0 0 0 1.99-2.5 8.98 8.98 0 0 1-2.87 1.091A4.506 4.506 0 0 0 16.23 3a4.52 4.52 0 0 0-4.516 4.516c0 .352.044.696.114 1.03a12.822 12.822 0 0 1-9.305-4.718 4.526 4.526 0 0 0 1.4 6.03 4.566 4.566 0 0 1-2.043-.563v.061a4.524 4.524 0 0 0 3.62 4.428 4.399 4.399 0 0 1-1.189.159c-.29 0-.572-.027-.845-.08a4.514 4.514 0 0 0 4.217 3.135 9.054 9.054 0 0 1-5.608 1.936A8.69 8.69 0 0 1 1 18.873a12.841 12.841 0 0 0 6.91 2.016Z"
   }));
 };
 
@@ -6005,6 +6049,8 @@ exports.SiCodeMuted = SvgSiCodeMuted;
 exports.SiColumns = SvgSiColumns;
 exports.SiCopy = SvgSiCopy;
 exports.SiCopyAlt = SvgSiCopyAlt;
+exports.SiCopyright = SvgSiCopyright;
+exports.SiCopyrightAlt = SvgSiCopyrightAlt;
 exports.SiCreditCard = SvgSiCreditCard;
 exports.SiCreditCardDetailed = SvgSiCreditCardDetailed;
 exports.SiCreditCardDetailedAlt = SvgSiCreditCardDetailedAlt;

@@ -2130,6 +2130,50 @@ const SvgSiCopyAlt = _ref => {
   }));
 };
 
+const SvgSiCopyright = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeWidth: 1.5,
+    d: "M15.33 10.238C14.876 8.865 13.795 8 12.227 8 10.163 8 8.66 9.643 8.66 12s1.503 4 3.567 4c1.568 0 2.65-.865 3.103-2.238M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10Z"
+  }));
+};
+
+const SvgSiCopyrightAlt = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em",
+    fill: "none",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M15.23 13.697C14.974 15.095 13.767 16 12.142 16c-2.076 0-3.373-1.535-3.373-3.992v-.01C8.77 9.534 10.062 8 12.137 8c1.61 0 2.865 1.011 3.092 2.478M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10Z"
+  }));
+};
+
 const SvgSiCreditCard = _ref => {
   let {
     title,
@@ -6621,6 +6665,8 @@ exports.SiCodeMuted = SvgSiCodeMuted;
 exports.SiColumns = SvgSiColumns;
 exports.SiCopy = SvgSiCopy;
 exports.SiCopyAlt = SvgSiCopyAlt;
+exports.SiCopyright = SvgSiCopyright;
+exports.SiCopyrightAlt = SvgSiCopyrightAlt;
 exports.SiCreditCard = SvgSiCreditCard;
 exports.SiCreditCardDetailed = SvgSiCreditCardDetailed;
 exports.SiCreditCardDetailedAlt = SvgSiCreditCardDetailedAlt;
