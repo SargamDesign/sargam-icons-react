@@ -9,23 +9,17 @@ const SvgSiUserAlt4 = ({ title, titleId, ...props }) => (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <circle
-      cx={12}
-      cy={6}
-      r={4}
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
-    />
     <path
       fill="currentColor"
       fillOpacity={0.16}
+      d="M12 13a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M12 13a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9Z"
+      d="M12 13a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9Zm4-7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
     />
   </svg>
 );

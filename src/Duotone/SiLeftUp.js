@@ -12,16 +12,8 @@ const SvgSiLeftUp = ({ title, titleId, ...props }) => (
     <path
       stroke="currentColor"
       strokeLinecap="round"
-      strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M9 5v9.6a4.4 4.4 0 0 0 4.4 4.4H19"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m5 9 4-4 4 4"
+      d="M9 5v9.6a4.4 4.4 0 0 0 4.4 4.4H19M9 5 5 9m4-4 4 4"
     />
   </svg>
 );

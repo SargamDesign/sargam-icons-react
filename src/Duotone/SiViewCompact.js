@@ -12,17 +12,15 @@ const SvgSiViewCompact = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      stroke="currentColor"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
       d="M19.6 5H4.4A2.4 2.4 0 0 0 2 7.4v10.2A2.4 2.4 0 0 0 4.4 20h15.2a2.4 2.4 0 0 0 2.4-2.4V7.4A2.4 2.4 0 0 0 19.6 5Z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
+      strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 20V5m5 15V5m5 15V5M2 10h20M2 15h20"
+      d="M7 20V5m5 15V5m5 15V5M2 10h20M2 15h20M4.4 5h15.2A2.4 2.4 0 0 1 22 7.4v10.2a2.4 2.4 0 0 1-2.4 2.4H4.4A2.4 2.4 0 0 1 2 17.6V7.4A2.4 2.4 0 0 1 4.4 5Z"
     />
   </svg>
 );

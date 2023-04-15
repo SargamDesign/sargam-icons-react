@@ -12,6 +12,7 @@ const SvgSiEqualizer = ({ title, titleId, ...props }) => (
     <path
       stroke="currentColor"
       strokeLinecap="round"
+      strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
       d="M2 12h4m4 0h4m4 0h4M2 16h4m4 0h4m4 0h4M2 20h4m4 0h4m4 0h4M2 8h4m12 0h4m-4-4h4"

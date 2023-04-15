@@ -12,18 +12,15 @@ const SvgSiEditDetailed = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      stroke="currentColor"
-      strokeLinejoin="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M19.92 5.777 18.223 4.08a.8.8 0 0 0-1.132 0L5.636 15.536 4.93 19.07l3.535-.707L19.92 6.909a.8.8 0 0 0 0-1.132Z"
+      d="m4.929 19.071.707-3.535 9.192-9.193 2.829 2.829-9.193 9.192-3.535.707Z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
+      strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="m14.828 6.343 2.829 2.829"
+      d="m14.828 6.343 2.829 2.829m.566-5.091 1.697 1.697a.8.8 0 0 1 0 1.13L8.464 18.365l-3.535.707.707-3.535L17.091 4.08a.8.8 0 0 1 1.132 0Z"
     />
   </svg>
 );

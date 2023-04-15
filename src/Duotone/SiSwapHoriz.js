@@ -13,29 +13,9 @@ const SvgSiSwapHoriz = ({ title, titleId, ...props }) => (
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="M6 13 2 9l4-4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M2 9h12"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m18 19 4-4-4-4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M22 15H10"
+      d="M6 13 2 9m0 0 4-4M2 9h12m4 10 4-4m0 0-4-4m4 4H10"
     />
   </svg>
 );

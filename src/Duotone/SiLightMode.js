@@ -9,22 +9,19 @@ const SvgSiLightMode = ({ title, titleId, ...props }) => (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g
-      stroke="currentColor"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      clipPath="url(#si_Light_mode_svg__a)"
-    >
-      <path
-        strokeLinecap="round"
-        d="M5 12H1m22 0h-4M7.05 7.05 4.222 4.222m15.556 15.556L16.95 16.95m-9.9 0-2.828 2.828M19.778 4.222 16.95 7.05"
-      />
+    <g clipPath="url(#si_Light_mode_svg__a)">
       <path
         fill="currentColor"
         fillOpacity={0.16}
         d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
       />
-      <path strokeLinecap="round" d="M12 19v4m0-22v4" />
+      <path
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeMiterlimit={10}
+        strokeWidth={1.5}
+        d="M5 12H1m22 0h-4M7.05 7.05 4.222 4.222m15.556 15.556L16.95 16.95m-9.9 0-2.828 2.828M19.778 4.222 16.95 7.05M12 19v4m0-22v4m4 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+      />
     </g>
     <defs>
       <clipPath id="si_Light_mode_svg__a">

@@ -12,23 +12,10 @@ const SvgSiAddToPlaylist = ({ title, titleId, ...props }) => (
     <path
       stroke="currentColor"
       strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M4 11h12"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m15 15 2 2 4-4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M4 7h12M4 15h8"
+      d="M4 11h12m-1 4 2 2 4-4M4 7h12M4 15h8"
     />
   </svg>
 );

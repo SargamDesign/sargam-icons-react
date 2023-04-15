@@ -10,27 +10,19 @@ const SvgSiWebcam = ({ title, titleId, ...props }) => (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M6 22h12m-6 0v-4"
-    />
-    <path
       fill="currentColor"
       fillOpacity={0.16}
-      stroke="currentColor"
-      strokeLinejoin="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M12 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"
+      fillRule="evenodd"
+      d="M20 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
+      clipRule="evenodd"
     />
     <path
       stroke="currentColor"
+      strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+      d="M12 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm0 0v4m-6 0h12m-4-12a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
     />
   </svg>
 );

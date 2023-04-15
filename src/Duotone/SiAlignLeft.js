@@ -12,6 +12,7 @@ const SvgSiAlignLeft = ({ title, titleId, ...props }) => (
     <path
       stroke="currentColor"
       strokeLinecap="round"
+      strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
       d="M3 10h12M3 6h18M3 14h18M3 18h12"

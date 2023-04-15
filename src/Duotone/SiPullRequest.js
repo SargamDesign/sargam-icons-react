@@ -10,33 +10,17 @@ const SvgSiPullRequest = ({ title, titleId, ...props }) => (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M18 16v-5.6A4.4 4.4 0 0 0 13.6 6H11"
+      fill="currentColor"
+      fillOpacity={0.16}
+      d="M8 6a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm12 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m13 4-2 2 2 2"
-    />
-    <path
-      fill="currentColor"
-      fillOpacity={0.16}
-      stroke="currentColor"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M18 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M6 16V8"
+      d="M18 16v-5.6A4.4 4.4 0 0 0 13.6 6H11m7 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM11 6l2-2m-2 2 2 2m-7 8a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0V8m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
     />
   </svg>
 );

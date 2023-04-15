@@ -12,16 +12,9 @@ const SvgSiDownRight = ({ title, titleId, ...props }) => (
     <path
       stroke="currentColor"
       strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M19 15H9.4A4.4 4.4 0 0 1 5 10.6V5"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="m15 19 4-4-4-4"
+      d="M19 15H9.4A4.4 4.4 0 0 1 5 10.6V5m14 10-4 4m4-4-4-4"
     />
   </svg>
 );

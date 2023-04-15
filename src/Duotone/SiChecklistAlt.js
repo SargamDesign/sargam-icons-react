@@ -13,29 +13,9 @@ const SvgSiChecklistAlt = ({ title, titleId, ...props }) => (
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m16 8 2 2 4-4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M2 8h10"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m16 16 2 2 4-4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M2 16h10"
+      d="m16 8 2 2 4-4M2 8h10m4 8 2 2 4-4M2 16h10"
     />
   </svg>
 );

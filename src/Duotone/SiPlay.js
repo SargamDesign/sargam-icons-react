@@ -9,9 +9,8 @@ const SvgSiPlay = ({ title, titleId, ...props }) => (
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
+    <path fill="currentColor" fillOpacity={0.16} d="m5 3 16 9-16 9V3Z" />
     <path
-      fill="currentColor"
-      fillOpacity={0.16}
       stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth={1.5}

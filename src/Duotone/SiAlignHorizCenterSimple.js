@@ -12,17 +12,15 @@ const SvgSiAlignHorizCenterSimple = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      stroke="currentColor"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
       d="M20 13.4v-2.8A1.6 1.6 0 0 0 18.4 9H5.6A1.6 1.6 0 0 0 4 10.6v2.8A1.6 1.6 0 0 0 5.6 15h12.8a1.6 1.6 0 0 0 1.6-1.6Z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
+      strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M12 2v7m0 6v7"
+      d="M12 2v7m0 6v7m8-11.4v2.8a1.6 1.6 0 0 1-1.6 1.6H5.6A1.6 1.6 0 0 1 4 13.4v-2.8A1.6 1.6 0 0 1 5.6 9h12.8a1.6 1.6 0 0 1 1.6 1.6Z"
     />
   </svg>
 );

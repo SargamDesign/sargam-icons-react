@@ -13,15 +13,9 @@ const SvgSiArrowLeft = ({ title, titleId, ...props }) => (
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m10 16-4-4 4-4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M6 12h12"
+      d="m10 16-4-4m0 0 4-4m-4 4h12"
     />
   </svg>
 );

@@ -12,34 +12,14 @@ const SvgSiNotifications = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
       d="M12 4a6 6 0 0 0-6 6v8h12v-8a6 6 0 0 0-6-6Z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M20 18H4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M14 20a2 2 0 1 1-4 0"
-    />
-    <circle
-      cx={12}
-      cy={3}
-      r={1}
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
+      d="M12 4a6 6 0 0 0-6 6v8h12v-8a6 6 0 0 0-6-6Zm0 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm8 14H4m10 2a2 2 0 1 1-4 0"
     />
   </svg>
 );

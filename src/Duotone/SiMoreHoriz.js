@@ -12,6 +12,9 @@ const SvgSiMoreHoriz = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
+      d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm-7 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm14 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+    />
+    <path
       stroke="currentColor"
       strokeMiterlimit={10}
       strokeWidth={1.5}

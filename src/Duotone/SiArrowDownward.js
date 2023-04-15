@@ -12,16 +12,9 @@ const SvgSiArrowDownward = ({ title, titleId, ...props }) => (
     <path
       stroke="currentColor"
       strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m8 14 4 4 4-4"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M12 18V6"
+      d="m8 14 4 4m0 0 4-4m-4 4V6"
     />
   </svg>
 );

@@ -13,15 +13,9 @@ const SvgSiTerminal = ({ title, titleId, ...props }) => (
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="m4 18 6-6-6-6"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M12 18h8"
+      d="m4 18 6-6-6-6m8 12h8"
     />
   </svg>
 );

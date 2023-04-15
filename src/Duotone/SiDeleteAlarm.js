@@ -12,9 +12,6 @@ const SvgSiDeleteAlarm = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      stroke="currentColor"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
       d="M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"
     />
     <path
@@ -22,7 +19,7 @@ const SvgSiDeleteAlarm = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="m9.172 15.828 5.656-5.656m0 5.656-5.656-5.656M18 3l3 3M3 6l3-3"
+      d="m9.172 15.828 5.656-5.656m0 5.656-5.656-5.656M18 3l3 3M3 6l3-3m14 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"
     />
   </svg>
 );

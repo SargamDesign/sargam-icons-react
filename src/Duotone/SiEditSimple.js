@@ -12,6 +12,9 @@ const SvgSiEditSimple = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
+      d="M19.92 5.777 18.222 4.08a.8.8 0 0 0-1.13 0L5.635 15.536 4.93 19.07l3.535-.707L19.92 6.909a.8.8 0 0 0 0-1.132Z"
+    />
+    <path
       stroke="currentColor"
       strokeLinejoin="round"
       strokeMiterlimit={10}

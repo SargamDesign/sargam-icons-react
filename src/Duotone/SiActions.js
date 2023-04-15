@@ -12,8 +12,13 @@ const SvgSiActions = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
+      fillRule="evenodd"
+      d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-5 0L9 7.5v9l8-4.5Z"
+      clipRule="evenodd"
+    />
+    <path
       stroke="currentColor"
-      strokeMiterlimit={10}
+      strokeLinejoin="round"
       strokeWidth={1.5}
       d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
     />

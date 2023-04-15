@@ -12,17 +12,15 @@ const SvgSiAlignLeftDetailed = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      stroke="currentColor"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M14 17.4v-1.8a1.6 1.6 0 0 0-1.6-1.6H7.6A1.6 1.6 0 0 0 6 15.6v1.8A1.6 1.6 0 0 0 7.6 19h4.8a1.6 1.6 0 0 0 1.6-1.6Zm8-9V6.6A1.6 1.6 0 0 0 20.4 5H7.6A1.6 1.6 0 0 0 6 6.6v1.8A1.6 1.6 0 0 0 7.6 10h12.8A1.6 1.6 0 0 0 22 8.4Z"
+      d="M22 6.6v1.8a1.6 1.6 0 0 1-1.6 1.6H7.6A1.6 1.6 0 0 1 6 8.4V6.6A1.6 1.6 0 0 1 7.6 5h12.8A1.6 1.6 0 0 1 22 6.6Zm-8 9v1.8a1.6 1.6 0 0 1-1.6 1.6H7.6A1.6 1.6 0 0 1 6 17.4v-1.8A1.6 1.6 0 0 1 7.6 14h4.8a1.6 1.6 0 0 1 1.6 1.6Z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
+      strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M2 2v20"
+      d="M2 2v20m12-6.4v1.8a1.6 1.6 0 0 1-1.6 1.6H7.6A1.6 1.6 0 0 1 6 17.4v-1.8A1.6 1.6 0 0 1 7.6 14h4.8a1.6 1.6 0 0 1 1.6 1.6Zm8-9v1.8a1.6 1.6 0 0 1-1.6 1.6H7.6A1.6 1.6 0 0 1 6 8.4V6.6A1.6 1.6 0 0 1 7.6 5h12.8A1.6 1.6 0 0 1 22 6.6Z"
     />
   </svg>
 );

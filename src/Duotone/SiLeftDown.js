@@ -12,16 +12,9 @@ const SvgSiLeftDown = ({ title, titleId, ...props }) => (
     <path
       stroke="currentColor"
       strokeLinecap="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="M9 19V9.4A4.4 4.4 0 0 1 13.4 5H19"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="m5 15 4 4 4-4"
+      d="M9 19V9.4A4.4 4.4 0 0 1 13.4 5H19M9 19l-4-4m4 4 4-4"
     />
   </svg>
 );
