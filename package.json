@@ -1,7 +1,7 @@
 {
   "name": "@sargamdesign/icons-react",
   "version": "1.4.2",
-  "description": "A collection of 250+ open-source icons devoted to match your exquisite designs.",
+  "description": "A collection of 275+ open-source icons devoted to match your exquisite designs.",
   "module": "dist/index.esm.js",
   "files": [
     "dist"

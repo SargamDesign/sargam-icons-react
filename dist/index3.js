@@ -1389,7 +1389,7 @@ const SvgSiChevronLeftCircle = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-8.293-3.293a1 1 0 0 0-1.414-1.414l-4 4a1 1 0 0 0 0 1.414l4 4a1 1 0 0 0 1.414-1.414L10.414 12l3.293-3.293Z",
+    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-7.793-3.293a1 1 0 0 0-1.414-1.414l-4 4a1 1 0 0 0 0 1.414l4 4a1 1 0 0 0 1.414-1.414L10.914 12l3.293-3.293Z",
     clipRule: "evenodd"
   }));
 };
@@ -1411,7 +1411,7 @@ const SvgSiChevronLeftSquare = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm8.307 5.707a1 1 0 0 0-1.414-1.414l-4 4a1 1 0 0 0 0 1.414l4 4a1 1 0 0 0 1.414-1.414L10.414 12l3.293-3.293Z",
+    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm8.807 5.707a1 1 0 0 0-1.414-1.414l-4 4a1 1 0 0 0 0 1.414l4 4a1 1 0 0 0 1.414-1.414L10.914 12l3.293-3.293Z",
     clipRule: "evenodd"
   }));
 };
@@ -1477,7 +1477,7 @@ const SvgSiChevronRightCircle = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM11.707 7.293a1 1 0 1 0-1.414 1.414L13.586 12l-3.293 3.293a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414l-4-4Z",
+    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM11.207 7.293a1 1 0 0 0-1.414 1.414L13.086 12l-3.293 3.293a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414l-4-4Z",
     clipRule: "evenodd"
   }));
 };
@@ -1499,7 +1499,7 @@ const SvgSiChevronRightSquare = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm6.307 4.293a1 1 0 1 0-1.414 1.414L13.586 12l-3.293 3.293a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414l-4-4Z",
+    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm5.807 4.293a1 1 0 0 0-1.414 1.414L13.086 12l-3.293 3.293a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414l-4-4Z",
     clipRule: "evenodd"
   }));
 };
@@ -2397,9 +2397,7 @@ const SvgSiEditDetailed = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    fillRule: "evenodd",
-    d: "M16.738 3.727a1.3 1.3 0 0 1 1.838 0l1.697 1.697a1.3 1.3 0 0 1 0 1.838L8.818 18.718a.5.5 0 0 1-.255.136l-3.536.707a.5.5 0 0 1-.588-.588l.707-3.535a.5.5 0 0 1 .137-.256l8.838-8.839 3.536 3.536.707-.707-3.536-3.536 1.91-1.91Z",
-    clipRule: "evenodd"
+    d: "M16.738 3.727a1.3 1.3 0 0 1 1.838 0l1.697 1.697a1.3 1.3 0 0 1 0 1.838l-1.909 1.91-3.536-3.536 1.91-1.91Zm-7.92 14.991a.5.5 0 0 1-.255.136l-3.536.707a.5.5 0 0 1-.588-.588l.707-3.535a.5.5 0 0 1 .137-.256l8.838-8.839 3.536 3.536-8.839 8.839Z"
   }));
 };
 
@@ -2419,9 +2417,7 @@ const SvgSiEditDetailedAlt = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    fillRule: "evenodd",
-    d: "M19.425 4.575a2.5 2.5 0 0 0-3.536 0l-1.06 1.061 3.535 3.536-.354.353-.353.354-3.536-3.536-8.838 8.839a.5.5 0 0 0-.137.255l-.707 3.536a.5.5 0 0 0 .588.588l3.536-.707a.5.5 0 0 0 .255-.137L19.425 8.111a2.5 2.5 0 0 0 0-3.536Z",
-    clipRule: "evenodd"
+    d: "M19.425 4.575a2.5 2.5 0 0 0-3.536 0l-1.06 1.061 3.535 3.536 1.06-1.061a2.5 2.5 0 0 0 0-3.536Zm-5.304 1.768 3.536 3.536-8.839 8.838a.5.5 0 0 1-.255.137l-3.536.707a.5.5 0 0 1-.588-.588l.707-3.536a.5.5 0 0 1 .137-.255l8.838-8.839Z"
   }));
 };
 
@@ -2568,7 +2564,7 @@ const SvgSiExpandLessCircle = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-5.293.293-4-4a1 1 0 0 0-1.414 0l-4 4a1 1 0 1 0 1.414 1.414L12 10.414l3.293 3.293a1 1 0 0 0 1.414-1.414Z",
+    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-5.293.793-4-4a1 1 0 0 0-1.414 0l-4 4a1 1 0 1 0 1.414 1.414L12 10.914l3.293 3.293a1 1 0 0 0 1.414-1.414Z",
     clipRule: "evenodd"
   }));
 };
@@ -2590,7 +2586,7 @@ const SvgSiExpandLessSquare = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm7.307 5.293a1 1 0 0 0-1.414 0l-4 4a1 1 0 1 0 1.414 1.414L12 10.414l3.293 3.293a1 1 0 0 0 1.414-1.414l-4-4Z",
+    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm7.307 5.793a1 1 0 0 0-1.414 0l-4 4a1 1 0 1 0 1.414 1.414L12 10.914l3.293 3.293a1 1 0 0 0 1.414-1.414l-4-4Z",
     clipRule: "evenodd"
   }));
 };
@@ -2656,7 +2652,7 @@ const SvgSiExpandMoreCircle = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM8.707 10.293a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L12 13.586l-3.293-3.293Z",
+    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM8.707 9.793a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L12 13.086 8.707 9.793Z",
     clipRule: "evenodd"
   }));
 };
@@ -2678,7 +2674,7 @@ const SvgSiExpandMoreSquare = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm3.307 7.293a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L12 13.586l-3.293-3.293Z",
+    d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Zm3.307 6.793a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L12 13.086 8.707 9.793Z",
     clipRule: "evenodd"
   }));
 };
@@ -5309,11 +5305,11 @@ const SvgSiTarget = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+    d: "M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
   }), /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-10 6a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z",
+    d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Zm6-10a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z",
     clipRule: "evenodd"
   }));
 };
