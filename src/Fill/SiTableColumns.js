@@ -12,7 +12,7 @@ const SvgSiTableColumns = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillRule="evenodd"
-      d="M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3ZM10 4v16H8V4h2Zm6 0v16h-2V4h2Z"
+      d="M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3M10 4v16H8V4zm6 0v16h-2V4z"
       clipRule="evenodd"
     />
   </svg>

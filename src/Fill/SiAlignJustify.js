@@ -11,7 +11,7 @@ const SvgSiAlignJustify = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M3 5a1 1 0 0 0 0 2h18a1 1 0 1 0 0-2H3Zm0 4a1 1 0 0 0 0 2h18a1 1 0 1 0 0-2H3Zm-1 5a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1Zm1 3a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H3Z"
+      d="M3 5a1 1 0 0 0 0 2h18a1 1 0 1 0 0-2zm0 4a1 1 0 0 0 0 2h18a1 1 0 1 0 0-2zm-1 5a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1m1 3a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2z"
     />
   </svg>
 );

@@ -12,14 +12,14 @@ const SvgSiUserAlt4 = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M12 13a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9Z"
+      d="M12 13a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M12 13a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9Zm4-7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+      d="M12 13a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9m4-7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
     />
   </svg>
 );

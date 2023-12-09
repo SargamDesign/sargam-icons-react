@@ -12,7 +12,7 @@ const SvgSiExpandLess = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillRule="evenodd"
-      d="M11.293 9.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L12 11.414l-3.293 3.293a1 1 0 0 1-1.414-1.414l4-4Z"
+      d="M11.293 9.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L12 11.414l-3.293 3.293a1 1 0 0 1-1.414-1.414z"
       clipRule="evenodd"
     />
   </svg>

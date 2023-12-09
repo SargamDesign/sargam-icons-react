@@ -13,7 +13,7 @@ const SvgSiFlare = ({ title, titleId, ...props }) => (
       <path
         fill="currentColor"
         fillOpacity={0.16}
-        d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+        d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
       />
       <path
         stroke="currentColor"

@@ -13,7 +13,7 @@ const SvgSiLightMode = ({ title, titleId, ...props }) => (
       <path
         fill="currentColor"
         fillOpacity={0.16}
-        d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
+        d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8"
       />
       <path
         stroke="currentColor"

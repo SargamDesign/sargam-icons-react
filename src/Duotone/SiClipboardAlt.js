@@ -12,7 +12,7 @@ const SvgSiClipboardAlt = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M14 3a2 2 0 1 1-4 0H5.4A2.4 2.4 0 0 0 3 5.4v15.2A2.4 2.4 0 0 0 5.4 23h13.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 18.6 3H14Z"
+      d="M14 3a2 2 0 1 1-4 0H5.4A2.4 2.4 0 0 0 3 5.4v15.2A2.4 2.4 0 0 0 5.4 23h13.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 18.6 3z"
     />
     <path
       stroke="currentColor"

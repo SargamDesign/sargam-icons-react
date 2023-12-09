@@ -11,7 +11,7 @@ const SvgSiAdd = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M13 6a1 1 0 1 0-2 0v5H6a1 1 0 1 0 0 2h5v5a1 1 0 1 0 2 0v-5h5a1 1 0 1 0 0-2h-5V6Z"
+      d="M13 6a1 1 0 1 0-2 0v5H6a1 1 0 1 0 0 2h5v5a1 1 0 1 0 2 0v-5h5a1 1 0 1 0 0-2h-5z"
     />
   </svg>
 );

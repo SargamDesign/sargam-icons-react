@@ -13,7 +13,7 @@ const SvgSiTarget = ({ title, titleId, ...props }) => (
       fill="currentColor"
       fillOpacity={0.16}
       fillRule="evenodd"
-      d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-4 0a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"
+      d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10m-4 0a6 6 0 1 1-12 0 6 6 0 0 1 12 0"
       clipRule="evenodd"
     />
     <path

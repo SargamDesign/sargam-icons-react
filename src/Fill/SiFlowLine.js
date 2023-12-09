@@ -12,7 +12,7 @@ const SvgSiFlowLine = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillRule="evenodd"
-      d="M13 8.83a3.001 3.001 0 1 0-2 0v6.34a3.001 3.001 0 1 0 2 0V8.83ZM12 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm0 12a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"
+      d="M13 8.83a3.001 3.001 0 1 0-2 0v6.34a3.001 3.001 0 1 0 2 0zM12 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m0 12a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
       clipRule="evenodd"
     />
   </svg>

@@ -11,7 +11,7 @@ const SvgSiMoreMutedVert = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M12 7h1a1 1 0 1 0 0-2h-1a1 1 0 1 0 0 2Zm1 6h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Zm0 6h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Z"
+      d="M12 7h1a1 1 0 1 0 0-2h-1a1 1 0 1 0 0 2m1 6h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2m0 6h-1a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2"
     />
   </svg>
 );

@@ -12,7 +12,7 @@ const SvgSiRemove = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillRule="evenodd"
-      d="M5 12a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"
+      d="M5 12a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1"
       clipRule="evenodd"
     />
   </svg>

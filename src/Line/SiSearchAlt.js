@@ -15,7 +15,7 @@ const SvgSiSearchAlt = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="m21 21-7.5-7.5M15 9A6 6 0 1 1 3 9a6 6 0 0 1 12 0Z"
+      d="m21 21-7.5-7.5M15 9A6 6 0 1 1 3 9a6 6 0 0 1 12 0"
     />
   </svg>
 );

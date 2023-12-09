@@ -12,7 +12,7 @@ const SvgSiMoreVertCircle = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillRule="evenodd"
-      d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10ZM10 7a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm2 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"
+      d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10M10 7a2 2 0 1 0 4 0 2 2 0 0 0-4 0m2 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4"
       clipRule="evenodd"
     />
   </svg>

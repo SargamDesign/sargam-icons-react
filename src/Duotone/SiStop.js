@@ -12,7 +12,7 @@ const SvgSiStop = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M20.2 3H3.8a.8.8 0 0 0-.8.8v16.4a.8.8 0 0 0 .8.8h16.4a.8.8 0 0 0 .8-.8V3.8a.8.8 0 0 0-.8-.8Z"
+      d="M20.2 3H3.8a.8.8 0 0 0-.8.8v16.4a.8.8 0 0 0 .8.8h16.4a.8.8 0 0 0 .8-.8V3.8a.8.8 0 0 0-.8-.8"
     />
     <path
       stroke="currentColor"

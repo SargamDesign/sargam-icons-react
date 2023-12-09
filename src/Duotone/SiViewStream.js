@@ -12,7 +12,7 @@ const SvgSiViewStream = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M20.6 4H3.4A2.4 2.4 0 0 0 1 6.4v11.2A2.4 2.4 0 0 0 3.4 20h17.2a2.4 2.4 0 0 0 2.4-2.4V6.4A2.4 2.4 0 0 0 20.6 4Z"
+      d="M20.6 4H3.4A2.4 2.4 0 0 0 1 6.4v11.2A2.4 2.4 0 0 0 3.4 20h17.2a2.4 2.4 0 0 0 2.4-2.4V6.4A2.4 2.4 0 0 0 20.6 4"
     />
     <path
       stroke="currentColor"

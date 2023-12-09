@@ -11,7 +11,7 @@ const SvgSiMoreHoriz = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M3 12a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm9 2a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"
+      d="M3 12a2 2 0 1 0 4 0 2 2 0 0 0-4 0m9 2a2 2 0 1 1 0-4 2 2 0 0 1 0 4m7 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4"
     />
   </svg>
 );

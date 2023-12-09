@@ -12,7 +12,7 @@ const SvgSiDeleteAlarm = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"
+      d="M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
     />
     <path
       stroke="currentColor"

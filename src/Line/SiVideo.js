@@ -13,7 +13,7 @@ const SvgSiVideo = ({ title, titleId, ...props }) => (
       stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M11.6 6H3.4A2.4 2.4 0 0 0 1 8.4v7.2A2.4 2.4 0 0 0 3.4 18h8.2a2.4 2.4 0 0 0 2.4-2.4V8.4A2.4 2.4 0 0 0 11.6 6ZM23 6l-6 6 6 6V6Z"
+      d="M11.6 6H3.4A2.4 2.4 0 0 0 1 8.4v7.2A2.4 2.4 0 0 0 3.4 18h8.2a2.4 2.4 0 0 0 2.4-2.4V8.4A2.4 2.4 0 0 0 11.6 6ZM23 6l-6 6 6 6z"
     />
   </svg>
 );

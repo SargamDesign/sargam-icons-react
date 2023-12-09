@@ -1,7 +1,7 @@
 {
   "name": "@sargamdesign/icons-react",
-  "version": "1.4.2",
-  "description": "A collection of 275+ open-source icons devoted to match your exquisite designs.",
+  "version": "1.4.4",
+  "description": "A collection of 280+ open-source icons devoted to match your exquisite designs.",
   "module": "dist/index.esm.js",
   "files": [
     "dist"
@@ -33,18 +33,19 @@
   },
   "homepage": "https://github.com/SargamDesign/sargam-icons-react#readme",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.19.1",
-    "@babel/preset-env": "^7.19.4",
-    "@babel/preset-react": "^7.18.6",
-    "@rollup/plugin-babel": "^6.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
-    "@svgr/cli": "^6.4.0",
-    "rimraf": "^3.0.2",
-    "rollup": "^3.1.0",
-    "rollup-plugin-filesize": "^10.0.0"
+    "@babel/plugin-transform-runtime": "^7.23.4",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@svgr/cli": "^8.1.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.7.0",
+    "rollup-plugin-filesize": "^10.0.0",
+    "sargam-icons": "^1.4.4"
   },
   "dependencies": {
-    "@babel/runtime": "^7.19.4"
+    "@babel/runtime": "^7.23.5"
   },
   "main": "dist/index.js"
 }

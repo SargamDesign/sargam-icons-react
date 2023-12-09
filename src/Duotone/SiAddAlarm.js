@@ -12,7 +12,7 @@ const SvgSiAddAlarm = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"
+      d="M12 21a8 8 0 1 0 0-16 8 8 0 0 0 0 16"
     />
     <path
       stroke="currentColor"
@@ -20,7 +20,7 @@ const SvgSiAddAlarm = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M8 13h8m-4 4V9m6-6 3 3M3 6l3-3m14 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"
+      d="M8 13h8m-4 4V9m6-6 3 3M3 6l3-3m14 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
     />
   </svg>
 );

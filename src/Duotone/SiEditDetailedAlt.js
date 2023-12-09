@@ -12,7 +12,7 @@ const SvgSiEditDetailedAlt = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="m4.929 19.071.707-3.536 9.192-9.192 2.829 2.829-9.193 9.192-3.535.707Z"
+      d="m4.929 19.071.707-3.536 9.192-9.192 2.829 2.829-9.193 9.192z"
     />
     <path
       stroke="currentColor"

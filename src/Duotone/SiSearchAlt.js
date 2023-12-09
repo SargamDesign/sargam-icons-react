@@ -12,7 +12,7 @@ const SvgSiSearchAlt = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M9 15A6 6 0 1 0 9 3a6 6 0 0 0 0 12Z"
+      d="M9 15A6 6 0 1 0 9 3a6 6 0 0 0 0 12"
     />
     <path
       stroke="currentColor"
@@ -20,7 +20,7 @@ const SvgSiSearchAlt = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="m21 21-7.5-7.5M15 9A6 6 0 1 1 3 9a6 6 0 0 1 12 0Z"
+      d="m21 21-7.5-7.5M15 9A6 6 0 1 1 3 9a6 6 0 0 1 12 0"
     />
   </svg>
 );

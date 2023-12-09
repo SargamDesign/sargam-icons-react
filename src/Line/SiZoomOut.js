@@ -15,7 +15,7 @@ const SvgSiZoomOut = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="m21 21-4-4m-9-6h6m5 0a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"
+      d="m21 21-4-4m-9-6h6m5 0a8 8 0 1 1-16 0 8 8 0 0 1 16 0"
     />
   </svg>
 );

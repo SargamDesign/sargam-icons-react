@@ -13,7 +13,7 @@ const SvgSiToggleOn = ({ title, titleId, ...props }) => (
       fill="currentColor"
       fillOpacity={0.16}
       fillRule="evenodd"
-      d="M7 6h10a6 6 0 0 1 0 12H7A6 6 0 0 1 7 6Zm13 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+      d="M7 6h10a6 6 0 0 1 0 12H7A6 6 0 0 1 7 6m13 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
       clipRule="evenodd"
     />
     <path

@@ -14,7 +14,7 @@ const SvgSiUserAlt4 = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M16 6a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-4 7a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9Z"
+      d="M16 6a4 4 0 1 1-8 0 4 4 0 0 1 8 0m-4 7a9 9 0 0 0-9 9h18a9 9 0 0 0-9-9"
     />
   </svg>
 );

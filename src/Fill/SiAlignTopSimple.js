@@ -11,7 +11,7 @@ const SvgSiAlignTopSimple = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M2 1a1 1 0 0 0 0 2h20a1 1 0 1 0 0-2H2Zm6 6.6A2.6 2.6 0 0 1 10.6 5h2.8A2.6 2.6 0 0 1 16 7.6v12.8a2.6 2.6 0 0 1-2.6 2.6h-2.8A2.6 2.6 0 0 1 8 20.4V7.6Z"
+      d="M2 1a1 1 0 0 0 0 2h20a1 1 0 1 0 0-2zm6 6.6A2.6 2.6 0 0 1 10.6 5h2.8A2.6 2.6 0 0 1 16 7.6v12.8a2.6 2.6 0 0 1-2.6 2.6h-2.8A2.6 2.6 0 0 1 8 20.4z"
     />
   </svg>
 );

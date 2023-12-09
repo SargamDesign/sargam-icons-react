@@ -19,7 +19,7 @@ const SvgSiActions = ({ title, titleId, ...props }) => (
       stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="m9 7.5 8 4.5-8 4.5v-9Z"
+      d="m9 7.5 8 4.5-8 4.5z"
     />
   </svg>
 );

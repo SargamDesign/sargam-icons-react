@@ -15,7 +15,7 @@ const SvgSiRemoveSquare = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M8 12h8M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3Z"
+      d="M8 12h8M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3"
     />
   </svg>
 );

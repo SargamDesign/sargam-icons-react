@@ -13,7 +13,7 @@ const SvgSiActions = ({ title, titleId, ...props }) => (
       fill="currentColor"
       fillOpacity={0.16}
       fillRule="evenodd"
-      d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-5 0L9 7.5v9l8-4.5Z"
+      d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10m-5 0L9 7.5v9z"
       clipRule="evenodd"
     />
     <path
@@ -26,7 +26,7 @@ const SvgSiActions = ({ title, titleId, ...props }) => (
       stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="m9 7.5 8 4.5-8 4.5v-9Z"
+      d="m9 7.5 8 4.5-8 4.5z"
     />
   </svg>
 );

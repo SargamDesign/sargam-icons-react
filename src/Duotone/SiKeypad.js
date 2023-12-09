@@ -12,7 +12,7 @@ const SvgSiKeypad = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M5 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm7-7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm7 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+      d="M5 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4m7-7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m7 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
     />
     <path
       stroke="currentColor"
