@@ -1,5 +1,5 @@
 # Sargam icons for React.js 
-Part of [Sargam Icons](https://sargamicons.com/) ∠( ᐛ 」∠)_
+Part of [sargamicons.com](https://sargamicons.com/) ∠( ᐛ 」∠)_
 
 ### Install
 ```bash
