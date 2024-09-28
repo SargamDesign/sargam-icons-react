@@ -238,7 +238,12 @@ const SvgSiAlignBottomDetailed = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M4 3.6A2.6 2.6 0 0 1 6.6 1h1.8A2.6 2.6 0 0 1 11 3.6v12.8A2.6 2.6 0 0 1 8.4 19H6.6A2.6 2.6 0 0 1 4 16.4zm9 8A2.6 2.6 0 0 1 15.6 9h1.8a2.6 2.6 0 0 1 2.6 2.6v4.8a2.6 2.6 0 0 1-2.6 2.6h-1.8a2.6 2.6 0 0 1-2.6-2.6zM2 21a1 1 0 1 0 0 2h20a1 1 0 1 0 0-2z"
+    d: "M17.4 17h-1.8a1.6 1.6 0 0 1-1.6-1.6v-3.8a1.6 1.6 0 0 1 1.6-1.6h1.8a1.6 1.6 0 0 1 1.6 1.6v3.8a1.6 1.6 0 0 1-1.6 1.6m-9 0H6.6A1.6 1.6 0 0 1 5 15.4V3.6A1.6 1.6 0 0 1 6.6 2h1.8A1.6 1.6 0 0 1 10 3.6v11.8A1.6 1.6 0 0 1 8.4 17"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M1 21a1 1 0 0 0 1 1h20a1 1 0 1 0 0-2H2a1 1 0 0 0-1 1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -258,7 +263,9 @@ const SvgSiAlignBottomSimple = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M8 3.6A2.6 2.6 0 0 1 10.6 1h2.8A2.6 2.6 0 0 1 16 3.6v12.8a2.6 2.6 0 0 1-2.6 2.6h-2.8A2.6 2.6 0 0 1 8 16.4zM2 21a1 1 0 1 0 0 2h20a1 1 0 1 0 0-2z"
+    fillRule: "evenodd",
+    d: "M2 22a1 1 0 1 1 0-2h20a1 1 0 1 1 0 2zm8.6-5h2.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 13.4 2h-2.8A1.6 1.6 0 0 0 9 3.6v11.8a1.6 1.6 0 0 0 1.6 1.6",
+    clipRule: "evenodd"
   }));
 };
 
@@ -298,7 +305,9 @@ const SvgSiAlignHorizCenterDetailed = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M13 2a1 1 0 1 0-2 0v2H5.6A2.6 2.6 0 0 0 3 6.6v1.8A2.6 2.6 0 0 0 5.6 11H11v2H9.6A2.6 2.6 0 0 0 7 15.6v1.8A2.6 2.6 0 0 0 9.6 20H11v2a1 1 0 1 0 2 0v-2h1.4a2.6 2.6 0 0 0 2.6-2.6v-1.8a2.6 2.6 0 0 0-2.6-2.6H13v-2h5.4A2.6 2.6 0 0 0 21 8.4V6.6A2.6 2.6 0 0 0 18.4 4H13z"
+    fillRule: "evenodd",
+    d: "M12 1a1 1 0 0 1 1 1v3h6.4A1.6 1.6 0 0 1 21 6.6v1.8a1.6 1.6 0 0 1-1.6 1.6H13v4h2.4a1.6 1.6 0 0 1 1.6 1.6v1.8a1.6 1.6 0 0 1-1.6 1.6H13v3a1 1 0 1 1-2 0v-3H8.6A1.6 1.6 0 0 1 7 17.4v-1.8A1.6 1.6 0 0 1 8.6 14H11v-4H4.6A1.6 1.6 0 0 1 3 8.4V6.6A1.6 1.6 0 0 1 4.6 5H11V2a1 1 0 0 1 1-1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -318,7 +327,9 @@ const SvgSiAlignHorizCenterSimple = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M12 1a1 1 0 0 1 1 1v6h5.4a2.6 2.6 0 0 1 2.6 2.6v2.8a2.6 2.6 0 0 1-2.6 2.6H13v6a1 1 0 1 1-2 0v-6H5.6A2.6 2.6 0 0 1 3 13.4v-2.8A2.6 2.6 0 0 1 5.6 8H11V2a1 1 0 0 1 1-1"
+    fillRule: "evenodd",
+    d: "M12 1a1 1 0 0 1 1 1v7h6.4a1.6 1.6 0 0 1 1.6 1.6v2.8a1.6 1.6 0 0 1-1.6 1.6H13v7a1 1 0 1 1-2 0v-7H4.6A1.6 1.6 0 0 1 3 13.4v-2.8A1.6 1.6 0 0 1 4.6 9H11V2a1 1 0 0 1 1-1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -378,7 +389,12 @@ const SvgSiAlignLeftDetailed = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M3 2a1 1 0 1 0-2 0v20a1 1 0 1 0 2 0zm2 4.6A2.6 2.6 0 0 1 7.6 4h12.8A2.6 2.6 0 0 1 23 6.6v1.8a2.6 2.6 0 0 1-2.6 2.6H7.6A2.6 2.6 0 0 1 5 8.4zm0 9A2.6 2.6 0 0 1 7.6 13h4.8a2.6 2.6 0 0 1 2.6 2.6v1.8a2.6 2.6 0 0 1-2.6 2.6H7.6A2.6 2.6 0 0 1 5 17.4z"
+    d: "M7 17.4v-1.8A1.6 1.6 0 0 1 8.6 14h3.8a1.6 1.6 0 0 1 1.6 1.6v1.8a1.6 1.6 0 0 1-1.6 1.6H8.6A1.6 1.6 0 0 1 7 17.4m0-9V6.6A1.6 1.6 0 0 1 8.6 5h11.8A1.6 1.6 0 0 1 22 6.6v1.8a1.6 1.6 0 0 1-1.6 1.6H8.6A1.6 1.6 0 0 1 7 8.4"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M3 1a1 1 0 0 0-1 1v20a1 1 0 1 0 2 0V2a1 1 0 0 0-1-1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -398,7 +414,9 @@ const SvgSiAlignLeftSimple = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M3 2a1 1 0 1 0-2 0v20a1 1 0 1 0 2 0zm2 8.6A2.6 2.6 0 0 1 7.6 8h12.8a2.6 2.6 0 0 1 2.6 2.6v2.8a2.6 2.6 0 0 1-2.6 2.6H7.6A2.6 2.6 0 0 1 5 13.4z"
+    fillRule: "evenodd",
+    d: "M2 2a1 1 0 0 1 2 0v20a1 1 0 1 1-2 0zm5 8.6v2.8A1.6 1.6 0 0 0 8.6 15h11.8a1.6 1.6 0 0 0 1.6-1.6v-2.8A1.6 1.6 0 0 0 20.4 9H8.6A1.6 1.6 0 0 0 7 10.6",
+    clipRule: "evenodd"
   }));
 };
 
@@ -438,7 +456,12 @@ const SvgSiAlignRightDetailed = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M23 2a1 1 0 1 0-2 0v20a1 1 0 1 0 2 0zM1 6.6A2.6 2.6 0 0 1 3.6 4h12.8A2.6 2.6 0 0 1 19 6.6v1.8a2.6 2.6 0 0 1-2.6 2.6H3.6A2.6 2.6 0 0 1 1 8.4zm8 9a2.6 2.6 0 0 1 2.6-2.6h4.8a2.6 2.6 0 0 1 2.6 2.6v1.8a2.6 2.6 0 0 1-2.6 2.6h-4.8A2.6 2.6 0 0 1 9 17.4z"
+    d: "M17 17.4v-1.8a1.6 1.6 0 0 0-1.6-1.6h-3.8a1.6 1.6 0 0 0-1.6 1.6v1.8a1.6 1.6 0 0 0 1.6 1.6h3.8a1.6 1.6 0 0 0 1.6-1.6m0-9V6.6A1.6 1.6 0 0 0 15.4 5H3.6A1.6 1.6 0 0 0 2 6.6v1.8A1.6 1.6 0 0 0 3.6 10h11.8A1.6 1.6 0 0 0 17 8.4"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M21 1a1 1 0 0 1 1 1v20a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -458,7 +481,9 @@ const SvgSiAlignRightSimple = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M23 2a1 1 0 1 0-2 0v20a1 1 0 1 0 2 0zM3.6 8h12.8a2.6 2.6 0 0 1 2.6 2.6v2.8a2.6 2.6 0 0 1-2.6 2.6H3.6A2.6 2.6 0 0 1 1 13.4v-2.8A2.6 2.6 0 0 1 3.6 8"
+    fillRule: "evenodd",
+    d: "M22 2a1 1 0 1 0-2 0v20a1 1 0 1 0 2 0zm-5 8.6v2.8a1.6 1.6 0 0 1-1.6 1.6H3.6A1.6 1.6 0 0 1 2 13.4v-2.8A1.6 1.6 0 0 1 3.6 9h11.8a1.6 1.6 0 0 1 1.6 1.6",
+    clipRule: "evenodd"
   }));
 };
 
@@ -478,7 +503,12 @@ const SvgSiAlignTopDetailed = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M2 1a1 1 0 0 0 0 2h20a1 1 0 1 0 0-2zm2 6.6A2.6 2.6 0 0 1 6.6 5h1.8A2.6 2.6 0 0 1 11 7.6v12.8A2.6 2.6 0 0 1 8.4 23H6.6A2.6 2.6 0 0 1 4 20.4zm9 0A2.6 2.6 0 0 1 15.6 5h1.8A2.6 2.6 0 0 1 20 7.6v4.8a2.6 2.6 0 0 1-2.6 2.6h-1.8a2.6 2.6 0 0 1-2.6-2.6z"
+    d: "M17.4 7h-1.8A1.6 1.6 0 0 0 14 8.6v3.8a1.6 1.6 0 0 0 1.6 1.6h1.8a1.6 1.6 0 0 0 1.6-1.6V8.6A1.6 1.6 0 0 0 17.4 7m-9 0H6.6A1.6 1.6 0 0 0 5 8.6v11.8A1.6 1.6 0 0 0 6.6 22h1.8a1.6 1.6 0 0 0 1.6-1.6V8.6A1.6 1.6 0 0 0 8.4 7"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M1 3a1 1 0 0 1 1-1h20a1 1 0 1 1 0 2H2a1 1 0 0 1-1-1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -498,7 +528,9 @@ const SvgSiAlignTopSimple = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M2 1a1 1 0 0 0 0 2h20a1 1 0 1 0 0-2zm6 6.6A2.6 2.6 0 0 1 10.6 5h2.8A2.6 2.6 0 0 1 16 7.6v12.8a2.6 2.6 0 0 1-2.6 2.6h-2.8A2.6 2.6 0 0 1 8 20.4z"
+    fillRule: "evenodd",
+    d: "M2 2a1 1 0 0 0 0 2h20a1 1 0 1 0 0-2zm8.6 5h2.8A1.6 1.6 0 0 1 15 8.6v11.8a1.6 1.6 0 0 1-1.6 1.6h-2.8A1.6 1.6 0 0 1 9 20.4V8.6A1.6 1.6 0 0 1 10.6 7",
+    clipRule: "evenodd"
   }));
 };
 
@@ -518,7 +550,9 @@ const SvgSiAlignVertCenterDetailed = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M4 5.6A2.6 2.6 0 0 1 6.6 3h1.8A2.6 2.6 0 0 1 11 5.6V11h2V9.6A2.6 2.6 0 0 1 15.6 7h1.8A2.6 2.6 0 0 1 20 9.6V11h2a1 1 0 1 1 0 2h-2v1.4a2.6 2.6 0 0 1-2.6 2.6h-1.8a2.6 2.6 0 0 1-2.6-2.6V13h-2v5.4A2.6 2.6 0 0 1 8.4 21H6.6A2.6 2.6 0 0 1 4 18.4V13H2a1 1 0 1 1 0-2h2z"
+    fillRule: "evenodd",
+    d: "M1 12a1 1 0 0 1 1-1h3V4.6A1.6 1.6 0 0 1 6.6 3h1.8A1.6 1.6 0 0 1 10 4.6V11h4V8.6A1.6 1.6 0 0 1 15.6 7h1.8A1.6 1.6 0 0 1 19 8.6V11h3a1 1 0 1 1 0 2h-3v2.4a1.6 1.6 0 0 1-1.6 1.6h-1.8a1.6 1.6 0 0 1-1.6-1.6V13h-4v6.4A1.6 1.6 0 0 1 8.4 21H6.6A1.6 1.6 0 0 1 5 19.4V13H2a1 1 0 0 1-1-1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -538,7 +572,9 @@ const SvgSiAlignVertCenterSimple = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M10.6 3A2.6 2.6 0 0 0 8 5.6V11H2a1 1 0 1 0 0 2h6v5.4a2.6 2.6 0 0 0 2.6 2.6h2.8a2.6 2.6 0 0 0 2.6-2.6V13h6a1 1 0 1 0 0-2h-6V5.6A2.6 2.6 0 0 0 13.4 3z"
+    fillRule: "evenodd",
+    d: "M1 12a1 1 0 0 1 1-1h7V4.6A1.6 1.6 0 0 1 10.6 3h2.8A1.6 1.6 0 0 1 15 4.6V11h7a1 1 0 1 1 0 2h-7v6.4a1.6 1.6 0 0 1-1.6 1.6h-2.8A1.6 1.6 0 0 1 9 19.4V13H2a1 1 0 0 1-1-1",
+    clipRule: "evenodd"
   }));
 };
 
@@ -2091,7 +2127,7 @@ const SvgSiDangerous = _ref => {
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
-    d: "M7.91 3.23 3.23 7.913v-.01a.8.8 0 0 0-.23.57v7.054c0 .22.08.42.23.57L7.9 20.77c.15.15.36.23.57.23h7.06c.22 0 .42-.08.57-.23l4.67-4.673a.8.8 0 0 0 .23-.57V8.473c0-.22-.08-.42-.23-.57L16.1 3.23a.8.8 0 0 0-.57-.23H8.48c-.22 0-.42.08-.57.23m7.454 5.063a1 1 0 0 1 0 1.414l-2.121 2.121 2.121 2.122a1 1 0 0 1-1.414 1.414l-2.122-2.121-2.12 2.121a1 1 0 0 1-1.415-1.414l2.121-2.122-2.121-2.12a1 1 0 0 1 1.414-1.415l2.121 2.121 2.122-2.121a1 1 0 0 1 1.414 0",
+    d: "M7.91 3.23 3.23 7.913v-.01a.8.8 0 0 0-.23.57v7.054c0 .22.08.42.23.57L7.9 20.77c.15.15.36.23.57.23h7.06c.22 0 .42-.08.57-.23l4.67-4.673a.8.8 0 0 0 .23-.57V8.473c0-.22-.08-.42-.23-.57L16.1 3.23a.8.8 0 0 0-.57-.23H8.48c-.22 0-.42.08-.57.23m1.797 5.063a1 1 0 0 0-1.414 1.414L10.586 12l-2.293 2.293a1 1 0 1 0 1.414 1.414L12 13.414l2.293 2.293a1 1 0 0 0 1.414-1.414L13.414 12l2.293-2.293a1 1 0 0 0-1.414-1.414L12 10.586z",
     clipRule: "evenodd"
   }));
 };
@@ -5962,7 +5998,9 @@ const SvgSiSwapHoriz = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M6.707 5.707a1 1 0 0 0-1.414-1.414l-4 4a1 1 0 0 0 0 1.414l4 4a1 1 0 0 0 1.414-1.414L4.414 10H14a1 1 0 1 0 0-2H4.414zm10.586 4.586a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L19.586 16H10a1 1 0 1 1 0-2h9.586l-2.293-2.293a1 1 0 0 1 0-1.414"
+    fillRule: "evenodd",
+    d: "M7.707 2.293a1 1 0 0 1 0 1.414L5.414 6H21a1 1 0 1 1 0 2H5.414l2.293 2.293a1 1 0 1 1-1.414 1.414l-4-4a1 1 0 0 1 0-1.414l4-4a1 1 0 0 1 1.414 0m8.586 10a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414l-4 4a1 1 0 0 1-1.414-1.414L18.586 18H3a1 1 0 1 1 0-2h15.586l-2.293-2.293a1 1 0 0 1 0-1.414",
+    clipRule: "evenodd"
   }));
 };
 
@@ -5982,7 +6020,9 @@ const SvgSiSwapVert = _ref => {
     id: titleId
   }, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
     fill: "currentColor",
-    d: "M14.293 1.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L16 4.414V14a1 1 0 1 1-2 0V4.414l-2.293 2.293a1 1 0 1 1-1.414-1.414zM10 10a1 1 0 1 0-2 0v9.586l-2.293-2.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L10 19.586z"
+    fillRule: "evenodd",
+    d: "M7 2a1 1 0 0 1 1 1v15.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L6 18.586V3a1 1 0 0 1 1-1m9.293.293a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L18 5.414V21a1 1 0 1 1-2 0V5.414l-2.293 2.293a1 1 0 1 1-1.414-1.414z",
+    clipRule: "evenodd"
   }));
 };
 

@@ -11,7 +11,13 @@ const SvgSiAlignRightDetailed = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M23 2a1 1 0 1 0-2 0v20a1 1 0 1 0 2 0zM1 6.6A2.6 2.6 0 0 1 3.6 4h12.8A2.6 2.6 0 0 1 19 6.6v1.8a2.6 2.6 0 0 1-2.6 2.6H3.6A2.6 2.6 0 0 1 1 8.4zm8 9a2.6 2.6 0 0 1 2.6-2.6h4.8a2.6 2.6 0 0 1 2.6 2.6v1.8a2.6 2.6 0 0 1-2.6 2.6h-4.8A2.6 2.6 0 0 1 9 17.4z"
+      d="M17 17.4v-1.8a1.6 1.6 0 0 0-1.6-1.6h-3.8a1.6 1.6 0 0 0-1.6 1.6v1.8a1.6 1.6 0 0 0 1.6 1.6h3.8a1.6 1.6 0 0 0 1.6-1.6m0-9V6.6A1.6 1.6 0 0 0 15.4 5H3.6A1.6 1.6 0 0 0 2 6.6v1.8A1.6 1.6 0 0 0 3.6 10h11.8A1.6 1.6 0 0 0 17 8.4"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M21 1a1 1 0 0 1 1 1v20a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1"
+      clipRule="evenodd"
     />
   </svg>
 );

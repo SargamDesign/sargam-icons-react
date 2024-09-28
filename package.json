@@ -1,6 +1,6 @@
 {
   "name": "@sargamdesign/icons-react",
-  "version": "1.4.6",
+  "version": "1.4.8",
   "description": "300+ open-source icons.",
   "module": "dist/index.esm.js",
   "files": [
@@ -37,12 +37,12 @@
     "@babel/preset-env": "^7.25.4",
     "@babel/preset-react": "^7.24.7",
     "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "@svgr/cli": "^8.1.0",
     "rimraf": "^6.0.1",
-    "rollup": "^4.21.3",
+    "rollup": "^4.22.5",
     "rollup-plugin-filesize": "^10.0.0",
-    "sargam-icons": "^1.4.6"
+    "sargam-icons": "^1.4.8"
   },
   "dependencies": {
     "@babel/runtime": "^7.25.6"

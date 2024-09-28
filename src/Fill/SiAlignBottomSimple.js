@@ -11,7 +11,9 @@ const SvgSiAlignBottomSimple = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M8 3.6A2.6 2.6 0 0 1 10.6 1h2.8A2.6 2.6 0 0 1 16 3.6v12.8a2.6 2.6 0 0 1-2.6 2.6h-2.8A2.6 2.6 0 0 1 8 16.4zM2 21a1 1 0 1 0 0 2h20a1 1 0 1 0 0-2z"
+      fillRule="evenodd"
+      d="M2 22a1 1 0 1 1 0-2h20a1 1 0 1 1 0 2zm8.6-5h2.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 13.4 2h-2.8A1.6 1.6 0 0 0 9 3.6v11.8a1.6 1.6 0 0 0 1.6 1.6"
+      clipRule="evenodd"
     />
   </svg>
 );

@@ -15,7 +15,7 @@ const SvgSiSwapHoriz = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M6 13 2 9m0 0 4-4M2 9h12m4 10 4-4m0 0-4-4m4 4H10"
+      d="M7 11 3 7m0 0 4-4M3 7h18m-4 14 4-4m0 0-4-4m4 4H3"
     />
   </svg>
 );

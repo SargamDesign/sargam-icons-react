@@ -15,7 +15,7 @@ const SvgSiSwapVert = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="m13 18-4 4m0 0-4-4m4 4V10m10-4-4-4m0 0-4 4m4-4v12"
+      d="m11 17-4 4m0 0-4-4m4 4V3m14 4-4-4m0 0-4 4m4-4v18"
     />
   </svg>
 );
