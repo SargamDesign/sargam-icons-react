@@ -33,19 +33,19 @@
   },
   "homepage": "https://github.com/SargamDesign/sargam-icons-react#readme",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.25.4",
-    "@babel/preset-env": "^7.25.4",
-    "@babel/preset-react": "^7.24.7",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@svgr/cli": "^8.1.0",
     "rimraf": "^6.0.1",
-    "rollup": "^4.22.5",
+    "rollup": "^4.29.1",
     "rollup-plugin-filesize": "^10.0.0",
     "sargam-icons": "^1.4.8"
   },
   "dependencies": {
-    "@babel/runtime": "^7.25.6"
+    "@babel/runtime": "^7.26.0"
   },
   "main": "dist/index.js"
 }
