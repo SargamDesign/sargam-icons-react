@@ -1,17 +1,18 @@
 {
   "name": "@sargamdesign/icons-react",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "description": "300+ open-source icons.",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "files": [
     "dist"
   ],
   "scripts": {
-    "prebuild": "rimraf src && rimraf dist",
-    "build": "pnpm run line && pnpm run duotone && pnpm run fill && rollup -c --bundleConfigAsCjs",
-    "line": "svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Line assets/Line",
-    "duotone": "svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Duotone assets/Duotone",
-    "fill": "svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Fill assets/Fill"
+    "prebuild": "bunx rimraf dist",
+    "build": "bun run line && bun run duotone && bun run fill && bunx rollup -c --bundleConfigAsCjs && bun run gen:types",
+    "line": "bunx svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Line assets/Line",
+    "duotone": "bunx svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Duotone assets/Duotone",
+    "fill": "bunx svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Fill assets/Fill",
+    "gen:types": "bun scripts/generate-types.mjs"
   },
   "repository": {
     "type": "git",
@@ -33,19 +34,42 @@
   },
   "homepage": "https://github.com/SargamDesign/sargam-icons-react#readme",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.25.9",
-    "@babel/preset-env": "^7.26.0",
-    "@babel/preset-react": "^7.26.3",
+    "@babel/plugin-transform-runtime": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
     "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
     "@svgr/cli": "^8.1.0",
     "rimraf": "^6.0.1",
-    "rollup": "^4.30.1",
+    "rollup": "^4.52.0",
     "rollup-plugin-filesize": "^10.0.0",
-    "sargam-icons": "^1.4.8"
+    "sargam-icons": "^1.4.9"
   },
   "dependencies": {
-    "@babel/runtime": "^7.26.0"
+    "@babel/runtime": "^7.28.4"
   },
-  "main": "dist/index.js"
+  "main": "dist/index.cjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./line": {
+      "import": "./dist/line.mjs",
+      "require": "./dist/line.cjs"
+    },
+    "./duotone": {
+      "import": "./dist/duotone.mjs",
+      "require": "./dist/duotone.cjs"
+    },
+    "./fill": {
+      "import": "./dist/fill.mjs",
+      "require": "./dist/fill.cjs"
+    }
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "types": "dist/index.d.ts"
 }

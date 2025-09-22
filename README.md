@@ -7,6 +7,18 @@ npm i @sargamdesign/icons-react
 ```
 
 ### Usage
-- Line `dist/line.js`
-- Duotone `dist/duotone.js`
-- Fill `dist/fill.js`
+- ESM (Vite/Next.js/Node ESM)
+```js
+import { Star } from '@sargamdesign/icons-react/line';
+import { Heart } from '@sargamdesign/icons-react/duotone';
+import { Home } from '@sargamdesign/icons-react/fill';
+```
+
+- CJS
+```js
+const { Star } = require('@sargamdesign/icons-react/line');
+```
+
+### Accessibility
+- Pass `title` for screen readers: `<Star title="Favorites" />`
+- If no `title`, add `aria-hidden` to hide from AT: `<Star aria-hidden />`

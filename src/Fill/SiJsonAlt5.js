@@ -5,6 +5,7 @@ const SvgSiJsonAlt5 = ({ title, titleId, ...props }) => (
     width="1em"
     height="1em"
     fill="none"
+    viewBox="0 0 24 24"
     aria-labelledby={titleId}
     {...props}
   >
