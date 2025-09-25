@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSiViewCompact = ({ title, titleId, ...props }) => (
+const SvgSiFlagAlt3 = ({ title, titleId, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
@@ -16,8 +16,8 @@ const SvgSiViewCompact = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 19V4m5 15V4m5 15V4M2 9h20M2 14h20M4.4 4h15.2A2.4 2.4 0 0 1 22 6.4v10.2a2.4 2.4 0 0 1-2.4 2.4H4.4A2.4 2.4 0 0 1 2 16.6V6.4A2.4 2.4 0 0 1 4.4 4"
+      d="M8 14 19 3 4 4zm0 0 3 8"
     />
   </svg>
 );
-export default SvgSiViewCompact;
+export default SvgSiFlagAlt3;

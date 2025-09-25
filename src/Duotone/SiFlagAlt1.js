@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSiViewCompact = ({ title, titleId, ...props }) => (
+const SvgSiFlagAlt1 = ({ title, titleId, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
@@ -13,7 +13,7 @@ const SvgSiViewCompact = ({ title, titleId, ...props }) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M19.6 5H4.4A2.4 2.4 0 0 0 2 7.4v10.2A2.4 2.4 0 0 0 4.4 20h15.2a2.4 2.4 0 0 0 2.4-2.4V7.4A2.4 2.4 0 0 0 19.6 5"
+      d="M19.8 4c.66 0 1.2.517 1.2 1.149v5.553C21 11.966 19.92 13 18.6 13H4.2c-.66 0-1.2-.517-1.2-1.149V6.298C3 5.034 4.08 4 5.4 4z"
     />
     <path
       stroke="currentColor"
@@ -21,8 +21,8 @@ const SvgSiViewCompact = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 19V4m5 15V4m5 15V4M2 9h20M2 14h20M4.4 4h15.2A2.4 2.4 0 0 1 22 6.4v10.2a2.4 2.4 0 0 1-2.4 2.4H4.4A2.4 2.4 0 0 1 2 16.6V6.4A2.4 2.4 0 0 1 4.4 4"
+      d="M3 11.851C3 12.483 3.54 13 4.2 13h14.4c1.32 0 2.4-1.034 2.4-2.298V5.15C21 4.517 20.46 4 19.8 4H5.4C4.08 4 3 5.034 3 6.298zm0 0V20"
     />
   </svg>
 );
-export default SvgSiViewCompact;
+export default SvgSiFlagAlt1;
