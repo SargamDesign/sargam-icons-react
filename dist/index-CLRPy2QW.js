@@ -959,6 +959,28 @@ const SvgSiAssignment = ({
   d: "M7 14h10M7 11h10M7 17h6m3-14v2.2a.8.8 0 0 1-.8.8H8.8a.8.8 0 0 1-.8-.8V3m2 0a2 2 0 1 1 4 0M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v15.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 20.6V5.4A2.4 2.4 0 0 1 5.4 3"
 }));
 
+const SvgSiAttachment = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m19.605 10.48.137-.136a4.31 4.31 0 0 0 0-6.086 4.307 4.307 0 0 0-6.086 0l-9.398 9.398a4.307 4.307 0 0 0 0 6.086 4.31 4.31 0 0 0 6.086 0l6.351-6.356a2.35 2.35 0 0 0-1.66-4.008 2.35 2.35 0 0 0-1.66.688l-6.657 6.656"
+}));
+
 const SvgSiBallot = ({
   title,
   titleId,
@@ -1053,6 +1075,28 @@ const SvgSiBarcodeScanAlt = ({
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
+
+const SvgSiBluetooth = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m5 6 13 11-6 5V2l6 5L5 18"
+}));
 
 const SvgSiBookmark = ({
   title,
@@ -2263,6 +2307,50 @@ const SvgSiDiamondsFour = ({
   d: "M0 0h24v24H0z"
 }))));
 
+const SvgSiDirection = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m12 3 7 18-7-4.093L5 21z"
+}));
+
+const SvgSiDirectionAlt = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m3 3 18 7.92-7.987 2.093L10.92 21z"
+}));
+
 const SvgSiDollar = ({
   title,
   titleId,
@@ -2581,6 +2669,50 @@ const SvgSiEject = ({
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "m5 13 7-10 7 10zm0 4.8v2.4a.8.8 0 0 0 .8.8h12.4a.8.8 0 0 0 .8-.8v-2.4a.8.8 0 0 0-.8-.8H5.8a.8.8 0 0 0-.8.8Z"
+}));
+
+const SvgSiEmoji = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m16.583 14.083-.079.213A4.808 4.808 0 0 1 9.26 16.56a4.8 4.8 0 0 1-1.764-2.265l-.08-.213M9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m5 3c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10"
+}));
+
+const SvgSiEmojiAlt = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m16.583 14.083-.079.213A4.808 4.808 0 0 1 9.26 16.56a4.8 4.8 0 0 1-1.764-2.265l-.08-.213M8 9v1m8-1v1m6 2c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10"
 }));
 
 const SvgSiEqualizer = ({
@@ -2948,6 +3080,116 @@ const SvgSiFilterNone = ({
   d: "M20 22H8.4C5.42 22 3 19.58 3 16.6V5m5.4-2h11.2A2.4 2.4 0 0 1 22 5.4v11.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 16.6V5.4A2.4 2.4 0 0 1 8.4 3"
 }));
 
+const SvgSiFlag = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M4 15V4l17 6zm0 0v5"
+}));
+
+const SvgSiFlagAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M3 11.851C3 12.483 3.54 13 4.2 13h14.4c1.32 0 2.4-1.034 2.4-2.298V5.15C21 4.517 20.46 4 19.8 4H5.4C4.08 4 3 5.034 3 6.298zm0 0V20"
+}));
+
+const SvgSiFlagAlt2 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m11 21-3.387-7.198m0 0L3 4h18l-5 5 5 5z"
+}));
+
+const SvgSiFlagAlt3 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M8 14 19 3 4 4zm0 0 3 8"
+}));
+
+const SvgSiFlagAlt4 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M3 3v18M3 4.927l2.727-.668a9.03 9.03 0 0 1 6.11.657l.107.052a9.03 9.03 0 0 0 5.99.685l3.061-.705L21 15.064l-3.065.705a9.03 9.03 0 0 1-5.991-.684l-.106-.052a9.03 9.03 0 0 0-6.111-.657L3 15.044z"
+}));
+
 const SvgSiFlare = ({
   title,
   titleId,
@@ -3258,6 +3500,28 @@ const SvgSiHomeDetailed = ({
   d: "m1 9 10.26-6.76a1.2 1.2 0 0 1 1.44 0L23 9m-2-1v11.6c0 1.33-1.07 2.4-2.4 2.4H5.4C4.07 22 3 20.93 3 19.6V8m15-5v2.5M15 8H9m.8 4h4.4c.44 0 .8.36.8.8V22H9v-9.2c0-.44.36-.8.8-.8"
 }));
 
+const SvgSiHourglass = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "m12 12 3.136-2.391C16.318 8.7 17 7.265 17 5.735V2H7v3.735c0 1.53.682 2.965 1.864 3.874zm0 0-3.136 2.391C7.682 15.3 7 16.735 7 18.265V22h10v-3.735c0-1.53-.682-2.965-1.864-3.874zm-5 6 5-1 5 1M5 2h14M5 22h14"
+}));
+
 const SvgSiInfo = ({
   title,
   titleId,
@@ -3488,6 +3752,28 @@ const SvgSiKeypad = ({
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-7 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm14 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-7-7a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM5 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm14 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-7 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm-7 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm14 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+}));
+
+const SvgSiLamp = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M12 13v6m10-7c0-5.523-4.477-10-10-10S2 6.477 2 12v1h20zM8.818 19h6.364c1 0 1.818.9 1.818 2v1H7v-1c0-1.1.818-2 1.818-2"
 }));
 
 const SvgSiLeftDown = ({
@@ -4761,6 +5047,28 @@ const SvgSiPhonePaused = ({
   d: "M20 9V3m-4 6V3m-8.82 7.27 6.504 6.46c.697-.807 5.11-5.538 7.316.924 0 0-.232 3.346-4.994 3.346-3.367 0-6.851-4.038-9.29-6.346C4.626 12.692 3 10.154 3 7.846 3 3.116 6.252 3 6.252 3c7.432 2.538.929 7.27.929 7.27"
 }));
 
+const SvgSiPin = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M17.632 4.809c3.15 3.098 3.15 8.056.042 11.113L12.003 21.5 6.33 15.922a7.74 7.74 0 0 1 0-11.072l.042-.041a8.017 8.017 0 0 1 11.259 0m0 0q-.063-.063 0 0M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
+}));
+
 const SvgSiPlay = ({
   title,
   titleId,
@@ -5623,6 +5931,28 @@ const SvgSiSignOutAlt = ({
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "m17 16 4-4m0 0-4-4m4 4H7m4 9H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3H11"
+}));
+
+const SvgSiSmartPhone = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M11 5h2M8.4 2h7.2A2.4 2.4 0 0 1 18 4.4v15.2a2.4 2.4 0 0 1-2.4 2.4H8.4A2.4 2.4 0 0 1 6 19.6V4.4A2.4 2.4 0 0 1 8.4 2"
 }));
 
 const SvgSiSort = ({
@@ -6692,7 +7022,7 @@ const SvgSiViewCompact = ({
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
-  d: "M7 20V5m5 15V5m5 15V5M2 10h20M2 15h20M4.4 5h15.2A2.4 2.4 0 0 1 22 7.4v10.2a2.4 2.4 0 0 1-2.4 2.4H4.4A2.4 2.4 0 0 1 2 17.6V7.4A2.4 2.4 0 0 1 4.4 5"
+  d: "M7 19V4m5 15V4m5 15V4M2 9h20M2 14h20M4.4 4h15.2A2.4 2.4 0 0 1 22 6.4v10.2a2.4 2.4 0 0 1-2.4 2.4H4.4A2.4 2.4 0 0 1 2 16.6V6.4A2.4 2.4 0 0 1 4.4 4"
 }));
 
 const SvgSiViewStream = ({
@@ -6952,10 +7282,12 @@ var index = /*#__PURE__*/Object.freeze({
   SiArrowUpwardSquare: SvgSiArrowUpwardSquare,
   SiArticle: SvgSiArticle,
   SiAssignment: SvgSiAssignment,
+  SiAttachment: SvgSiAttachment,
   SiBallot: SvgSiBallot,
   SiBarcode: SvgSiBarcode,
   SiBarcodeScan: SvgSiBarcodeScan,
   SiBarcodeScanAlt: SvgSiBarcodeScanAlt,
+  SiBluetooth: SvgSiBluetooth,
   SiBookmark: SvgSiBookmark,
   SiBriefcase: SvgSiBriefcase,
   SiBriefcaseDetailed: SvgSiBriefcaseDetailed,
@@ -7012,6 +7344,8 @@ var index = /*#__PURE__*/Object.freeze({
   SiDashboardVert: SvgSiDashboardVert,
   SiDeleteAlarm: SvgSiDeleteAlarm,
   SiDiamondsFour: SvgSiDiamondsFour,
+  SiDirection: SvgSiDirection,
+  SiDirectionAlt: SvgSiDirectionAlt,
   SiDollar: SvgSiDollar,
   SiDollarAlt1: SvgSiDollarAlt1,
   SiDollarAlt2: SvgSiDollarAlt2,
@@ -7027,6 +7361,8 @@ var index = /*#__PURE__*/Object.freeze({
   SiEditDetailedAlt: SvgSiEditDetailedAlt,
   SiEditSimple: SvgSiEditSimple,
   SiEject: SvgSiEject,
+  SiEmoji: SvgSiEmoji,
+  SiEmojiAlt: SvgSiEmojiAlt,
   SiEqualizer: SvgSiEqualizer,
   SiError: SvgSiError,
   SiExpandLess: SvgSiExpandLess,
@@ -7044,6 +7380,11 @@ var index = /*#__PURE__*/Object.freeze({
   SiFilterList: SvgSiFilterList,
   SiFilterListAlt: SvgSiFilterListAlt,
   SiFilterNone: SvgSiFilterNone,
+  SiFlag: SvgSiFlag,
+  SiFlagAlt1: SvgSiFlagAlt1,
+  SiFlagAlt2: SvgSiFlagAlt2,
+  SiFlagAlt3: SvgSiFlagAlt3,
+  SiFlagAlt4: SvgSiFlagAlt4,
   SiFlare: SvgSiFlare,
   SiFlowLine: SvgSiFlowLine,
   SiFlowParallel: SvgSiFlowParallel,
@@ -7058,6 +7399,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiHelp: SvgSiHelp,
   SiHome: SvgSiHome,
   SiHomeDetailed: SvgSiHomeDetailed,
+  SiHourglass: SvgSiHourglass,
   SiInfo: SvgSiInfo,
   SiInput: SvgSiInput,
   SiInsights: SvgSiInsights,
@@ -7069,6 +7411,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiJsonAlt4: SvgSiJsonAlt4,
   SiJsonAlt5: SvgSiJsonAlt5,
   SiKeypad: SvgSiKeypad,
+  SiLamp: SvgSiLamp,
   SiLeftDown: SvgSiLeftDown,
   SiLeftRight: SvgSiLeftRight,
   SiLeftTwoHeaded: SvgSiLeftTwoHeaded,
@@ -7127,6 +7470,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiPhoneForwarded: SvgSiPhoneForwarded,
   SiPhoneLocked: SvgSiPhoneLocked,
   SiPhonePaused: SvgSiPhonePaused,
+  SiPin: SvgSiPin,
   SiPlay: SvgSiPlay,
   SiPlayForward: SvgSiPlayForward,
   SiPlayNext: SvgSiPlayNext,
@@ -7165,6 +7509,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiSignInAlt: SvgSiSignInAlt,
   SiSignOut: SvgSiSignOut,
   SiSignOutAlt: SvgSiSignOutAlt,
+  SiSmartPhone: SvgSiSmartPhone,
   SiSort: SvgSiSort,
   SiSortAlt: SvgSiSortAlt,
   SiSouthEast: SvgSiSouthEast,
@@ -7267,10 +7612,12 @@ exports.SvgSiArrowUpwardCircle = SvgSiArrowUpwardCircle;
 exports.SvgSiArrowUpwardSquare = SvgSiArrowUpwardSquare;
 exports.SvgSiArticle = SvgSiArticle;
 exports.SvgSiAssignment = SvgSiAssignment;
+exports.SvgSiAttachment = SvgSiAttachment;
 exports.SvgSiBallot = SvgSiBallot;
 exports.SvgSiBarcode = SvgSiBarcode;
 exports.SvgSiBarcodeScan = SvgSiBarcodeScan;
 exports.SvgSiBarcodeScanAlt = SvgSiBarcodeScanAlt;
+exports.SvgSiBluetooth = SvgSiBluetooth;
 exports.SvgSiBookmark = SvgSiBookmark;
 exports.SvgSiBriefcase = SvgSiBriefcase;
 exports.SvgSiBriefcaseDetailed = SvgSiBriefcaseDetailed;
@@ -7327,6 +7674,8 @@ exports.SvgSiDashboardHorz = SvgSiDashboardHorz;
 exports.SvgSiDashboardVert = SvgSiDashboardVert;
 exports.SvgSiDeleteAlarm = SvgSiDeleteAlarm;
 exports.SvgSiDiamondsFour = SvgSiDiamondsFour;
+exports.SvgSiDirection = SvgSiDirection;
+exports.SvgSiDirectionAlt = SvgSiDirectionAlt;
 exports.SvgSiDollar = SvgSiDollar;
 exports.SvgSiDollarAlt1 = SvgSiDollarAlt1;
 exports.SvgSiDollarAlt2 = SvgSiDollarAlt2;
@@ -7342,6 +7691,8 @@ exports.SvgSiEditDetailed = SvgSiEditDetailed;
 exports.SvgSiEditDetailedAlt = SvgSiEditDetailedAlt;
 exports.SvgSiEditSimple = SvgSiEditSimple;
 exports.SvgSiEject = SvgSiEject;
+exports.SvgSiEmoji = SvgSiEmoji;
+exports.SvgSiEmojiAlt = SvgSiEmojiAlt;
 exports.SvgSiEqualizer = SvgSiEqualizer;
 exports.SvgSiError = SvgSiError;
 exports.SvgSiExpandLess = SvgSiExpandLess;
@@ -7359,6 +7710,11 @@ exports.SvgSiFileUpload = SvgSiFileUpload;
 exports.SvgSiFilterList = SvgSiFilterList;
 exports.SvgSiFilterListAlt = SvgSiFilterListAlt;
 exports.SvgSiFilterNone = SvgSiFilterNone;
+exports.SvgSiFlag = SvgSiFlag;
+exports.SvgSiFlagAlt1 = SvgSiFlagAlt1;
+exports.SvgSiFlagAlt2 = SvgSiFlagAlt2;
+exports.SvgSiFlagAlt3 = SvgSiFlagAlt3;
+exports.SvgSiFlagAlt4 = SvgSiFlagAlt4;
 exports.SvgSiFlare = SvgSiFlare;
 exports.SvgSiFlowLine = SvgSiFlowLine;
 exports.SvgSiFlowParallel = SvgSiFlowParallel;
@@ -7373,6 +7729,7 @@ exports.SvgSiHeartAlt = SvgSiHeartAlt;
 exports.SvgSiHelp = SvgSiHelp;
 exports.SvgSiHome = SvgSiHome;
 exports.SvgSiHomeDetailed = SvgSiHomeDetailed;
+exports.SvgSiHourglass = SvgSiHourglass;
 exports.SvgSiInfo = SvgSiInfo;
 exports.SvgSiInput = SvgSiInput;
 exports.SvgSiInsights = SvgSiInsights;
@@ -7384,6 +7741,7 @@ exports.SvgSiJsonAlt3 = SvgSiJsonAlt3;
 exports.SvgSiJsonAlt4 = SvgSiJsonAlt4;
 exports.SvgSiJsonAlt5 = SvgSiJsonAlt5;
 exports.SvgSiKeypad = SvgSiKeypad;
+exports.SvgSiLamp = SvgSiLamp;
 exports.SvgSiLeftDown = SvgSiLeftDown;
 exports.SvgSiLeftRight = SvgSiLeftRight;
 exports.SvgSiLeftTwoHeaded = SvgSiLeftTwoHeaded;
@@ -7442,6 +7800,7 @@ exports.SvgSiPhoneEnabled = SvgSiPhoneEnabled;
 exports.SvgSiPhoneForwarded = SvgSiPhoneForwarded;
 exports.SvgSiPhoneLocked = SvgSiPhoneLocked;
 exports.SvgSiPhonePaused = SvgSiPhonePaused;
+exports.SvgSiPin = SvgSiPin;
 exports.SvgSiPlay = SvgSiPlay;
 exports.SvgSiPlayForward = SvgSiPlayForward;
 exports.SvgSiPlayNext = SvgSiPlayNext;
@@ -7480,6 +7839,7 @@ exports.SvgSiSignIn = SvgSiSignIn;
 exports.SvgSiSignInAlt = SvgSiSignInAlt;
 exports.SvgSiSignOut = SvgSiSignOut;
 exports.SvgSiSignOutAlt = SvgSiSignOutAlt;
+exports.SvgSiSmartPhone = SvgSiSmartPhone;
 exports.SvgSiSort = SvgSiSort;
 exports.SvgSiSortAlt = SvgSiSortAlt;
 exports.SvgSiSouthEast = SvgSiSouthEast;
