@@ -1,7 +1,7 @@
 {
   "name": "@sargamdesign/icons-react",
-  "version": "1.4.11",
-  "description": "300+ open-source icons.",
+  "version": "1.5.0",
+  "description": "A collection of open-source icons crafted to match your exquisite designs.",
   "module": "dist/index.mjs",
   "files": [
     "dist"
@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/SargamDesign/sargam-icons-react/issues"
   },
-  "homepage": "https://github.com/SargamDesign/sargam-icons-react#readme",
+  "homepage": "https://sargamicons.com/",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.28.3",
     "@babel/preset-env": "^7.28.3",
@@ -41,9 +41,9 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@svgr/cli": "^8.1.0",
     "rimraf": "^6.0.1",
-    "rollup": "^4.52.2",
+    "rollup": "^4.52.3",
     "rollup-plugin-filesize": "^10.0.0",
-    "sargam-icons": "^1.4.11"
+    "sargam-icons": "^1.5.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.28.4"
