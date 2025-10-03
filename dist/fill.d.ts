@@ -1,6 +1,33 @@
 import * as React from 'react';
 
 
+export const SiAi: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiArchive: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiBriefcase: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiChat: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiChecklist: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiEdit: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiEditAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiEditAlt2: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiInventory: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiLock: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiMonitor: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiNote1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiNote: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiNoteAlt11: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiNoteAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiPhone: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiPhoneAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiScan: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiSearch: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiShield: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiSmartphone: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiSort: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiSortAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiSummarize: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiSummarizeAlt: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiAiUnlock: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiActions: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiAdd: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiAddAlarm: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
@@ -58,9 +85,15 @@ export const SiBriefcase: (props: React.SVGProps<SVGSVGElement> & { title?: stri
 export const SiBriefcaseDetailed: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiBriefcaseMedical: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiBriefcases: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiBuilding: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiBuildingAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiBuildingAlt2: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiBuildingAlt3: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiBus: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiCancelPhoto: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiCancelPresentation: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiCastle: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiCastleAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiChat: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiChatText: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiCheck: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
@@ -77,6 +110,7 @@ export const SiChevronRight: (props: React.SVGProps<SVGSVGElement> & { title?: s
 export const SiChevronRightAlt: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiChevronRightCircle: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiChevronRightSquare: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiCity: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiClearAll: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiClearDay: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiClipboard: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
@@ -165,6 +199,8 @@ export const SiHeartAlt: (props: React.SVGProps<SVGSVGElement> & { title?: strin
 export const SiHelp: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiHome: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiHomeDetailed: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiHospital: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
+export const SiHospitalAlt1: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiHourglass: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiInfo: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;
 export const SiInput: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;

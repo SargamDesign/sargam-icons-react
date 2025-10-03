@@ -1,6 +1,557 @@
 import _extends from '@babel/runtime/helpers/extends';
 import * as React from 'react';
 
+const SvgSiAi = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "m9.96 9.137.886-3.099c.332-1.16 1.976-1.16 2.308 0l.885 3.099a1.2 1.2 0 0 0 .824.824l3.099.885c1.16.332 1.16 1.976 0 2.308l-3.099.885a1.2 1.2 0 0 0-.824.824l-.885 3.099c-.332 1.16-1.976 1.16-2.308 0l-.885-3.099a1.2 1.2 0 0 0-.824-.824l-3.099-.885c-1.16-.332-1.16-1.976 0-2.308l3.099-.885a1.2 1.2 0 0 0 .824-.824m8.143 7.37c.289-.843 1.504-.844 1.792 0l.026.087.296 1.188 1.188.297c.96.24.96 1.602 0 1.842l-1.188.297-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297.297-1.188zm.896 2.29a1 1 0 0 1-.203.203 1 1 0 0 1 .203.203 1 1 0 0 1 .203-.203 1 1 0 0 1-.203-.204M4.104 2.506c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.602 0 1.842l-1.188.297-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297.297-1.188zM5 4.797a1 1 0 0 1-.203.202A1 1 0 0 1 5 5.203a1 1 0 0 1 .203-.204A1 1 0 0 1 5 4.796"
+}));
+
+const SvgSiAiAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "m14.04 9.137-.886-3.099c-.332-1.16-1.976-1.16-2.308 0l-.885 3.099a1.2 1.2 0 0 1-.824.824l-3.099.885c-1.16.332-1.16 1.976 0 2.308l3.099.885a1.2 1.2 0 0 1 .824.824l.885 3.099c.332 1.16 1.976 1.16 2.308 0l.885-3.099a1.2 1.2 0 0 1 .824-.824l3.099-.885c1.16-.332 1.16-1.976 0-2.308l-3.099-.885a1.2 1.2 0 0 1-.824-.824m-8.143 7.37c-.289-.844-1.504-.844-1.792 0l-.025.087-.297 1.188-1.188.296c-.959.24-.96 1.603 0 1.843l1.188.297.297 1.188c.24.959 1.602.959 1.842 0l.297-1.188 1.188-.297c.96-.24.96-1.603 0-1.843l-1.188-.296-.297-1.188zM5 18.797a1 1 0 0 0 .204.202 1 1 0 0 0-.204.204 1 1 0 0 0-.203-.204A1 1 0 0 0 5 18.796m14.896-16.29c-.298-.871-1.585-.842-1.817.087l-.297 1.188-1.188.297c-.959.24-.96 1.602 0 1.842l1.188.297.297 1.188c.24.959 1.602.959 1.842 0l.297-1.188 1.188-.297c.96-.24.96-1.603 0-1.842l-1.188-.297-.297-1.188zM19 4.797a1 1 0 0 0 .204.202 1 1 0 0 0-.204.204 1 1 0 0 0-.203-.204A1 1 0 0 0 19 4.796"
+}));
+
+const SvgSiAiArchive = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M12 12.797a1 1 0 0 0 .203.203 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M21.4 2A2.6 2.6 0 0 1 24 4.6v.8A2.6 2.6 0 0 1 21.4 8h-.486L20 18.6c0 1.33-1.07 2.4-2.4 2.4H6.4C5.07 21 4 19.93 4 18.6L3.086 8H2.6A2.6 2.6 0 0 1 0 5.4v-.8A2.6 2.6 0 0 1 2.6 2zm-8.478 8.595c-.232-.93-1.52-.959-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.603 0 1.843l1.187.297.297 1.187c.24.959 1.603.96 1.843 0l.297-1.187 1.187-.297c.96-.24.959-1.603 0-1.843l-1.187-.297zM2.6 4a.6.6 0 0 0-.6.6v.8a.6.6 0 0 0 .6.6h18.8a.6.6 0 0 0 .6-.6v-.8a.6.6 0 0 0-.6-.6z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiBriefcase = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M12.014 13.148c.103.412.425.734.837.837l.056.014-.056.015a1.15 1.15 0 0 0-.837.837l-.015.056-.014-.056a1.15 1.15 0 0 0-.837-.837l-.056-.015.056-.014a1.15 1.15 0 0 0 .837-.837l.014-.056z"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M14.2 3A1.8 1.8 0 0 1 16 4.8V7h3.6A2.4 2.4 0 0 1 22 9.4v9.2a2.4 2.4 0 0 1-2.4 2.4H4.4A2.4 2.4 0 0 1 2 18.6V9.4A2.4 2.4 0 0 1 4.4 7H8V4.8A1.8 1.8 0 0 1 9.8 3zm-1.116 8.265c-.35-1.02-1.82-1.021-2.169 0l-.031.105-.303 1.211-1.21.303c-1.162.29-1.162 1.94 0 2.231l1.21.302.303 1.213c.29 1.16 1.94 1.16 2.231 0l.303-1.212 1.212-.303c1.16-.29 1.16-1.94 0-2.231l-1.213-.304-.302-1.21zM10 7h4V5h-4z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiChat = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M9 10.797a1 1 0 0 0 .204.203 1 1 0 0 0-.204.202A1 1 0 0 0 8.796 11 1 1 0 0 0 9 10.797"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M19 3c1.663 0 3 1.338 3 3v7c0 1.662-1.337 3-3 3h-2.525a.99.99 0 0 0-.775.375l-2.925 3.65a1 1 0 0 1-1.562 0l-2.926-3.65A.99.99 0 0 0 7.513 16H5c-1.662 0-3-1.338-3-3V6c0-1.662 1.338-3 3-3zM9.922 8.594c-.233-.93-1.52-.958-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.604 0 1.844l1.187.297.297 1.187c.24.959 1.603.959 1.843 0l.297-1.187 1.187-.297c.96-.24.96-1.604 0-1.844l-1.187-.297zM15.5 5.25a.75.75 0 0 0-.727.568L14.48 6.98l-1.163.292a.75.75 0 0 0 0 1.456l1.163.29.292 1.164a.75.75 0 0 0 1.454 0l.292-1.163 1.164-.291a.75.75 0 0 0 0-1.456l-1.164-.292-.291-1.162a.75.75 0 0 0-.728-.568",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiChecklist = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M22 18a1 1 0 1 1 0 2H12a1 1 0 0 1 0-2zm0-7a1 1 0 1 1 0 2H12a1 1 0 0 1 0-2zM7.293 2.293a1 1 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 1 1 1.414-1.414L4 5.586zM22 4a1 1 0 1 1 0 2H12a1 1 0 0 1 0-2zM4.104 16.507c.288-.843 1.504-.844 1.792 0l.025.087.297 1.188 1.188.297c.959.24.96 1.603 0 1.843l-1.188.296-.297 1.188c-.24.959-1.602.959-1.842 0l-.297-1.188-1.188-.296c-.96-.24-.96-1.603 0-1.843l1.187-.297.298-1.188zM5 18.797a1 1 0 0 1-.205.203 1 1 0 0 1 .205.202A1 1 0 0 1 5.204 19 1 1 0 0 1 5 18.797m-.896-9.29c.298-.871 1.585-.842 1.817.087l.297 1.188 1.188.297c.96.24.96 1.603 0 1.842l-1.188.297-.297 1.188c-.24.96-1.602.96-1.842 0l-.297-1.188-1.188-.296c-.96-.24-.96-1.603 0-1.843l1.188-.297.297-1.188zM5 11.797a1 1 0 0 1-.204.203 1 1 0 0 1 .204.203A1 1 0 0 1 5.203 12 1 1 0 0 1 5 11.797"
+}));
+
+const SvgSiAiEdit = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M19 16.25a.75.75 0 0 1 .727.568l.291 1.163 1.164.291a.75.75 0 0 1 0 1.455l-1.164.291-.29 1.164a.75.75 0 0 1-1.456 0l-.29-1.164-1.164-.29a.75.75 0 0 1 0-1.456l1.163-.29.291-1.164A.75.75 0 0 1 19 16.25M4.104 2.507c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.603 0 1.842l-1.188.297-.296 1.188c-.24.96-1.603.96-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.602 0-1.842l1.188-.297.297-1.188zM5 4.797A1 1 0 0 1 4.797 5 1 1 0 0 1 5 5.203 1 1 0 0 1 5.203 5 1 1 0 0 1 5 4.796m11.738-1.069a1.3 1.3 0 0 1 1.838 0l1.697 1.697a1.3 1.3 0 0 1 0 1.838l-1.909 1.91-3.536-3.536zm-7.92 14.991a.5.5 0 0 1-.255.136l-3.536.707a.5.5 0 0 1-.588-.588l.707-3.535a.5.5 0 0 1 .137-.256l8.838-8.839 3.536 3.536z"
+}));
+
+const SvgSiAiEditAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M19 16.25a.75.75 0 0 1 .727.568l.291 1.163 1.164.291a.75.75 0 0 1 0 1.455l-1.164.291-.29 1.164a.75.75 0 0 1-1.456 0l-.29-1.164-1.164-.29a.75.75 0 0 1 0-1.456l1.163-.29.291-1.164A.75.75 0 0 1 19 16.25M4.104 2.507c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.603 0 1.842l-1.188.297-.296 1.188c-.24.96-1.603.96-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.602 0-1.842l1.188-.297.297-1.188zM5 4.797A1 1 0 0 1 4.797 5 1 1 0 0 1 5 5.203 1 1 0 0 1 5.203 5 1 1 0 0 1 5 4.796m11.738-1.069a1.3 1.3 0 0 1 1.838 0l1.697 1.697a1.3 1.3 0 0 1 0 1.838L8.818 18.718a.5.5 0 0 1-.255.136l-3.536.707a.5.5 0 0 1-.588-.588l.707-3.535a.5.5 0 0 1 .136-.256z"
+}));
+
+const SvgSiAiEditAlt2 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M19.425 4.575a2.5 2.5 0 0 0-3.536 0l-1.06 1.061 3.535 3.536 1.06-1.061a2.5 2.5 0 0 0 0-3.536m-5.303 1.768 3.536 3.536-8.839 8.839a.5.5 0 0 1-.255.136l-3.536.707a.5.5 0 0 1-.588-.588l.707-3.535a.5.5 0 0 1 .137-.256zM19 16.25a.75.75 0 0 1 .727.568l.291 1.163 1.164.291a.75.75 0 0 1 0 1.455l-1.164.291-.29 1.164a.75.75 0 0 1-1.456 0l-.29-1.164-1.164-.29a.75.75 0 0 1 0-1.456l1.163-.29.291-1.164A.75.75 0 0 1 19 16.25M4.104 2.507c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.603 0 1.843l-1.188.296-.296 1.188c-.24.96-1.603.96-1.843 0l-.297-1.188-1.188-.296c-.96-.24-.96-1.603 0-1.843l1.188-.297.297-1.188zM5 4.797A1 1 0 0 1 4.797 5 1 1 0 0 1 5 5.203 1 1 0 0 1 5.203 5 1 1 0 0 1 5 4.797"
+}));
+
+const SvgSiAiInventory = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M12.014 12.65c.103.411.425.733.837.836l.056.014-.056.015a1.15 1.15 0 0 0-.837.837l-.015.056-.014-.056a1.15 1.15 0 0 0-.837-.837l-.056-.015.056-.014a1.15 1.15 0 0 0 .837-.837l.014-.056z"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M21.4 2A2.6 2.6 0 0 1 24 4.6v.8A2.6 2.6 0 0 1 21.4 8H21v10.6c0 1.33-1.07 2.4-2.4 2.4H5.4C4.07 21 3 19.93 3 18.6V8h-.4A2.6 2.6 0 0 1 0 5.4v-.8A2.6 2.6 0 0 1 2.6 2zm-8.316 8.766c-.35-1.021-1.82-1.021-2.169 0l-.031.105-.303 1.211-1.21.303c-1.162.29-1.162 1.94 0 2.231l1.21.302.303 1.213c.29 1.16 1.94 1.16 2.231 0l.303-1.212 1.212-.303c1.16-.29 1.16-1.94 0-2.231l-1.213-.304-.302-1.21zM2.6 4a.6.6 0 0 0-.6.6v.8a.6.6 0 0 0 .6.6h18.8a.6.6 0 0 0 .6-.6v-.8a.6.6 0 0 0-.6-.6z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiLock = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M12 15.297a1 1 0 0 0 .203.203 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M12 2a5 5 0 0 1 5 5v3h.4c.88 0 1.6.72 1.6 1.6v7c0 1.32-1.08 2.4-2.4 2.4H7.4C6.08 21 5 19.92 5 18.6v-7c0-.88.72-1.6 1.6-1.6H7V7a5 5 0 0 1 5-5m.922 11.095c-.232-.93-1.52-.959-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.603 0 1.843l1.187.297.297 1.187c.24.959 1.603.96 1.843 0l.297-1.187 1.187-.297c.96-.24.959-1.603 0-1.843l-1.187-.297zM12 4c-1.658 0-3 1.342-3 3v3h6V7c0-1.658-1.342-3-3-3",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiMonitor = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M15 19a1 1 0 1 1 0 2H9a1 1 0 1 1 0-2zm-3-8.703a1 1 0 0 0 .203.203 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M19.775 3.005A3.4 3.4 0 0 1 23 6.4v8.2a3.4 3.4 0 0 1-3.4 3.4H4.4A3.4 3.4 0 0 1 1 14.6V6.4A3.4 3.4 0 0 1 4.4 3h15.2zm-6.853 5.09c-.232-.93-1.52-.959-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.603 0 1.843l1.187.297.297 1.187c.24.959 1.603.96 1.843 0l.297-1.187 1.187-.297c.96-.24.959-1.603 0-1.843l-1.187-.297z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiNote1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M14.905 15.79a1 1 0 0 0 .203.202 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M12 0a3 3 0 0 1 3 3h3.6A2.4 2.4 0 0 1 21 5.4v15.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 20.6V5.4A2.4 2.4 0 0 1 5.4 3H9a3 3 0 0 1 3-3m3.827 13.587c-.232-.93-1.52-.959-1.817-.087l-.026.087-.296 1.187-1.188.297c-.96.24-.96 1.603 0 1.843l1.188.297.296 1.187c.24.96 1.603.96 1.843 0l.297-1.187 1.188-.297c.958-.24.958-1.603 0-1.843l-1.188-.297zM7 15a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm0-3a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zm0-3a1 1 0 0 0 0 2h10a1 1 0 1 0 0-2zm5-7a1 1 0 1 0 0 2 1 1 0 0 0 0-2",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiNote = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M16 11.796a1 1 0 0 0 .203.203 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M20.6 4A2.4 2.4 0 0 1 23 6.4v11.2a2.4 2.4 0 0 1-2.4 2.4H3.4A2.4 2.4 0 0 1 1 17.6V6.4A2.4 2.4 0 0 1 3.4 4zM5 14a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2zm11.922-4.406c-.233-.93-1.52-.958-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.603 0 1.843l1.187.297.297 1.187c.24.96 1.603.96 1.843 0l.297-1.187 1.187-.297c.959-.24.96-1.603 0-1.843l-1.187-.297zM5 11a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2zm0-3a1 1 0 0 0 0 2h5a1 1 0 1 0 0-2z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiNoteAlt11 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M15.2 0A1.8 1.8 0 0 1 17 1.8V3h1.6A2.4 2.4 0 0 1 21 5.4v15.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 20.6V5.4A2.4 2.4 0 0 1 5.4 3H7V1.8A1.8 1.8 0 0 1 8.8 0zm.627 13.587c-.232-.93-1.52-.959-1.817-.087l-.026.087-.296 1.187-1.188.297c-.96.24-.96 1.603 0 1.843l1.188.297.296 1.187c.24.96 1.603.96 1.843 0l.297-1.187 1.188-.297c.958-.24.958-1.603 0-1.843l-1.188-.297zM7 15a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm0-3a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zm0-3a1 1 0 0 0 0 2h10a1 1 0 1 0 0-2zm2-7v2h6V2z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiNoteAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M8 11.796a1 1 0 0 1-.203.203 1 1 0 0 1 .203.203A1 1 0 0 1 8.203 12 1 1 0 0 1 8 11.796"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M3.4 4A2.4 2.4 0 0 0 1 6.4v11.2A2.4 2.4 0 0 0 3.4 20h17.2a2.4 2.4 0 0 0 2.4-2.4V6.4A2.4 2.4 0 0 0 20.6 4zM19 14a1 1 0 1 1 0 2h-5a1 1 0 1 1 0-2zM7.078 9.594c.233-.93 1.52-.958 1.818-.087l.025.087.297 1.187 1.187.297c.96.24.96 1.603 0 1.843l-1.187.297-.297 1.187c-.24.96-1.603.96-1.843 0l-.297-1.187-1.187-.297c-.959-.24-.96-1.603 0-1.843l1.187-.297zM19 11a1 1 0 1 1 0 2h-5a1 1 0 1 1 0-2zm0-3a1 1 0 1 1 0 2h-5a1 1 0 1 1 0-2z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiPhone = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M15.915 4.265c.35-1.021 1.82-1.02 2.17 0l.03.105.302 1.21 1.213.304c1.161.29 1.161 1.94 0 2.231l-1.212.303-.302 1.212c-.291 1.161-1.941 1.161-2.232 0l-.304-1.213-1.21-.302c-1.161-.29-1.161-1.94 0-2.231l1.211-.303.303-1.21zm1.07 1.884a1.15 1.15 0 0 1-.836.837l-.057.013.057.015c.412.103.733.425.837.837l.013.056.015-.056a1.15 1.15 0 0 1 .837-.837l.056-.015-.056-.013a1.15 1.15 0 0 1-.837-.837l-.015-.057zM7.18 10.27l6.504 6.46c.697-.807 5.11-5.538 7.316.924 0 0-.232 3.346-4.994 3.346-3.367 0-6.851-4.038-9.29-6.346C4.626 12.692 3 10.154 3 7.846 3 3.116 6.252 3 6.252 3c7.432 2.538.929 7.27.929 7.27"
+}));
+
+const SvgSiAiPhoneAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M8.085 4.265c-.35-1.021-1.82-1.02-2.17 0l-.03.105-.302 1.21-1.213.304c-1.161.29-1.161 1.94 0 2.231l1.212.303.303 1.212c.29 1.161 1.94 1.161 2.231 0l.304-1.213 1.21-.302c1.161-.29 1.161-1.94 0-2.231l-1.211-.303-.303-1.21zm-1.07 1.884c.102.412.424.734.836.837l.057.013-.057.015a1.15 1.15 0 0 0-.837.837l-.013.056-.015-.056a1.15 1.15 0 0 0-.837-.837l-.056-.015.056-.013a1.15 1.15 0 0 0 .837-.837l.015-.057zm9.805 4.121-6.504 6.46c-.697-.807-5.11-5.538-7.316.924 0 0 .232 3.346 4.994 3.346 3.367 0 6.851-4.038 9.29-6.346 2.09-1.962 3.716-4.5 3.716-6.808C21 3.116 17.748 3 17.748 3c-7.432 2.538-.929 7.27-.929 7.27"
+}));
+
+const SvgSiAiScan = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M2 18.6V17a1 1 0 1 1 2 0v1.6A1.4 1.4 0 0 0 5.4 20H7a1 1 0 1 1 0 2H5.4A3.4 3.4 0 0 1 2 18.6m18 0V17a1 1 0 1 1 2 0v1.6a3.4 3.4 0 0 1-3.4 3.4H17a1 1 0 1 1 0-2h1.6a1.4 1.4 0 0 0 1.4-1.4M2 7V5.4A3.4 3.4 0 0 1 5.4 2H7a1 1 0 0 1 0 2H5.4A1.4 1.4 0 0 0 4 5.4V7a1 1 0 0 1-2 0m18 0V5.4A1.4 1.4 0 0 0 18.6 4H17a1 1 0 1 1 0-2h1.6A3.4 3.4 0 0 1 22 5.4V7a1 1 0 1 1-2 0m-5 5.25a.75.75 0 0 1 .727.568l.291 1.163 1.164.291a.75.75 0 0 1 0 1.455l-1.164.291-.29 1.164a.75.75 0 0 1-1.456 0l-.29-1.164-1.164-.29a.75.75 0 0 1 0-1.456l1.163-.29.291-1.164A.75.75 0 0 1 15 12.25M8.104 6.507c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.603 0 1.843l-1.188.296-.296 1.188c-.24.96-1.603.96-1.843 0l-.297-1.188-1.188-.296c-.96-.24-.96-1.603 0-1.843l1.188-.297.297-1.188zM9 8.797A1 1 0 0 1 8.797 9 1 1 0 0 1 9 9.203 1 1 0 0 1 9.203 9 1 1 0 0 1 9 8.797"
+}));
+
+const SvgSiAiSearch = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M18 11a7 7 0 1 0-14 0 7 7 0 0 0 14 0m2 0a8.96 8.96 0 0 1-1.97 5.616l3.677 3.677a1 1 0 1 1-1.414 1.414l-3.677-3.677A9 9 0 1 1 20 11"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M10.104 8.507c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.603 0 1.842l-1.188.297-.296 1.188c-.24.96-1.603.96-1.843 0l-.297-1.188-1.188-.296c-.96-.24-.96-1.603 0-1.843l1.188-.297.297-1.188zm.896 2.29a1 1 0 0 1-.203.203 1 1 0 0 1 .203.203 1 1 0 0 1 .203-.203 1 1 0 0 1-.203-.203"
+}));
+
+const SvgSiAiShield = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M12 10.797a1 1 0 0 0 .203.203 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "m12.097 2.012 7.6 1.903a.4.4 0 0 1 .303.389v6.949c0 7.764-6.916 10.397-7.888 10.728a.33.33 0 0 1-.224 0C10.918 21.64 4 18.938 4 11.252v-6.95a.4.4 0 0 1 .303-.388l7.6-1.903a.4.4 0 0 1 .194 0m.825 6.583c-.232-.93-1.52-.96-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.603 0 1.843l1.187.297.297 1.187c.24.959 1.603.959 1.843 0l.297-1.187 1.187-.297c.96-.24.959-1.603 0-1.843l-1.187-.297z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiSmartphone = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M12 11.797a1 1 0 0 0 .203.203 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M15.6 1A3.4 3.4 0 0 1 19 4.4v15.2a3.4 3.4 0 0 1-3.4 3.4H8.4a3.4 3.4 0 0 1-3.395-3.225L5 19.6V4.4A3.4 3.4 0 0 1 8.4 1zm-2.678 8.595c-.232-.93-1.52-.959-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.603 0 1.843l1.187.297.297 1.187c.24.959 1.603.96 1.843 0l.297-1.187 1.187-.297c.96-.24.959-1.603 0-1.843l-1.187-.297zM11 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiAiSort = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M4.6 2A2.6 2.6 0 0 0 2 4.6v3.8A2.6 2.6 0 0 0 4.6 11h3.8A2.6 2.6 0 0 0 11 8.4V4.6A2.6 2.6 0 0 0 8.4 2zm11 0A2.6 2.6 0 0 0 13 4.6v3.8a2.6 2.6 0 0 0 2.6 2.6h3.8A2.6 2.6 0 0 0 22 8.4V4.6A2.6 2.6 0 0 0 19.4 2zm-11 11A2.6 2.6 0 0 0 2 15.6v3.8A2.6 2.6 0 0 0 4.6 22h3.8a2.6 2.6 0 0 0 2.6-2.6v-3.8A2.6 2.6 0 0 0 8.4 13zm12.004 1.508c.298-.872 1.585-.843 1.818.086l.396 1.586 1.588.399c.96.24.96 1.603 0 1.843l-1.588.396-.396 1.588c-.24.96-1.603.96-1.843 0l-.399-1.588-1.586-.396c-.96-.24-.96-1.603 0-1.843l1.587-.398.398-1.587zm.896 2.515a.95.95 0 0 1-.477.477.95.95 0 0 1 .477.476.95.95 0 0 1 .476-.476.95.95 0 0 1-.476-.477"
+}));
+
+const SvgSiAiSortAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M16.604 3.507c.298-.871 1.585-.842 1.818.087l.396 1.586 1.588.399c.96.24.96 1.603 0 1.843l-1.588.396-.396 1.588c-.24.96-1.603.96-1.843 0l-.399-1.588-1.586-.396c-.96-.24-.96-1.603 0-1.843l1.587-.398.398-1.587zm.896 2.516a.95.95 0 0 1-.477.477.95.95 0 0 1 .477.476.95.95 0 0 1 .476-.476.95.95 0 0 1-.476-.477M4.6 2A2.6 2.6 0 0 0 2 4.6v3.8A2.6 2.6 0 0 0 4.6 11h3.8A2.6 2.6 0 0 0 11 8.4V4.6A2.6 2.6 0 0 0 8.4 2zm0 11A2.6 2.6 0 0 0 2 15.6v3.8A2.6 2.6 0 0 0 4.6 22h3.8a2.6 2.6 0 0 0 2.6-2.6v-3.8A2.6 2.6 0 0 0 8.4 13zm11 0a2.6 2.6 0 0 0-2.6 2.6v3.8a2.6 2.6 0 0 0 2.6 2.6h3.8a2.6 2.6 0 0 0 2.6-2.6v-3.8a2.6 2.6 0 0 0-2.6-2.6z"
+}));
+
+const SvgSiAiSummarize = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M22 18a1 1 0 1 1 0 2H12a1 1 0 1 1 0-2zm0-7a1 1 0 1 1 0 2H12a1 1 0 1 1 0-2zm0-7a1 1 0 1 1 0 2H12a1 1 0 1 1 0-2zM4.104 16.507c.289-.843 1.504-.844 1.792 0l.026.087.296 1.188 1.188.297c.96.24.96 1.602 0 1.842l-1.188.297-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297.297-1.188zM5 18.797a1 1 0 0 1-.203.203 1 1 0 0 1 .203.203A1 1 0 0 1 5.203 19 1 1 0 0 1 5 18.796m-.896-9.29c.289-.843 1.504-.843 1.792 0l.026.087.296 1.188 1.188.297c.96.24.96 1.602 0 1.842l-1.188.297-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297.297-1.188zM5 11.797a1 1 0 0 1-.203.202 1 1 0 0 1 .203.204A1 1 0 0 1 5.203 12 1 1 0 0 1 5 11.795m-.896-9.29c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.602 0 1.842l-1.188.297-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297.297-1.188zM5 4.797a1 1 0 0 1-.203.202A1 1 0 0 1 5 5.203a1 1 0 0 1 .203-.204A1 1 0 0 1 5 4.796"
+}));
+
+const SvgSiAiSummarizeAlt = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M22 15a1 1 0 0 1 0 2H12a1 1 0 0 1 0-2zm0-8a1 1 0 0 1 0 2H12a1 1 0 0 1 0-2zM4.104 13.507c.289-.843 1.504-.843 1.792 0l.026.087.296 1.188 1.188.297c.96.24.96 1.602 0 1.842l-1.188.297-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297.297-1.188zM5 15.797a1 1 0 0 1-.203.202 1 1 0 0 1 .203.204A1 1 0 0 1 5.203 16 1 1 0 0 1 5 15.795m-.896-10.29c.298-.871 1.585-.842 1.818.087l.296 1.188 1.188.297c.96.24.96 1.602 0 1.842l-1.188.297-.296 1.188c-.24.959-1.603.959-1.843 0l-.297-1.188-1.188-.297c-.96-.24-.96-1.603 0-1.842l1.188-.297.297-1.188zM5 7.797a1 1 0 0 1-.203.202A1 1 0 0 1 5 8.203a1 1 0 0 1 .203-.204A1 1 0 0 1 5 7.796"
+}));
+
+const SvgSiAiUnlock = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  d: "M10 15.297a1 1 0 0 0 .203.203 1 1 0 0 0-.203.203 1 1 0 0 0-.203-.203 1 1 0 0 0 .203-.203"
+}), /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M18 2a5 5 0 0 1 5 5v3a1 1 0 1 1-2 0V7c0-1.658-1.342-3-3-3s-3 1.342-3 3v3h.4c.88 0 1.6.72 1.6 1.6v7c0 1.32-1.08 2.4-2.4 2.4H5.4C4.08 21 3 19.92 3 18.6v-7c0-.88.72-1.6 1.6-1.6H13V7a5 5 0 0 1 5-5m-7.078 11.095c-.232-.93-1.52-.959-1.818-.087l-.025.087-.297 1.187-1.187.297c-.96.24-.96 1.603 0 1.843l1.187.297.297 1.187c.24.959 1.603.96 1.843 0l.297-1.187 1.187-.297c.96-.24.959-1.603 0-1.843l-1.187-.297z",
+  clipRule: "evenodd"
+}));
+
 const SvgSiActions = ({
   title,
   titleId,
@@ -1134,6 +1685,86 @@ const SvgSiBriefcases = ({
   d: "M3 11a1 1 0 1 0-2 0v5.6C1 20.132 3.868 23 7.4 23H19a1 1 0 1 0 0-2H7.4A4.403 4.403 0 0 1 3 16.6z"
 }));
 
+const SvgSiBuilding = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M21.2 1A1.8 1.8 0 0 1 23 2.8v1.4A1.8 1.8 0 0 1 21.2 6H21v13.6a3.4 3.4 0 0 1-3.4 3.4H6.4A3.4 3.4 0 0 1 3 19.6V6h-.2A1.8 1.8 0 0 1 1 4.2V2.8A1.8 1.8 0 0 1 2.8 1zM9.8 18A1.8 1.8 0 0 0 8 19.8V22h2v-2h4v2h2v-2.2a1.8 1.8 0 0 0-1.8-1.8zM8 12a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1m4 0a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1m4 0a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1M8 7a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1m4 0a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1m4 0a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1M3 4h18V3H3z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiBuildingAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M21 1a1 1 0 1 1 0 2v16.6a3.4 3.4 0 0 1-3.4 3.4H6.4A3.4 3.4 0 0 1 3 19.6V3a1 1 0 0 1 0-2zM9.8 18A1.8 1.8 0 0 0 8 19.8V22h2v-2h4v2h2v-2.2a1.8 1.8 0 0 0-1.8-1.8zM8 13a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zM8 9a1 1 0 0 0 0 2h2a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zM8 5a1 1 0 0 0 0 2h2a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiBuildingAlt2 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M18 1a1 1 0 1 1 0 2v2h4a1 1 0 1 1 0 2v12.6a3.4 3.4 0 0 1-3.4 3.4H5.4A3.4 3.4 0 0 1 2 19.6V3a1 1 0 0 1 0-2zM8.8 18A1.8 1.8 0 0 0 7 19.8V22h2v-2h2v2h2v-2.2a1.8 1.8 0 0 0-1.8-1.8zm9.2 1.6c0 .499-.108.973-.302 1.4h.902a1.4 1.4 0 0 0 1.4-1.4V7h-2zM8 11a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1m4 0a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0v-2a1 1 0 0 0-1-1M8 5a1 1 0 0 0-1 1v2a1 1 0 0 0 2 0V6a1 1 0 0 0-1-1m4 0a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0V6a1 1 0 0 0-1-1",
+  clipRule: "evenodd"
+}));
+
+const SvgSiBuildingAlt3 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M19 1a1 1 0 1 1 0 2v2h4a1 1 0 1 1 0 2v12.6a3.4 3.4 0 0 1-3.4 3.4H4.3C2.343 23 1 21.348 1 19.553V7a1 1 0 0 1 0-2h4V3a1 1 0 0 1 0-2zm-8.2 17A1.8 1.8 0 0 0 9 19.8V22h2v-2h2v2h2v-2.2a1.8 1.8 0 0 0-1.8-1.8zM3 19.553C3 20.408 3.606 21 4.3 21h1.002A3.4 3.4 0 0 1 5 19.6V7H3zm16 .047c0 .499-.108.973-.302 1.4h.902a1.4 1.4 0 0 0 1.4-1.4V7h-2zM10 13a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zm0-4a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zm0-4a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2z",
+  clipRule: "evenodd"
+}));
+
 const SvgSiBus = ({
   title,
   titleId,
@@ -1197,6 +1828,46 @@ const SvgSiCancelPresentation = ({
   fill: "currentColor",
   fillRule: "evenodd",
   d: "M3.4 4h17.2A2.4 2.4 0 0 1 23 6.4v11.2a2.4 2.4 0 0 1-2.4 2.4H3.4A2.4 2.4 0 0 1 1 17.6V6.4A2.4 2.4 0 0 1 3.4 4m13.55 3.05a1 1 0 0 1 0 1.414L13.414 12l3.536 3.536a1 1 0 0 1-1.414 1.414L12 13.414 8.464 16.95a1 1 0 0 1-1.414-1.414L10.586 12 7.05 8.464A1 1 0 1 1 8.464 7.05L12 10.586l3.536-3.536a1 1 0 0 1 1.414 0",
+  clipRule: "evenodd"
+}));
+
+const SvgSiCastle = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M18 1a1 1 0 0 1 1 1v7h2v-.953a1 1 0 1 1 2 0V19.6a3.4 3.4 0 0 1-3.4 3.4H4.4A3.4 3.4 0 0 1 1 19.6V8a1 1 0 0 1 2 0v1h2V2a1 1 0 0 1 2 0v1h2V2a1 1 0 0 1 2 0v1h2V2a1 1 0 1 1 2 0v1h2V2a1 1 0 0 1 1-1m-6 13a4 4 0 0 0-4 4v3h2v-3a2 2 0 0 1 4 0v3h2v-3a4 4 0 0 0-4-4m-7-2a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm12 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm-6-6a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiCastleAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M9.2 1A1.8 1.8 0 0 1 11 2.8V5h2V2.8A1.8 1.8 0 0 1 14.8 1h2.4A1.8 1.8 0 0 1 19 2.8V7h4a1 1 0 1 1 0 2v10.6a3.4 3.4 0 0 1-3.4 3.4H4.5C2.65 23 1 21.458 1 19.553V9a1 1 0 0 1 0-2h4V2.8A1.8 1.8 0 0 1 6.8 1zM3 19.553C3 20.298 3.699 21 4.5 21h.802A3.4 3.4 0 0 1 5 19.6V9H3zM10.8 17A1.8 1.8 0 0 0 9 18.8V21h2v-2h2v2h2v-2.2a1.8 1.8 0 0 0-1.8-1.8zm8.2 2.6c0 .499-.108.973-.302 1.4h.902a1.4 1.4 0 0 0 1.4-1.4V9h-2zM10 13a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zm1-4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z",
   clipRule: "evenodd"
 }));
 
@@ -1511,6 +2182,26 @@ const SvgSiChevronRightSquare = ({
   fill: "currentColor",
   fillRule: "evenodd",
   d: "M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3m5.807 4.293a1 1 0 0 0-1.414 1.414L13.086 12l-3.293 3.293a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z",
+  clipRule: "evenodd"
+}));
+
+const SvgSiCity = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M9 1a1 1 0 0 1 1 1v8h5V6a1 1 0 1 1 0-2h8a1 1 0 0 1 1 1v14.6a3.4 3.4 0 0 1-3.4 3.4H4.4A3.4 3.4 0 0 1 1 19.6V3a1 1 0 0 1 0-2zM5 17a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zm7 0a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zm7 0a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zM5 14a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zm7 0a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zm7 0a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zM5 11a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zm14 0a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zM5 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2zm14 0a1 1 0 1 0 0 2h1a1 1 0 1 0 0-2zM5 5a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z",
   clipRule: "evenodd"
 }));
 
@@ -3263,6 +3954,46 @@ const SvgSiHomeDetailed = ({
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
+
+const SvgSiHospital = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M18 1a1 1 0 1 1 0 2v2h4a1 1 0 1 1 0 2v12.6a3.4 3.4 0 0 1-3.4 3.4H5.4A3.4 3.4 0 0 1 2 19.6V3a1 1 0 0 1 0-2zM8.8 18A1.8 1.8 0 0 0 7 19.8V22h2v-2h2v2h2v-2.2a1.8 1.8 0 0 0-1.8-1.8zm9.2 1.6c0 .499-.108.973-.302 1.4h.902a1.4 1.4 0 0 0 1.4-1.4V7h-2zM10 5.5a1 1 0 0 0-1 1v2H7a1 1 0 0 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2v-2a1 1 0 0 0-1-1",
+  clipRule: "evenodd"
+}));
+
+const SvgSiHospitalAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M19 1a1 1 0 1 1 0 2v2h4a1 1 0 1 1 0 2v12.6a3.4 3.4 0 0 1-3.4 3.4H8.4q-.284-.001-.557-.047H4.4a3.4 3.4 0 0 1-3.4-3.4V7a1 1 0 0 1 0-2h4V3a1 1 0 0 1 0-2zm-8.2 17A1.8 1.8 0 0 0 9 19.8V22h2v-2h2v2h2v-2.2a1.8 1.8 0 0 0-1.8-1.8zm8.2 1.6c0 .499-.108.973-.302 1.4h.902a1.4 1.4 0 0 0 1.4-1.4V7h-2zm-16-.047a1.4 1.4 0 0 0 1.4 1.4h.883A3.4 3.4 0 0 1 5 19.6V7H3zM12 5.5a1 1 0 0 0-1 1v2H9a1 1 0 0 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2v-2a1 1 0 0 0-1-1",
+  clipRule: "evenodd"
+}));
 
 const SvgSiHourglass = ({
   title,
@@ -7197,6 +7928,33 @@ var index = /*#__PURE__*/Object.freeze({
   SiAddSquare: SvgSiAddSquare,
   SiAddToLibrary: SvgSiAddToLibrary,
   SiAddToPlaylist: SvgSiAddToPlaylist,
+  SiAi: SvgSiAi,
+  SiAiAlt1: SvgSiAiAlt1,
+  SiAiArchive: SvgSiAiArchive,
+  SiAiBriefcase: SvgSiAiBriefcase,
+  SiAiChat: SvgSiAiChat,
+  SiAiChecklist: SvgSiAiChecklist,
+  SiAiEdit: SvgSiAiEdit,
+  SiAiEditAlt1: SvgSiAiEditAlt1,
+  SiAiEditAlt2: SvgSiAiEditAlt2,
+  SiAiInventory: SvgSiAiInventory,
+  SiAiLock: SvgSiAiLock,
+  SiAiMonitor: SvgSiAiMonitor,
+  SiAiNote: SvgSiAiNote,
+  SiAiNote1: SvgSiAiNote1,
+  SiAiNoteAlt1: SvgSiAiNoteAlt1,
+  SiAiNoteAlt11: SvgSiAiNoteAlt11,
+  SiAiPhone: SvgSiAiPhone,
+  SiAiPhoneAlt1: SvgSiAiPhoneAlt1,
+  SiAiScan: SvgSiAiScan,
+  SiAiSearch: SvgSiAiSearch,
+  SiAiShield: SvgSiAiShield,
+  SiAiSmartphone: SvgSiAiSmartphone,
+  SiAiSort: SvgSiAiSort,
+  SiAiSortAlt1: SvgSiAiSortAlt1,
+  SiAiSummarize: SvgSiAiSummarize,
+  SiAiSummarizeAlt: SvgSiAiSummarizeAlt,
+  SiAiUnlock: SvgSiAiUnlock,
   SiAirplane: SvgSiAirplane,
   SiAirplaneAlt: SvgSiAirplaneAlt,
   SiAlbum: SvgSiAlbum,
@@ -7247,9 +8005,15 @@ var index = /*#__PURE__*/Object.freeze({
   SiBriefcaseDetailed: SvgSiBriefcaseDetailed,
   SiBriefcaseMedical: SvgSiBriefcaseMedical,
   SiBriefcases: SvgSiBriefcases,
+  SiBuilding: SvgSiBuilding,
+  SiBuildingAlt1: SvgSiBuildingAlt1,
+  SiBuildingAlt2: SvgSiBuildingAlt2,
+  SiBuildingAlt3: SvgSiBuildingAlt3,
   SiBus: SvgSiBus,
   SiCancelPhoto: SvgSiCancelPhoto,
   SiCancelPresentation: SvgSiCancelPresentation,
+  SiCastle: SvgSiCastle,
+  SiCastleAlt1: SvgSiCastleAlt1,
   SiChat: SvgSiChat,
   SiChatText: SvgSiChatText,
   SiCheck: SvgSiCheck,
@@ -7266,6 +8030,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiChevronRightAlt: SvgSiChevronRightAlt,
   SiChevronRightCircle: SvgSiChevronRightCircle,
   SiChevronRightSquare: SvgSiChevronRightSquare,
+  SiCity: SvgSiCity,
   SiClearAll: SvgSiClearAll,
   SiClearDay: SvgSiClearDay,
   SiClipboard: SvgSiClipboard,
@@ -7354,6 +8119,8 @@ var index = /*#__PURE__*/Object.freeze({
   SiHelp: SvgSiHelp,
   SiHome: SvgSiHome,
   SiHomeDetailed: SvgSiHomeDetailed,
+  SiHospital: SvgSiHospital,
+  SiHospitalAlt1: SvgSiHospitalAlt1,
   SiHourglass: SvgSiHourglass,
   SiInfo: SvgSiInfo,
   SiInput: SvgSiInput,
@@ -7552,4 +8319,4 @@ var index = /*#__PURE__*/Object.freeze({
   SiZoomOut: SvgSiZoomOut
 });
 
-export { SvgSiBookmark as $, SvgSiAlignVertCenterSimple as A, SvgSiApple as B, SvgSiArchive as C, SvgSiArchiveAlt as D, SvgSiArrowDownward as E, SvgSiArrowDownwardCircle as F, SvgSiArrowDownwardSquare as G, SvgSiArrowLeft as H, SvgSiArrowLeftCircle as I, SvgSiArrowLeftSquare as J, SvgSiArrowRight as K, SvgSiArrowRightCircle as L, SvgSiArrowRightSquare as M, SvgSiArrowUpward as N, SvgSiArrowUpwardCircle as O, SvgSiArrowUpwardSquare as P, SvgSiArticle as Q, SvgSiAssignment as R, SvgSiActions as S, SvgSiAttachment as T, SvgSiBallot as U, SvgSiBarcode as V, SvgSiBarcodeScan as W, SvgSiBarcodeScanAlt as X, SvgSiBin as Y, SvgSiBluetooth as Z, SvgSiBold as _, SvgSiAdd as a, SvgSiDownRight as a$, SvgSiBriefcase as a0, SvgSiBriefcaseDetailed as a1, SvgSiBriefcaseMedical as a2, SvgSiBriefcases as a3, SvgSiBus as a4, SvgSiCancelPhoto as a5, SvgSiCancelPresentation as a6, SvgSiChat as a7, SvgSiChatText as a8, SvgSiCheck as a9, SvgSiCloud as aA, SvgSiCode as aB, SvgSiCodeMuted as aC, SvgSiColumns as aD, SvgSiCopy as aE, SvgSiCopyAlt as aF, SvgSiCopyright as aG, SvgSiCopyrightAlt as aH, SvgSiCreditCard as aI, SvgSiCreditCardDetailed as aJ, SvgSiCreditCardDetailedAlt as aK, SvgSiCrosshairDetailed as aL, SvgSiCrosshairSimple as aM, SvgSiDangerous as aN, SvgSiDashboard as aO, SvgSiDashboardCustomize as aP, SvgSiDashboardHorz as aQ, SvgSiDashboardVert as aR, SvgSiDeleteAlarm as aS, SvgSiDiamondsFour as aT, SvgSiDirection as aU, SvgSiDirectionAlt as aV, SvgSiDollar as aW, SvgSiDollarAlt1 as aX, SvgSiDollarAlt2 as aY, SvgSiDoubleArrowRight as aZ, SvgSiDownLeft as a_, SvgSiCheckAlt as aa, SvgSiCheckCircle as ab, SvgSiCheckSquare as ac, SvgSiChecklist as ad, SvgSiChecklistAlt as ae, SvgSiChevronLeft as af, SvgSiChevronLeftAlt as ag, SvgSiChevronLeftCircle as ah, SvgSiChevronLeftSquare as ai, SvgSiChevronRight as aj, SvgSiChevronRightAlt as ak, SvgSiChevronRightCircle as al, SvgSiChevronRightSquare as am, SvgSiClearAll as an, SvgSiClearDay as ao, SvgSiClipboard as ap, SvgSiClipboardAlt as aq, SvgSiClipboardCheck as ar, SvgSiClipboardCheckAlt as as, SvgSiClipboardFilled as at, SvgSiClipboardFilledAlt as au, SvgSiClock as av, SvgSiClockAlt as aw, SvgSiClose as ax, SvgSiCloseCircle as ay, SvgSiCloseSquare as az, SvgSiAddAlarm as b, SvgSiLeftTwoHeaded as b$, SvgSiDownTwoHeaded as b0, SvgSiDownloadOffline as b1, SvgSiDragHandle as b2, SvgSiDragIndicator as b3, SvgSiDragIndicatorAlt as b4, SvgSiEditDetailed as b5, SvgSiEditDetailedAlt as b6, SvgSiEditSimple as b7, SvgSiEject as b8, SvgSiEmoji as b9, SvgSiGlobeDetailed as bA, SvgSiGrid as bB, SvgSiGridOn as bC, SvgSiGridView as bD, SvgSiHammer as bE, SvgSiHammerAlt as bF, SvgSiHeart as bG, SvgSiHeartAlt as bH, SvgSiHelp as bI, SvgSiHome as bJ, SvgSiHomeDetailed as bK, SvgSiHourglass as bL, SvgSiInfo as bM, SvgSiInput as bN, SvgSiInsights as bO, SvgSiInventory as bP, SvgSiItalic as bQ, SvgSiJson as bR, SvgSiJsonAlt1 as bS, SvgSiJsonAlt2 as bT, SvgSiJsonAlt3 as bU, SvgSiJsonAlt4 as bV, SvgSiJsonAlt5 as bW, SvgSiKeypad as bX, SvgSiLamp as bY, SvgSiLeftDown as bZ, SvgSiLeftRight as b_, SvgSiEmojiAlt as ba, SvgSiEqualizer as bb, SvgSiError as bc, SvgSiExpandLess as bd, SvgSiExpandLessAlt as be, SvgSiExpandLessCircle as bf, SvgSiExpandLessSquare as bg, SvgSiExpandMore as bh, SvgSiExpandMoreAlt as bi, SvgSiExpandMoreCircle as bj, SvgSiExpandMoreSquare as bk, SvgSiFactCheck as bl, SvgSiFeaturedPlaylist as bm, SvgSiFileDownload as bn, SvgSiFileUpload as bo, SvgSiFilterList as bp, SvgSiFilterListAlt as bq, SvgSiFilterNone as br, SvgSiFlag as bs, SvgSiFlagAlt1 as bt, SvgSiFlagAlt2 as bu, SvgSiFlagAlt3 as bv, SvgSiFlagAlt4 as bw, SvgSiFlare as bx, SvgSiFlowLine as by, SvgSiFlowParallel as bz, SvgSiAddCircle as c, SvgSiPhonePaused as c$, SvgSiLeftUp as c0, SvgSiLibraryBooks as c1, SvgSiLightMode as c2, SvgSiLightning as c3, SvgSiLock as c4, SvgSiLockAlt as c5, SvgSiLockMuted as c6, SvgSiMail as c7, SvgSiMap as c8, SvgSiMemory as c9, SvgSiMove as cA, SvgSiMovie as cB, SvgSiNorthEast as cC, SvgSiNorthEastCircle as cD, SvgSiNorthEastEscape as cE, SvgSiNorthEastEscapeAlt as cF, SvgSiNorthEastSquare as cG, SvgSiNorthWest as cH, SvgSiNorthWestCircle as cI, SvgSiNorthWestEscape as cJ, SvgSiNorthWestEscapeAlt as cK, SvgSiNorthWestSquare as cL, SvgSiNortheastSouthwest as cM, SvgSiNorthwestSoutheast as cN, SvgSiNotifications as cO, SvgSiNotificationsAlt as cP, SvgSiNotificationsThick as cQ, SvgSiOctagon as cR, SvgSiOctagonCheck as cS, SvgSiPause as cT, SvgSiPausePresentation as cU, SvgSiPhone as cV, SvgSiPhoneAddCall as cW, SvgSiPhoneCallback as cX, SvgSiPhoneEnabled as cY, SvgSiPhoneForwarded as cZ, SvgSiPhoneLocked as c_, SvgSiMic as ca, SvgSiMicDetailed as cb, SvgSiMoney as cc, SvgSiMonitor as cd, SvgSiMonitorCheck as ce, SvgSiMonitorClose as cf, SvgSiMonitorDown as cg, SvgSiMonitorPause as ch, SvgSiMonitorPlay as ci, SvgSiMonitorStop as cj, SvgSiMonitorUp as ck, SvgSiMoon as cl, SvgSiMoreHoriz as cm, SvgSiMoreHorizCircle as cn, SvgSiMoreHorizSquare as co, SvgSiMoreMutedHoriz as cp, SvgSiMoreMutedHorizCircle as cq, SvgSiMoreMutedHorizSquare as cr, SvgSiMoreMutedVert as cs, SvgSiMoreMutedVertCircle as ct, SvgSiMoreMutedVertSquare as cu, SvgSiMoreSquareHoriz as cv, SvgSiMoreSquareVert as cw, SvgSiMoreVert as cx, SvgSiMoreVertCircle as cy, SvgSiMoreVertSquare as cz, SvgSiAddSquare as d, SvgSiStrikethrough as d$, SvgSiPin as d0, SvgSiPinAlt1 as d1, SvgSiPinAlt2 as d2, SvgSiPlay as d3, SvgSiPlayForward as d4, SvgSiPlayNext as d5, SvgSiPlayPrevious as d6, SvgSiPlayRewind as d7, SvgSiProjects as d8, SvgSiProjectsAlt as d9, SvgSiShieldPolice as dA, SvgSiShieldSecurity as dB, SvgSiShieldTip as dC, SvgSiShieldVerified as dD, SvgSiSignIn as dE, SvgSiSignInAlt as dF, SvgSiSignOut as dG, SvgSiSignOutAlt as dH, SvgSiSmartPhone as dI, SvgSiSort as dJ, SvgSiSortAlt as dK, SvgSiSouthEast as dL, SvgSiSouthEastCircle as dM, SvgSiSouthEastEscape as dN, SvgSiSouthEastEscapeAlt as dO, SvgSiSouthEastSquare as dP, SvgSiSouthWest as dQ, SvgSiSouthWestCircle as dR, SvgSiSouthWestEscape as dS, SvgSiSouthWestEscapeAlt as dT, SvgSiSouthWestSquare as dU, SvgSiSpinner as dV, SvgSiSquare as dW, SvgSiStar as dX, SvgSiStarAlt as dY, SvgSiStop as dZ, SvgSiStopCircle as d_, SvgSiPullRequest as da, SvgSiQuote as db, SvgSiRecord as dc, SvgSiRemove as dd, SvgSiRemoveAlarm as de, SvgSiRemoveCircle as df, SvgSiRemoveFromLibrary as dg, SvgSiRemoveSquare as dh, SvgSiReorder as di, SvgSiReorderAlt as dj, SvgSiRightTwoHeaded as dk, SvgSiRocket as dl, SvgSiRupee as dm, SvgSiSearch as dn, SvgSiSearchAlt as dp, SvgSiSegment as dq, SvgSiSettings as dr, SvgSiSettingsAlt as ds, SvgSiSettingsApplications as dt, SvgSiSettingsCute as du, SvgSiSettingsThick as dv, SvgSiShield as dw, SvgSiShieldAlert as dx, SvgSiShieldBad as dy, SvgSiShieldHealthSafety as dz, SvgSiAddToLibrary as e, SvgSiSun as e0, SvgSiSunSet as e1, SvgSiSunnySnowing as e2, SvgSiSwapHoriz as e3, SvgSiSwapVert as e4, SvgSiTable as e5, SvgSiTableColumns as e6, SvgSiTableRows as e7, SvgSiTarget as e8, SvgSiTerminal as e9, SvgSiVerified as eA, SvgSiVideo as eB, SvgSiViewCompact as eC, SvgSiViewStream as eD, SvgSiWallet as eE, SvgSiWalletAlt as eF, SvgSiWalletDetailed as eG, SvgSiWarning as eH, SvgSiWebcam as eI, SvgSiWidget as eJ, SvgSiWidgetAlt1 as eK, SvgSiWindow as eL, SvgSiWrench as eM, SvgSiYouTube as eN, SvgSiZoomIn as eO, SvgSiZoomOut as eP, SvgSiTerminalAlt as ea, SvgSiText as eb, SvgSiThumbDown as ec, SvgSiThumbDownAlt1 as ed, SvgSiThumbDownAlt2 as ee, SvgSiThumbUp as ef, SvgSiThumbUpAlt1 as eg, SvgSiThumbUpAlt2 as eh, SvgSiToggleOff as ei, SvgSiToggleOn as ej, SvgSiTrafficCone as ek, SvgSiTrain as el, SvgSiTwitter as em, SvgSiUnderline as en, SvgSiUnfoldMore as eo, SvgSiUnlock as ep, SvgSiUnlockAlt as eq, SvgSiUnlockMuted as er, SvgSiUpDown as es, SvgSiUpTwoHeaded as et, SvgSiUser as eu, SvgSiUserAlt as ev, SvgSiUserAlt2 as ew, SvgSiUserAlt3 as ex, SvgSiUserAlt4 as ey, SvgSiUserAlt5 as ez, SvgSiAddToPlaylist as f, SvgSiAirplane as g, SvgSiAirplaneAlt as h, index as i, SvgSiAlbum as j, SvgSiAlert as k, SvgSiAlignBottomDetailed as l, SvgSiAlignBottomSimple as m, SvgSiAlignCenter as n, SvgSiAlignHorizCenterDetailed as o, SvgSiAlignHorizCenterSimple as p, SvgSiAlignJustify as q, SvgSiAlignLeft as r, SvgSiAlignLeftDetailed as s, SvgSiAlignLeftSimple as t, SvgSiAlignRight as u, SvgSiAlignRightDetailed as v, SvgSiAlignRightSimple as w, SvgSiAlignTopDetailed as x, SvgSiAlignTopSimple as y, SvgSiAlignVertCenterDetailed as z };
+export { SvgSiAlignVertCenterDetailed as $, SvgSiAiUnlock as A, SvgSiActions as B, SvgSiAdd as C, SvgSiAddAlarm as D, SvgSiAddCircle as E, SvgSiAddSquare as F, SvgSiAddToLibrary as G, SvgSiAddToPlaylist as H, SvgSiAirplane as I, SvgSiAirplaneAlt as J, SvgSiAlbum as K, SvgSiAlert as L, SvgSiAlignBottomDetailed as M, SvgSiAlignBottomSimple as N, SvgSiAlignCenter as O, SvgSiAlignHorizCenterDetailed as P, SvgSiAlignHorizCenterSimple as Q, SvgSiAlignJustify as R, SvgSiAi as S, SvgSiAlignLeft as T, SvgSiAlignLeftDetailed as U, SvgSiAlignLeftSimple as V, SvgSiAlignRight as W, SvgSiAlignRightDetailed as X, SvgSiAlignRightSimple as Y, SvgSiAlignTopDetailed as Z, SvgSiAlignTopSimple as _, SvgSiAiAlt1 as a, SvgSiClipboardFilled as a$, SvgSiAlignVertCenterSimple as a0, SvgSiApple as a1, SvgSiArchive as a2, SvgSiArchiveAlt as a3, SvgSiArrowDownward as a4, SvgSiArrowDownwardCircle as a5, SvgSiArrowDownwardSquare as a6, SvgSiArrowLeft as a7, SvgSiArrowLeftCircle as a8, SvgSiArrowLeftSquare as a9, SvgSiCancelPhoto as aA, SvgSiCancelPresentation as aB, SvgSiCastle as aC, SvgSiCastleAlt1 as aD, SvgSiChat as aE, SvgSiChatText as aF, SvgSiCheck as aG, SvgSiCheckAlt as aH, SvgSiCheckCircle as aI, SvgSiCheckSquare as aJ, SvgSiChecklist as aK, SvgSiChecklistAlt as aL, SvgSiChevronLeft as aM, SvgSiChevronLeftAlt as aN, SvgSiChevronLeftCircle as aO, SvgSiChevronLeftSquare as aP, SvgSiChevronRight as aQ, SvgSiChevronRightAlt as aR, SvgSiChevronRightCircle as aS, SvgSiChevronRightSquare as aT, SvgSiCity as aU, SvgSiClearAll as aV, SvgSiClearDay as aW, SvgSiClipboard as aX, SvgSiClipboardAlt as aY, SvgSiClipboardCheck as aZ, SvgSiClipboardCheckAlt as a_, SvgSiArrowRight as aa, SvgSiArrowRightCircle as ab, SvgSiArrowRightSquare as ac, SvgSiArrowUpward as ad, SvgSiArrowUpwardCircle as ae, SvgSiArrowUpwardSquare as af, SvgSiArticle as ag, SvgSiAssignment as ah, SvgSiAttachment as ai, SvgSiBallot as aj, SvgSiBarcode as ak, SvgSiBarcodeScan as al, SvgSiBarcodeScanAlt as am, SvgSiBin as an, SvgSiBluetooth as ao, SvgSiBold as ap, SvgSiBookmark as aq, SvgSiBriefcase as ar, SvgSiBriefcaseDetailed as as, SvgSiBriefcaseMedical as at, SvgSiBriefcases as au, SvgSiBuilding as av, SvgSiBuildingAlt1 as aw, SvgSiBuildingAlt2 as ax, SvgSiBuildingAlt3 as ay, SvgSiBus as az, SvgSiAiArchive as b, SvgSiFlagAlt1 as b$, SvgSiClipboardFilledAlt as b0, SvgSiClock as b1, SvgSiClockAlt as b2, SvgSiClose as b3, SvgSiCloseCircle as b4, SvgSiCloseSquare as b5, SvgSiCloud as b6, SvgSiCode as b7, SvgSiCodeMuted as b8, SvgSiColumns as b9, SvgSiDragHandle as bA, SvgSiDragIndicator as bB, SvgSiDragIndicatorAlt as bC, SvgSiEditDetailed as bD, SvgSiEditDetailedAlt as bE, SvgSiEditSimple as bF, SvgSiEject as bG, SvgSiEmoji as bH, SvgSiEmojiAlt as bI, SvgSiEqualizer as bJ, SvgSiError as bK, SvgSiExpandLess as bL, SvgSiExpandLessAlt as bM, SvgSiExpandLessCircle as bN, SvgSiExpandLessSquare as bO, SvgSiExpandMore as bP, SvgSiExpandMoreAlt as bQ, SvgSiExpandMoreCircle as bR, SvgSiExpandMoreSquare as bS, SvgSiFactCheck as bT, SvgSiFeaturedPlaylist as bU, SvgSiFileDownload as bV, SvgSiFileUpload as bW, SvgSiFilterList as bX, SvgSiFilterListAlt as bY, SvgSiFilterNone as bZ, SvgSiFlag as b_, SvgSiCopy as ba, SvgSiCopyAlt as bb, SvgSiCopyright as bc, SvgSiCopyrightAlt as bd, SvgSiCreditCard as be, SvgSiCreditCardDetailed as bf, SvgSiCreditCardDetailedAlt as bg, SvgSiCrosshairDetailed as bh, SvgSiCrosshairSimple as bi, SvgSiDangerous as bj, SvgSiDashboard as bk, SvgSiDashboardCustomize as bl, SvgSiDashboardHorz as bm, SvgSiDashboardVert as bn, SvgSiDeleteAlarm as bo, SvgSiDiamondsFour as bp, SvgSiDirection as bq, SvgSiDirectionAlt as br, SvgSiDollar as bs, SvgSiDollarAlt1 as bt, SvgSiDollarAlt2 as bu, SvgSiDoubleArrowRight as bv, SvgSiDownLeft as bw, SvgSiDownRight as bx, SvgSiDownTwoHeaded as by, SvgSiDownloadOffline as bz, SvgSiAiBriefcase as c, SvgSiMoreMutedHorizSquare as c$, SvgSiFlagAlt2 as c0, SvgSiFlagAlt3 as c1, SvgSiFlagAlt4 as c2, SvgSiFlare as c3, SvgSiFlowLine as c4, SvgSiFlowParallel as c5, SvgSiGlobeDetailed as c6, SvgSiGrid as c7, SvgSiGridOn as c8, SvgSiGridView as c9, SvgSiLeftUp as cA, SvgSiLibraryBooks as cB, SvgSiLightMode as cC, SvgSiLightning as cD, SvgSiLock as cE, SvgSiLockAlt as cF, SvgSiLockMuted as cG, SvgSiMail as cH, SvgSiMap as cI, SvgSiMemory as cJ, SvgSiMic as cK, SvgSiMicDetailed as cL, SvgSiMoney as cM, SvgSiMonitor as cN, SvgSiMonitorCheck as cO, SvgSiMonitorClose as cP, SvgSiMonitorDown as cQ, SvgSiMonitorPause as cR, SvgSiMonitorPlay as cS, SvgSiMonitorStop as cT, SvgSiMonitorUp as cU, SvgSiMoon as cV, SvgSiMoreHoriz as cW, SvgSiMoreHorizCircle as cX, SvgSiMoreHorizSquare as cY, SvgSiMoreMutedHoriz as cZ, SvgSiMoreMutedHorizCircle as c_, SvgSiHammer as ca, SvgSiHammerAlt as cb, SvgSiHeart as cc, SvgSiHeartAlt as cd, SvgSiHelp as ce, SvgSiHome as cf, SvgSiHomeDetailed as cg, SvgSiHospital as ch, SvgSiHospitalAlt1 as ci, SvgSiHourglass as cj, SvgSiInfo as ck, SvgSiInput as cl, SvgSiInsights as cm, SvgSiInventory as cn, SvgSiItalic as co, SvgSiJson as cp, SvgSiJsonAlt1 as cq, SvgSiJsonAlt2 as cr, SvgSiJsonAlt3 as cs, SvgSiJsonAlt4 as ct, SvgSiJsonAlt5 as cu, SvgSiKeypad as cv, SvgSiLamp as cw, SvgSiLeftDown as cx, SvgSiLeftRight as cy, SvgSiLeftTwoHeaded as cz, SvgSiAiChat as d, SvgSiSettings as d$, SvgSiMoreMutedVert as d0, SvgSiMoreMutedVertCircle as d1, SvgSiMoreMutedVertSquare as d2, SvgSiMoreSquareHoriz as d3, SvgSiMoreSquareVert as d4, SvgSiMoreVert as d5, SvgSiMoreVertCircle as d6, SvgSiMoreVertSquare as d7, SvgSiMove as d8, SvgSiMovie as d9, SvgSiPhonePaused as dA, SvgSiPin as dB, SvgSiPinAlt1 as dC, SvgSiPinAlt2 as dD, SvgSiPlay as dE, SvgSiPlayForward as dF, SvgSiPlayNext as dG, SvgSiPlayPrevious as dH, SvgSiPlayRewind as dI, SvgSiProjects as dJ, SvgSiProjectsAlt as dK, SvgSiPullRequest as dL, SvgSiQuote as dM, SvgSiRecord as dN, SvgSiRemove as dO, SvgSiRemoveAlarm as dP, SvgSiRemoveCircle as dQ, SvgSiRemoveFromLibrary as dR, SvgSiRemoveSquare as dS, SvgSiReorder as dT, SvgSiReorderAlt as dU, SvgSiRightTwoHeaded as dV, SvgSiRocket as dW, SvgSiRupee as dX, SvgSiSearch as dY, SvgSiSearchAlt as dZ, SvgSiSegment as d_, SvgSiNorthEast as da, SvgSiNorthEastCircle as db, SvgSiNorthEastEscape as dc, SvgSiNorthEastEscapeAlt as dd, SvgSiNorthEastSquare as de, SvgSiNorthWest as df, SvgSiNorthWestCircle as dg, SvgSiNorthWestEscape as dh, SvgSiNorthWestEscapeAlt as di, SvgSiNorthWestSquare as dj, SvgSiNortheastSouthwest as dk, SvgSiNorthwestSoutheast as dl, SvgSiNotifications as dm, SvgSiNotificationsAlt as dn, SvgSiNotificationsThick as dp, SvgSiOctagon as dq, SvgSiOctagonCheck as dr, SvgSiPause as ds, SvgSiPausePresentation as dt, SvgSiPhone as du, SvgSiPhoneAddCall as dv, SvgSiPhoneCallback as dw, SvgSiPhoneEnabled as dx, SvgSiPhoneForwarded as dy, SvgSiPhoneLocked as dz, SvgSiAiChecklist as e, SvgSiUnlockMuted as e$, SvgSiSettingsAlt as e0, SvgSiSettingsApplications as e1, SvgSiSettingsCute as e2, SvgSiSettingsThick as e3, SvgSiShield as e4, SvgSiShieldAlert as e5, SvgSiShieldBad as e6, SvgSiShieldHealthSafety as e7, SvgSiShieldPolice as e8, SvgSiShieldSecurity as e9, SvgSiSun as eA, SvgSiSunSet as eB, SvgSiSunnySnowing as eC, SvgSiSwapHoriz as eD, SvgSiSwapVert as eE, SvgSiTable as eF, SvgSiTableColumns as eG, SvgSiTableRows as eH, SvgSiTarget as eI, SvgSiTerminal as eJ, SvgSiTerminalAlt as eK, SvgSiText as eL, SvgSiThumbDown as eM, SvgSiThumbDownAlt1 as eN, SvgSiThumbDownAlt2 as eO, SvgSiThumbUp as eP, SvgSiThumbUpAlt1 as eQ, SvgSiThumbUpAlt2 as eR, SvgSiToggleOff as eS, SvgSiToggleOn as eT, SvgSiTrafficCone as eU, SvgSiTrain as eV, SvgSiTwitter as eW, SvgSiUnderline as eX, SvgSiUnfoldMore as eY, SvgSiUnlock as eZ, SvgSiUnlockAlt as e_, SvgSiShieldTip as ea, SvgSiShieldVerified as eb, SvgSiSignIn as ec, SvgSiSignInAlt as ed, SvgSiSignOut as ee, SvgSiSignOutAlt as ef, SvgSiSmartPhone as eg, SvgSiSort as eh, SvgSiSortAlt as ei, SvgSiSouthEast as ej, SvgSiSouthEastCircle as ek, SvgSiSouthEastEscape as el, SvgSiSouthEastEscapeAlt as em, SvgSiSouthEastSquare as en, SvgSiSouthWest as eo, SvgSiSouthWestCircle as ep, SvgSiSouthWestEscape as eq, SvgSiSouthWestEscapeAlt as er, SvgSiSouthWestSquare as es, SvgSiSpinner as et, SvgSiSquare as eu, SvgSiStar as ev, SvgSiStarAlt as ew, SvgSiStop as ex, SvgSiStopCircle as ey, SvgSiStrikethrough as ez, SvgSiAiEdit as f, SvgSiUpDown as f0, SvgSiUpTwoHeaded as f1, SvgSiUser as f2, SvgSiUserAlt as f3, SvgSiUserAlt2 as f4, SvgSiUserAlt3 as f5, SvgSiUserAlt4 as f6, SvgSiUserAlt5 as f7, SvgSiVerified as f8, SvgSiVideo as f9, SvgSiViewCompact as fa, SvgSiViewStream as fb, SvgSiWallet as fc, SvgSiWalletAlt as fd, SvgSiWalletDetailed as fe, SvgSiWarning as ff, SvgSiWebcam as fg, SvgSiWidget as fh, SvgSiWidgetAlt1 as fi, SvgSiWindow as fj, SvgSiWrench as fk, SvgSiYouTube as fl, SvgSiZoomIn as fm, SvgSiZoomOut as fn, SvgSiAiEditAlt1 as g, SvgSiAiEditAlt2 as h, index as i, SvgSiAiInventory as j, SvgSiAiLock as k, SvgSiAiMonitor as l, SvgSiAiNote1 as m, SvgSiAiNote as n, SvgSiAiNoteAlt11 as o, SvgSiAiNoteAlt1 as p, SvgSiAiPhone as q, SvgSiAiPhoneAlt1 as r, SvgSiAiScan as s, SvgSiAiSearch as t, SvgSiAiShield as u, SvgSiAiSmartphone as v, SvgSiAiSort as w, SvgSiAiSortAlt1 as x, SvgSiAiSummarize as y, SvgSiAiSummarizeAlt as z };
