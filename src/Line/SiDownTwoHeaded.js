@@ -15,7 +15,7 @@ const SvgSiDownTwoHeaded = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M12 4v16m0 0-3-3m3 3 3-3m-6-5 3 3 3-3"
+      d="M12 4v16m0 0-4-4m4 4 4-4m-8-5 4 4 4-4"
     />
   </svg>
 );

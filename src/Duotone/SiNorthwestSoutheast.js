@@ -15,7 +15,7 @@ const SvgSiNorthwestSoutheast = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="m6 6 12 12M6 6v4m0-4h4m8 12v-4m0 4h-4"
+      d="M18.364 18.364 5.636 5.636m12.728 12.728h-5.657m5.657 0v-5.657M5.636 5.636v5.657m0-5.657h5.657"
     />
   </svg>
 );

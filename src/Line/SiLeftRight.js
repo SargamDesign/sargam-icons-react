@@ -15,7 +15,7 @@ const SvgSiLeftRight = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M20 12H4m16 0-3-3m3 3-3 3M4 12l3-3m-3 3 3 3"
+      d="M21 12H3m18 0-4-4m4 4-4 4M3 12l4-4m-4 4 4 4"
     />
   </svg>
 );
