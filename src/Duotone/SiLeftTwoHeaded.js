@@ -15,7 +15,7 @@ const SvgSiLeftTwoHeaded = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M20 12H4m0 0 3-3m-3 3 3 3m5-6-3 3 3 3"
+      d="M20 12H4m0 0 4-4m-4 4 4 4m5-8-4 4 4 4"
     />
   </svg>
 );

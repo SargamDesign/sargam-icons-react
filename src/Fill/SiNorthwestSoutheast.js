@@ -12,9 +12,7 @@ const SvgSiNorthwestSoutheast = ({ title, titleId, ...props }) => (
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      fillRule="evenodd"
-      d="M5.293 5.293A1 1 0 0 1 6 5h4a1 1 0 1 1 0 2H8.414L17 15.586V14a1 1 0 1 1 2 0v4a1 1 0 0 1-1 1h-4a1 1 0 1 1 0-2h1.586L7 8.414V10a1 1 0 1 1-2 0V6a1 1 0 0 1 .293-.707"
-      clipRule="evenodd"
+      d="M4.636 11.293V5.636a1 1 0 0 1 1-1h5.657a1 1 0 0 1 0 2H8.05l9.313 9.314v-3.243a1 1 0 0 1 2 0v5.656a1 1 0 0 1-1 1h-5.656a1 1 0 1 1 0-2h3.242L6.637 8.05v3.243a1 1 0 0 1-2 0"
     />
   </svg>
 );

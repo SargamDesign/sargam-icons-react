@@ -15,7 +15,7 @@ const SvgSiUpDown = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M12 4v16m0-16L9 7m3-3 3 3m-3 13-3-3m3 3 3-3"
+      d="M12 3v18m0-18L8 7m4-4 4 4m-4 14-4-4m4 4 4-4"
     />
   </svg>
 );

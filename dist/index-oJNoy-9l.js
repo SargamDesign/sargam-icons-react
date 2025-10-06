@@ -1,41 +1,20 @@
-'use strict';
-
-var _extends = require('@babel/runtime/helpers/extends');
-var React = require('react');
-
-function _interopNamespaceDefault(e) {
-  var n = Object.create(null);
-  if (e) {
-    Object.keys(e).forEach(function (k) {
-      if (k !== 'default') {
-        var d = Object.getOwnPropertyDescriptor(e, k);
-        Object.defineProperty(n, k, d.get ? d : {
-          enumerable: true,
-          get: function () { return e[k]; }
-        });
-      }
-    });
-  }
-  n.default = e;
-  return Object.freeze(n);
-}
-
-var React__namespace = /*#__PURE__*/_interopNamespaceDefault(React);
+import _extends from '@babel/runtime/helpers/extends';
+import * as React from 'react';
 
 const SvgSiAi = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -48,16 +27,16 @@ const SvgSiAiAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -70,16 +49,16 @@ const SvgSiAiArchive = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -92,16 +71,16 @@ const SvgSiAiBriefcase = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -114,23 +93,23 @@ const SvgSiAiChat = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M19 16h-2.525a.99.99 0 0 0-.775.375l-2.925 3.65a1 1 0 0 1-1.562 0l-2.925-3.65A.99.99 0 0 0 7.512 16H5c-1.662 0-3-1.338-3-3V6c0-1.662 1.338-3 3-3h14c1.663 0 3 1.338 3 3v7c0 1.662-1.337 3-3 3"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -143,16 +122,16 @@ const SvgSiAiChecklist = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -165,16 +144,16 @@ const SvgSiAiEdit = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -187,16 +166,16 @@ const SvgSiAiEditAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -209,16 +188,16 @@ const SvgSiAiEditAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -227,20 +206,64 @@ const SvgSiAiEditAlt2 = ({
   d: "m17.657 9.172 1.414-1.415a2 2 0 0 0-2.828-2.828l-1.415 1.414m2.829 2.829-9.193 9.192-3.535.707.707-3.535 9.192-9.193m2.829 2.829-2.829-2.829M4.806 2.776l-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.338 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.338 0-.388l-1.508-.377a.2.2 0 0 1-.145-.145l-.377-1.508c-.05-.202-.338-.202-.388 0M19 17l-.4 1.6-1.6.4 1.6.4.4 1.6.4-1.6L21 19l-1.6-.4z"
 }));
 
-const SvgSiAiInventory = ({
+const SvgSiAiFact = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M5 15h5m-5-3h5M5 9h5m5.806.776-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.337 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.338 0-.388l-1.508-.377a.2.2 0 0 1-.145-.146l-.377-1.507c-.05-.202-.337-.202-.388 0M3.4 4h17.2A2.4 2.4 0 0 1 23 6.4v11.2a2.4 2.4 0 0 1-2.4 2.4H3.4A2.4 2.4 0 0 1 1 17.6V6.4A2.4 2.4 0 0 1 3.4 4"
+}));
+
+const SvgSiAiFactAlt1 = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M19 15h-5m5-3h-5m5-3h-5m6.6-5H3.4A2.4 2.4 0 0 0 1 6.4v11.2A2.4 2.4 0 0 0 3.4 20h17.2a2.4 2.4 0 0 0 2.4-2.4V6.4A2.4 2.4 0 0 0 20.6 4M7.806 9.776l-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.337 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.338 0-.388l-1.508-.377a.2.2 0 0 1-.145-.146l-.377-1.507c-.05-.202-.338-.202-.388 0"
+}));
+
+const SvgSiAiInventory = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -253,16 +276,16 @@ const SvgSiAiLock = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -275,16 +298,16 @@ const SvgSiAiMonitor = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -293,20 +316,20 @@ const SvgSiAiMonitor = ({
   d: "M9 20h6M4.4 4h15.2A2.4 2.4 0 0 1 22 6.4v8.2a2.4 2.4 0 0 1-2.4 2.4H4.4A2.4 2.4 0 0 1 2 14.6V6.4A2.4 2.4 0 0 1 4.4 4m7.406 4.276-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.338 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.338 0-.388l-1.508-.377a.2.2 0 0 1-.145-.145l-.377-1.508c-.05-.202-.338-.202-.388 0"
 }));
 
-const SvgSiAiNote1 = ({
+const SvgSiAiNote = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -315,42 +338,20 @@ const SvgSiAiNote1 = ({
   d: "M14 3a2 2 0 1 1-4 0m4 0a2 2 0 1 0-4 0m4 0h4.6A2.4 2.4 0 0 1 21 5.4v15.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 20.6V5.4A2.4 2.4 0 0 1 5.4 3H10M7 13h4m-4-3h10M7 16h2m5.306-2.224-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.338 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.337 0-.388l-1.508-.377a.2.2 0 0 1-.145-.145l-.377-1.508c-.05-.202-.338-.202-.388 0"
 }));
 
-const SvgSiAiNote = ({
+const SvgSiAiNoteAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
-  stroke: "currentColor",
-  strokeLinecap: "round",
-  strokeLinejoin: "round",
-  strokeMiterlimit: 10,
-  strokeWidth: 1.5,
-  d: "M5 15h5m-5-3h5M5 9h5m5.806.776-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.337 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.338 0-.388l-1.508-.377a.2.2 0 0 1-.145-.146l-.377-1.507c-.05-.202-.337-.202-.388 0M3.4 4h17.2A2.4 2.4 0 0 1 23 6.4v11.2a2.4 2.4 0 0 1-2.4 2.4H3.4A2.4 2.4 0 0 1 1 17.6V6.4A2.4 2.4 0 0 1 3.4 4"
-}));
-
-const SvgSiAiNoteAlt11 = ({
-  title,
-  titleId,
-  ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
-  xmlns: "http://www.w3.org/2000/svg",
-  width: "1em",
-  height: "1em",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
-  id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -359,42 +360,20 @@ const SvgSiAiNoteAlt11 = ({
   d: "M16 3h2.6A2.4 2.4 0 0 1 21 5.4v15.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 20.6V5.4A2.4 2.4 0 0 1 5.4 3H8M7 13h4m-4-3h10M7 16h2M8.8 1h6.4a.8.8 0 0 1 .8.8v2.4a.8.8 0 0 1-.8.8H8.8a.8.8 0 0 1-.8-.8V1.8a.8.8 0 0 1 .8-.8m5.506 12.776-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.338 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.337 0-.388l-1.508-.377a.2.2 0 0 1-.145-.145l-.377-1.508c-.05-.202-.338-.202-.388 0"
 }));
 
-const SvgSiAiNoteAlt1 = ({
-  title,
-  titleId,
-  ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
-  xmlns: "http://www.w3.org/2000/svg",
-  width: "1em",
-  height: "1em",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
-  id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
-  stroke: "currentColor",
-  strokeLinecap: "round",
-  strokeLinejoin: "round",
-  strokeMiterlimit: 10,
-  strokeWidth: 1.5,
-  d: "M19 15h-5m5-3h-5m5-3h-5m6.6-5H3.4A2.4 2.4 0 0 0 1 6.4v11.2A2.4 2.4 0 0 0 3.4 20h17.2a2.4 2.4 0 0 0 2.4-2.4V6.4A2.4 2.4 0 0 0 20.6 4M7.806 9.776l-.377 1.508a.2.2 0 0 1-.145.145l-1.508.377c-.202.05-.202.337 0 .388l1.508.377a.2.2 0 0 1 .145.145l.377 1.508c.05.202.338.202.388 0l.377-1.508a.2.2 0 0 1 .145-.145l1.508-.377c.202-.05.202-.338 0-.388l-1.508-.377a.2.2 0 0 1-.145-.146l-.377-1.507c-.05-.202-.338-.202-.388 0"
-}));
-
 const SvgSiAiPhone = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -407,16 +386,16 @@ const SvgSiAiPhoneAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -429,16 +408,16 @@ const SvgSiAiScan = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -451,16 +430,16 @@ const SvgSiAiSearch = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -473,23 +452,23 @@ const SvgSiAiShield = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12.113 21.98a.33.33 0 0 1-.226 0C10.917 21.64 4 18.94 4 11.252V4.304a.4.4 0 0 1 .303-.389l7.6-1.903a.4.4 0 0 1 .194 0l7.6 1.903a.4.4 0 0 1 .303.389v6.948c0 7.765-6.916 10.397-7.887 10.729"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -502,16 +481,16 @@ const SvgSiAiSmartphone = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -524,16 +503,16 @@ const SvgSiAiSort = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -546,16 +525,16 @@ const SvgSiAiSortAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -568,16 +547,16 @@ const SvgSiAiSummarize = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -590,16 +569,16 @@ const SvgSiAiSummarizeAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -612,16 +591,16 @@ const SvgSiAiUnlock = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -634,21 +613,21 @@ const SvgSiActions = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
   d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
@@ -659,16 +638,16 @@ const SvgSiAdd = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -681,16 +660,16 @@ const SvgSiAddAlarm = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -703,16 +682,16 @@ const SvgSiAddCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -725,16 +704,16 @@ const SvgSiAddSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -747,16 +726,16 @@ const SvgSiAddToLibrary = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -769,16 +748,16 @@ const SvgSiAddToPlaylist = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -791,16 +770,16 @@ const SvgSiAirplane = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -813,16 +792,16 @@ const SvgSiAirplaneAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -835,28 +814,28 @@ const SvgSiAlbum = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -868,16 +847,16 @@ const SvgSiAlert = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -890,16 +869,16 @@ const SvgSiAlignBottomDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -912,16 +891,16 @@ const SvgSiAlignBottomSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -934,16 +913,16 @@ const SvgSiAlignCenter = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -956,16 +935,16 @@ const SvgSiAlignHorizCenterDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -978,16 +957,16 @@ const SvgSiAlignHorizCenterSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1000,16 +979,16 @@ const SvgSiAlignJustify = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1022,16 +1001,16 @@ const SvgSiAlignLeft = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1044,16 +1023,16 @@ const SvgSiAlignLeftDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1066,16 +1045,16 @@ const SvgSiAlignLeftSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1088,16 +1067,16 @@ const SvgSiAlignRight = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1110,16 +1089,16 @@ const SvgSiAlignRightDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1132,16 +1111,16 @@ const SvgSiAlignRightSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1154,16 +1133,16 @@ const SvgSiAlignTopDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1176,16 +1155,16 @@ const SvgSiAlignTopSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1198,16 +1177,16 @@ const SvgSiAlignVertCenterDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1220,16 +1199,16 @@ const SvgSiAlignVertCenterSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1242,16 +1221,16 @@ const SvgSiApple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -1263,16 +1242,16 @@ const SvgSiArchive = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1285,16 +1264,16 @@ const SvgSiArchiveAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1307,16 +1286,16 @@ const SvgSiArrowDownward = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1329,16 +1308,16 @@ const SvgSiArrowDownwardCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1351,16 +1330,16 @@ const SvgSiArrowDownwardSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1373,16 +1352,16 @@ const SvgSiArrowLeft = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1395,16 +1374,16 @@ const SvgSiArrowLeftCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1417,16 +1396,16 @@ const SvgSiArrowLeftSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1439,16 +1418,16 @@ const SvgSiArrowRight = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1461,16 +1440,16 @@ const SvgSiArrowRightCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1483,16 +1462,16 @@ const SvgSiArrowRightSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1505,16 +1484,16 @@ const SvgSiArrowUpward = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1527,16 +1506,16 @@ const SvgSiArrowUpwardCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1549,16 +1528,16 @@ const SvgSiArrowUpwardSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1571,16 +1550,16 @@ const SvgSiArticle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1593,16 +1572,16 @@ const SvgSiAssignment = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1615,16 +1594,16 @@ const SvgSiAttachment = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1637,16 +1616,16 @@ const SvgSiBallot = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1659,16 +1638,16 @@ const SvgSiBarcode = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1681,16 +1660,16 @@ const SvgSiBarcodeScan = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1703,27 +1682,27 @@ const SvgSiBarcodeScanAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   clipPath: "url(#si_Barcode_scan_alt_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M5 23H3.4A2.4 2.4 0 0 1 1 20.6V19m18 4h1.6a2.4 2.4 0 0 0 2.4-2.4V19m0-14V3.4A2.4 2.4 0 0 0 20.6 1H19M5 1H3.4A2.4 2.4 0 0 0 1 3.4V5m4.6-1h2.8A1.6 1.6 0 0 1 10 5.6v2.8A1.6 1.6 0 0 1 8.4 10H5.6A1.6 1.6 0 0 1 4 8.4V5.6A1.6 1.6 0 0 1 5.6 4m0 10h2.8a1.6 1.6 0 0 1 1.6 1.6v2.8A1.6 1.6 0 0 1 8.4 20H5.6A1.6 1.6 0 0 1 4 18.4v-2.8A1.6 1.6 0 0 1 5.6 14m10-10h2.8A1.6 1.6 0 0 1 20 5.6v2.8a1.6 1.6 0 0 1-1.6 1.6h-2.8A1.6 1.6 0 0 1 14 8.4V5.6A1.6 1.6 0 0 1 15.6 4m0 10h2.8a1.6 1.6 0 0 1 1.6 1.6v2.8a1.6 1.6 0 0 1-1.6 1.6h-2.8a1.6 1.6 0 0 1-1.6-1.6v-2.8a1.6 1.6 0 0 1 1.6-1.6"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Barcode_scan_alt_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -1732,16 +1711,16 @@ const SvgSiBin = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1754,16 +1733,16 @@ const SvgSiBluetooth = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1776,16 +1755,16 @@ const SvgSiBold = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1798,16 +1777,16 @@ const SvgSiBookmark = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -1820,16 +1799,16 @@ const SvgSiBriefcase = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1842,16 +1821,16 @@ const SvgSiBriefcaseDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1864,16 +1843,16 @@ const SvgSiBriefcaseMedical = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "M9 13.25a.75.75 0 0 0 0 1.5zm6 1.5a.75.75 0 0 0 0-1.5zM11.25 17a.75.75 0 0 0 1.5 0zm1.5-6a.75.75 0 0 0-1.5 0zM4.4 7.75h15.2v-1.5H4.4zm15.2 0c.911 0 1.65.739 1.65 1.65h1.5a3.15 3.15 0 0 0-3.15-3.15zm1.65 1.65v9.2h1.5V9.4zm0 9.2a1.65 1.65 0 0 1-1.65 1.65v1.5a3.15 3.15 0 0 0 3.15-3.15zm-1.65 1.65H4.4v1.5h15.2zm-15.2 0a1.65 1.65 0 0 1-1.65-1.65h-1.5a3.15 3.15 0 0 0 3.15 3.15zM2.75 18.6V9.4h-1.5v9.2zm0-9.2c0-.911.739-1.65 1.65-1.65v-1.5A3.15 3.15 0 0 0 1.25 9.4zM9 14.75h6v-1.5H9zM12.75 17v-6h-1.5v6zM9.8 4.75h4.4v-1.5H9.8zm4.4 0a.05.05 0 0 1 .05.05h1.5a1.55 1.55 0 0 0-1.55-1.55zm.05.05V7h1.5V4.8zM9.75 7V4.8h-1.5V7zm0-2.2a.05.05 0 0 1 .05-.05v-1.5A1.55 1.55 0 0 0 8.25 4.8z"
 }));
@@ -1882,16 +1861,16 @@ const SvgSiBriefcases = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1904,16 +1883,16 @@ const SvgSiBuilding = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1926,16 +1905,16 @@ const SvgSiBuildingAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1948,16 +1927,16 @@ const SvgSiBuildingAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1970,16 +1949,16 @@ const SvgSiBuildingAlt3 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -1992,16 +1971,16 @@ const SvgSiBus = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2014,16 +1993,16 @@ const SvgSiCancelPhoto = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2036,16 +2015,16 @@ const SvgSiCancelPresentation = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2058,16 +2037,16 @@ const SvgSiCastle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2080,16 +2059,16 @@ const SvgSiCastleAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2102,16 +2081,16 @@ const SvgSiChat = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -2123,16 +2102,16 @@ const SvgSiChatText = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2145,16 +2124,16 @@ const SvgSiCheck = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2166,16 +2145,16 @@ const SvgSiCheckAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2188,16 +2167,16 @@ const SvgSiCheckCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2209,16 +2188,16 @@ const SvgSiCheckSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2230,16 +2209,16 @@ const SvgSiChecklist = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2252,16 +2231,16 @@ const SvgSiChecklistAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2274,16 +2253,16 @@ const SvgSiChevronLeft = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2295,16 +2274,16 @@ const SvgSiChevronLeftAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2316,16 +2295,16 @@ const SvgSiChevronLeftCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2337,16 +2316,16 @@ const SvgSiChevronLeftSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2358,16 +2337,16 @@ const SvgSiChevronRight = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2379,16 +2358,16 @@ const SvgSiChevronRightAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2400,16 +2379,16 @@ const SvgSiChevronRightCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2421,16 +2400,16 @@ const SvgSiChevronRightSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2442,16 +2421,16 @@ const SvgSiCity = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2464,16 +2443,16 @@ const SvgSiClearAll = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2486,34 +2465,59 @@ const SvgSiClearDay = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
-  fill: "currentColor",
-  d: "M11.25 4a.75.75 0 0 0 1.5 0zm1.5-2a.75.75 0 0 0-1.5 0zm-1.5 20a.75.75 0 0 0 1.5 0zm1.5-2a.75.75 0 0 0-1.5 0zM4 12.75a.75.75 0 0 0 0-1.5zm-2-1.5a.75.75 0 0 0 0 1.5zm20 1.5a.75.75 0 0 0 0-1.5zm-2-1.5a.75.75 0 0 0 0 1.5zM6.87 18.19a.75.75 0 1 0-1.06-1.06zm-2.47.35a.75.75 0 1 0 1.06 1.06zm13.79-1.41a.75.75 0 1 0-1.06 1.06zm.35 2.47a.75.75 0 1 0 1.06-1.06zM5.46 4.4A.75.75 0 0 0 4.4 5.46zm.35 2.47a.75.75 0 0 0 1.06-1.06zM12.75 4V2h-1.5v2zm0 18v-2h-1.5v2zM4 11.25H2v1.5h2zm18 0h-2v1.5h2zM5.81 17.13 4.4 18.54l1.06 1.06 1.41-1.41zM18.54 4.4l-1.41 1.41 1.06 1.06 1.41-1.41zm-1.41 13.79 1.41 1.41 1.06-1.06-1.41-1.41zM4.4 5.46l1.41 1.41 1.06-1.06L5.46 4.4zM15.25 12A3.25 3.25 0 0 1 12 15.25v1.5A4.75 4.75 0 0 0 16.75 12zM12 15.25A3.25 3.25 0 0 1 8.75 12h-1.5A4.75 4.75 0 0 0 12 16.75zM8.75 12A3.25 3.25 0 0 1 12 8.75v-1.5A4.75 4.75 0 0 0 7.25 12zM12 8.75A3.25 3.25 0 0 1 15.25 12h1.5A4.75 4.75 0 0 0 12 7.25z"
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M12 4V2m0 20v-2m-8-8H2m20 0h-2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41m0 11.32 1.41 1.41M4.93 4.93l1.41 1.41M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+}));
+
+const SvgSiClick = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M12 2v3m-6.995 6.995h-3m2.926-7.063 2.12 2.122m12.022-2.129L16.95 7.047m-9.9 9.9-2.12 2.12M11 11l10 4.4-4.437 1.163L15.4 21z"
 }));
 
 const SvgSiClipboard = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2526,16 +2530,16 @@ const SvgSiClipboardAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2548,16 +2552,16 @@ const SvgSiClipboardCheck = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2569,16 +2573,16 @@ const SvgSiClipboardCheckAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2590,16 +2594,16 @@ const SvgSiClipboardFilled = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2612,16 +2616,16 @@ const SvgSiClipboardFilledAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2634,16 +2638,16 @@ const SvgSiClock = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2656,16 +2660,16 @@ const SvgSiClockAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2678,16 +2682,16 @@ const SvgSiClose = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2700,16 +2704,16 @@ const SvgSiCloseCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2722,16 +2726,16 @@ const SvgSiCloseSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2744,16 +2748,16 @@ const SvgSiCloud = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -2766,16 +2770,16 @@ const SvgSiCode = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2787,16 +2791,16 @@ const SvgSiCodeMuted = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2808,16 +2812,16 @@ const SvgSiColumns = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2830,16 +2834,16 @@ const SvgSiCopy = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2852,16 +2856,16 @@ const SvgSiCopyAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2874,16 +2878,16 @@ const SvgSiCopyright = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeWidth: 1.5,
@@ -2894,16 +2898,16 @@ const SvgSiCopyrightAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
@@ -2914,16 +2918,16 @@ const SvgSiCreditCard = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2936,16 +2940,16 @@ const SvgSiCreditCardDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2958,16 +2962,16 @@ const SvgSiCreditCardDetailedAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -2980,16 +2984,16 @@ const SvgSiCrosshairDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3002,16 +3006,16 @@ const SvgSiCrosshairSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3024,16 +3028,16 @@ const SvgSiDangerous = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3046,16 +3050,16 @@ const SvgSiDashboard = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -3067,16 +3071,16 @@ const SvgSiDashboardCustomize = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3089,16 +3093,16 @@ const SvgSiDashboardHorz = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3111,16 +3115,16 @@ const SvgSiDashboardVert = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3133,16 +3137,16 @@ const SvgSiDeleteAlarm = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3155,26 +3159,26 @@ const SvgSiDiamondsFour = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   clipPath: "url(#si_Diamonds_four_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   d: "m3.798 8.889-1.98 1.98a1.6 1.6 0 0 0 0 2.262l1.98 1.98a1.6 1.6 0 0 0 2.262 0l1.98-1.98a1.6 1.6 0 0 0 0-2.262l-1.98-1.98a1.6 1.6 0 0 0-2.262 0Zm7.071-7.071-1.98 1.98a1.6 1.6 0 0 0 0 2.262l1.98 1.98a1.6 1.6 0 0 0 2.262 0l1.98-1.98a1.6 1.6 0 0 0 0-2.262l-1.98-1.98a1.6 1.6 0 0 0-2.262 0Zm0 14.142-1.98 1.98a1.6 1.6 0 0 0 0 2.262l1.98 1.98a1.6 1.6 0 0 0 2.262 0l1.98-1.98a1.6 1.6 0 0 0 0-2.262l-1.98-1.98a1.6 1.6 0 0 0-2.262 0Zm7.071-7.071-1.98 1.98a1.6 1.6 0 0 0 0 2.262l1.98 1.98a1.6 1.6 0 0 0 2.262 0l1.98-1.98a1.6 1.6 0 0 0 0-2.262l-1.98-1.98a1.6 1.6 0 0 0-2.262 0Z"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Diamonds_four_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -3183,16 +3187,16 @@ const SvgSiDirection = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3205,16 +3209,16 @@ const SvgSiDirectionAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3227,16 +3231,16 @@ const SvgSiDollar = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3249,16 +3253,16 @@ const SvgSiDollarAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3271,16 +3275,16 @@ const SvgSiDollarAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3292,16 +3296,16 @@ const SvgSiDoubleArrowRight = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3313,16 +3317,16 @@ const SvgSiDownLeft = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3334,16 +3338,16 @@ const SvgSiDownRight = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3355,37 +3359,37 @@ const SvgSiDownTwoHeaded = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "M12 4v16m0 0-3-3m3 3 3-3m-6-5 3 3 3-3"
+  d: "M12 4v16m0 0-4-4m4 4 4-4m-8-5 4 4 4-4"
 }));
 
 const SvgSiDownloadOffline = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3398,16 +3402,16 @@ const SvgSiDragHandle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3420,16 +3424,16 @@ const SvgSiDragIndicator = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -3441,16 +3445,16 @@ const SvgSiDragIndicatorAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3462,16 +3466,16 @@ const SvgSiEditDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3484,16 +3488,16 @@ const SvgSiEditDetailedAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -3505,16 +3509,16 @@ const SvgSiEditSimple = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -3526,16 +3530,16 @@ const SvgSiEject = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -3547,16 +3551,16 @@ const SvgSiEmoji = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3569,16 +3573,16 @@ const SvgSiEmojiAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3591,16 +3595,16 @@ const SvgSiEqualizer = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3613,16 +3617,16 @@ const SvgSiError = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3635,16 +3639,16 @@ const SvgSiExpandLess = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3656,16 +3660,16 @@ const SvgSiExpandLessAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3677,16 +3681,16 @@ const SvgSiExpandLessCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3698,16 +3702,16 @@ const SvgSiExpandLessSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3719,16 +3723,16 @@ const SvgSiExpandMore = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3740,16 +3744,16 @@ const SvgSiExpandMoreAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3761,16 +3765,16 @@ const SvgSiExpandMoreCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3782,16 +3786,16 @@ const SvgSiExpandMoreSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3803,16 +3807,16 @@ const SvgSiFactCheck = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3824,16 +3828,16 @@ const SvgSiFeaturedPlaylist = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3846,16 +3850,16 @@ const SvgSiFileDownload = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3868,16 +3872,16 @@ const SvgSiFileUpload = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3890,16 +3894,16 @@ const SvgSiFilterList = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3912,16 +3916,16 @@ const SvgSiFilterListAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3934,16 +3938,16 @@ const SvgSiFilterNone = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3956,16 +3960,16 @@ const SvgSiFlag = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -3978,16 +3982,16 @@ const SvgSiFlagAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4000,16 +4004,16 @@ const SvgSiFlagAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4022,16 +4026,16 @@ const SvgSiFlagAlt3 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4044,16 +4048,16 @@ const SvgSiFlagAlt4 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4066,27 +4070,27 @@ const SvgSiFlare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   clipPath: "url(#si_Flare_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M7 12H1m22 0h-6m-5 5v6m3.536-7.464 1.414 1.414m-9.9-9.9 1.414 1.414m7.072 0L16.95 7.05m-9.9 9.9 1.414-1.414M12 1v6m2 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Flare_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -4095,16 +4099,16 @@ const SvgSiFlowLine = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4117,16 +4121,16 @@ const SvgSiFlowParallel = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4139,16 +4143,16 @@ const SvgSiGlobeDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "M10.674 22.145a.75.75 0 1 0 1.193-.91zm1.393-.914a.75.75 0 1 0 1.186.918zM21.25 12A9.25 9.25 0 0 1 12 21.25v1.5c5.937 0 10.75-4.813 10.75-10.75zM12 21.25A9.25 9.25 0 0 1 2.75 12h-1.5c0 5.937 4.813 10.75 10.75 10.75zM2.75 12A9.25 9.25 0 0 1 12 2.75v-1.5C6.063 1.25 1.25 6.063 1.25 12zM12 2.75A9.25 9.25 0 0 1 21.25 12h1.5c0-5.937-4.813-10.75-10.75-10.75zm-10 10h20v-1.5H2zm9.867 8.485A15.2 15.2 0 0 1 8.75 12h-1.5a16.7 16.7 0 0 0 3.424 10.145zM8.75 12a15.23 15.23 0 0 1 3.183-9.32l-1.186-.92A16.74 16.74 0 0 0 7.25 12zm3.383-9.325a15.2 15.2 0 0 1 3.117 9.235h1.5c0-3.81-1.278-7.329-3.423-10.145zm3.117 9.235a15.23 15.23 0 0 1-3.183 9.32l1.186.92a16.74 16.74 0 0 0 3.497-10.24zM12 16.75c2.59 0 4.92 1.062 6.605 2.776l1.07-1.052A10.73 10.73 0 0 0 12 15.25zm6.604-12.274A9.2 9.2 0 0 1 12 7.25v1.5c3.01 0 5.73-1.237 7.676-3.226zM12 7.25a9.23 9.23 0 0 1-6.605-2.776l-1.07 1.052A10.73 10.73 0 0 0 12 8.75zM5.396 19.525A9.2 9.2 0 0 1 12 16.75v-1.5c-3.01 0-5.73 1.237-7.676 3.226z"
 }));
@@ -4157,16 +4161,16 @@ const SvgSiGrid = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -4178,16 +4182,16 @@ const SvgSiGridOn = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4200,16 +4204,16 @@ const SvgSiGridView = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -4221,16 +4225,16 @@ const SvgSiHammer = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "m14.657 11.586.53-.53a.75.75 0 0 0-1.06 0zm-2.121 2.121.53.53zm-9.617 7.354-.53.53zm-.566-.566.53-.53zm0-2.262.53.53zm7.354-7.354-.53-.53zm2.122-2.122.53.53a.75.75 0 0 0 0-1.06zm9.475 2.405.53-.53zm-3.536 3.535-.53.53zm-2.404-9.475.53-.53zM3.52 4.692a.75.75 0 0 0 1.06 1.06zm10.607 6.363-2.122 2.122 1.06 1.06 2.122-2.121zm-2.122 2.122L4.651 20.53l1.061 1.06 7.354-7.354zM4.651 20.53a.85.85 0 0 1-1.202 0l-1.06 1.06a2.35 2.35 0 0 0 3.323 0zm-1.202 0-.565-.566-1.061 1.06.566.566zm-.565-.566a.85.85 0 0 1 0-1.202l-1.061-1.06a2.35 2.35 0 0 0 0 3.323zm0-1.202 7.354-7.354-1.061-1.06-7.354 7.353zm7.354-7.354 2.12-2.121-1.06-1.061-2.121 2.121zm10.535.283a.85.85 0 0 1 0 1.202l1.061 1.06a2.35 2.35 0 0 0 0-3.323zm0 1.202-1.272 1.273 1.06 1.06 1.273-1.272zm-1.272 1.273a.85.85 0 0 1-1.203 0l-1.06 1.06a2.35 2.35 0 0 0 3.323 0zm-4.667-8.415 4.95 4.95 1.06-1.06-4.95-4.95zm4.95 4.95.99.99 1.06-1.06-.99-.99zm-1.485 3.465-.99-.99-1.061 1.06.99.99zm-.99-.99-2.122-2.122-1.06 1.061 2.12 2.121zm0 1.06 3.535-3.535-1.06-1.06-3.536 3.535zm-4.95-6.01-4.95-4.95-1.06 1.06 4.95 4.95zm.707 4.95-2.828-2.829-1.061 1.061 2.828 2.828zM4.58 5.752a7.25 7.25 0 0 1 10.253 0l1.06-1.06a8.75 8.75 0 0 0-12.374 0z"
 }));
@@ -4239,16 +4243,16 @@ const SvgSiHammerAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4261,16 +4265,16 @@ const SvgSiHeart = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4282,16 +4286,16 @@ const SvgSiHeartAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4305,16 +4309,16 @@ const SvgSiHelp = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4327,22 +4331,22 @@ const SvgSiHome = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M18.6 22H5.4A2.4 2.4 0 0 1 3 19.588V8.332c0-.382.18-.734.48-.965l7.78-5.126a1.195 1.195 0 0 1 1.44 0l7.82 5.126c.3.231.48.583.48.965v11.256A2.4 2.4 0 0 1 18.6 22Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -4354,16 +4358,16 @@ const SvgSiHomeDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4376,16 +4380,16 @@ const SvgSiHospital = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4398,16 +4402,16 @@ const SvgSiHospitalAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4420,16 +4424,16 @@ const SvgSiHourglass = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4442,16 +4446,16 @@ const SvgSiInfo = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4464,16 +4468,16 @@ const SvgSiInput = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4486,16 +4490,16 @@ const SvgSiInsights = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4507,16 +4511,16 @@ const SvgSiInventory = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4529,16 +4533,16 @@ const SvgSiItalic = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4551,16 +4555,16 @@ const SvgSiJson = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4572,16 +4576,16 @@ const SvgSiJsonAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4593,16 +4597,16 @@ const SvgSiJsonAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4614,16 +4618,16 @@ const SvgSiJsonAlt3 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4635,16 +4639,16 @@ const SvgSiJsonAlt4 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4657,16 +4661,16 @@ const SvgSiJsonAlt5 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "M2 11v-.75a.75.75 0 0 0-.75.75zm2.474-.393-.54-.52zm.306-1.393-.748.057.001.012zM4.51 5.68l-.749.047.001.01zm.252-1.447L4.1 3.88l-.004.008zm.954-.91.326.675.015-.007zM8.2 3.75a.75.75 0 0 0 0-1.5zM2 13h-.75c0 .414.336.75.75.75zm2.474.393-.54.52zm.306 1.393-.747-.069v.012zm-.27 3.535-.748-.057v.01zm.252 1.447-.666.345.004.008zm.954.91.34-.668-.014-.007zM8.2 21.75a.75.75 0 0 0 0-1.5zM22.2 11h.75a.75.75 0 0 0-.75-.75zm-2.474-.393.54-.52zm-.306-1.393.747.069V9.27zm.27-3.535.748.057v-.01zm-.252-1.447.666-.346-.004-.007zm-.954-.91-.34.668.014.007zM16 2.25a.75.75 0 0 0 0 1.5zM22.2 13v.75a.75.75 0 0 0 .75-.75zm-2.474.393.54.52zm-.306 1.393.748-.057-.001-.012zm.27 3.535.749-.047-.001-.01zm-.252 1.447.662.353.004-.008zm-.954.91-.326-.675-.015.008zM16 20.25a.75.75 0 0 0 0 1.5zm-3.276-6.063a.75.75 0 0 0-1.453-.374zm-1.88 3.168-.69-.294-.005.01-.004.011zm-1.37 1.34a.75.75 0 0 0 1.371.61zM2 11.75h.98v-1.5H2zm.98 0c.41 0 .79-.036 1.122-.123.33-.087.66-.237.912-.5l-1.08-1.04c0-.001-.045.045-.213.09a3 3 0 0 1-.741.073zm2.034-.622c.496-.514.579-1.26.513-1.982l-1.494.137c.054.588-.067.77-.099.804zm.514-1.97-.27-3.537-1.496.115.27 3.535zm-.27-3.527c-.03-.474.044-.812.17-1.053l-1.332-.691c-.282.544-.377 1.17-.335 1.839zm.166-1.046c.14-.262.339-.453.618-.588L5.39 2.646c-.56.27-.997.685-1.29 1.233zm.633-.595c.293-.15.67-.24 1.153-.24v-1.5c-.669 0-1.288.125-1.835.403zm1.153-.24h.99v-1.5h-.99zM2 13.75h.98v-1.5H2zm.98 0c.333 0 .575.03.74.074.17.044.215.09.214.089l1.08-1.04c-.253-.263-.582-.413-.912-.5a4.5 4.5 0 0 0-1.122-.123zm.954.163c.032.034.153.216.1.804l1.493.137c.066-.721-.017-1.468-.513-1.982zm.098.816-.27 3.535 1.496.114.27-3.535zm-.27 3.545c-.043.669.052 1.295.334 1.84l1.332-.692c-.126-.241-.2-.579-.17-1.053zm.338 1.847c.293.548.73.963 1.29 1.233l.652-1.351a1.32 1.32 0 0 1-.618-.588zm1.275 1.226c.547.278 1.166.403 1.835.403v-1.5c-.483 0-.86-.09-1.153-.24zm1.835.403h.99v-1.5h-.99zM2.75 13v-2h-1.5v2zm19.45-2.75h-.98v1.5h.98zm-.98 0c-.333 0-.575-.03-.74-.074-.17-.044-.215-.09-.213-.089l-1.081 1.04c.253.263.582.413.912.5a4.5 4.5 0 0 0 1.122.123zm-.954-.163c-.032-.034-.153-.216-.1-.804l-1.493-.137c-.066.721.018 1.468.513 1.982zm-.098-.816.27-3.535-1.496-.115-.27 3.536zm.27-3.545c.043-.669-.052-1.295-.334-1.84l-1.332.692c.126.241.2.579.17 1.053zM20.1 3.879a2.82 2.82 0 0 0-1.29-1.233l-.652 1.351c.28.135.479.326.618.588zm-1.275-1.226c-.546-.278-1.166-.403-1.835-.403v1.5c.483 0 .86.09 1.153.24zM16.99 2.25H16v1.5h.99zm5.21 10h-.98v1.5h.98zm-.98 0c-.41 0-.79.036-1.122.123-.33.087-.66.237-.912.5l1.08 1.04c0 .001.045-.045.213-.09.166-.043.408-.073.741-.073zm-2.034.622c-.495.514-.579 1.26-.513 1.982l1.494-.137c-.054-.588.066-.77.099-.804zm-.514 1.97.27 3.536 1.496-.114-.27-3.535zm.27 3.527c.03.474-.044.812-.17 1.053l1.332.691c.282-.544.377-1.17.335-1.839zm-.166 1.046c-.14.262-.338.454-.618.588l.652 1.351c.56-.27.997-.685 1.29-1.233zm-.633.596c-.293.15-.67.239-1.153.239v1.5c.669 0 1.289-.125 1.835-.403zm-1.153.239H16v1.5h.99zM22.95 13v-2h-1.5v2zm-11.679.813q-.183.716-.475 1.569l1.42.484q.307-.899.508-1.68zm-.475 1.569a25 25 0 0 1-.643 1.68l1.38.586q.375-.879.683-1.782zm-.651 1.7a38 38 0 0 1-.67 1.613l1.37.61a40 40 0 0 0 .697-1.678zM12.25 9a.25.25 0 0 1-.25.25v1.5A1.75 1.75 0 0 0 13.75 9zm-.25.25a.25.25 0 0 1-.25-.25h-1.5c0 .966.784 1.75 1.75 1.75zM11.75 9a.25.25 0 0 1 .25-.25v-1.5A1.75 1.75 0 0 0 10.25 9zm.25-.25a.25.25 0 0 1 .25.25h1.5A1.75 1.75 0 0 0 12 7.25z"
 }));
@@ -4675,16 +4679,16 @@ const SvgSiKeypad = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -4696,16 +4700,16 @@ const SvgSiLamp = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4718,16 +4722,16 @@ const SvgSiLeftDown = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4739,58 +4743,58 @@ const SvgSiLeftRight = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "M20 12H4m16 0-3-3m3 3-3 3M4 12l3-3m-3 3 3 3"
+  d: "M21 12H3m18 0-4-4m4 4-4 4M3 12l4-4m-4 4 4 4"
 }));
 
 const SvgSiLeftTwoHeaded = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "M20 12H4m0 0 3-3m-3 3 3 3m5-6-3 3 3 3"
+  d: "M20 12H4m0 0 4-4m-4 4 4 4m5-8-4 4 4 4"
 }));
 
 const SvgSiLeftUp = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4802,16 +4806,16 @@ const SvgSiLibraryBooks = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4824,27 +4828,27 @@ const SvgSiLightMode = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   clipPath: "url(#si_Light_mode_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M5 12H1m22 0h-4M7.05 7.05 4.222 4.222m15.556 15.556L16.95 16.95m-9.9 0-2.828 2.828M19.778 4.222 16.95 7.05M12 19v4m0-22v4m4 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Light_mode_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -4853,16 +4857,16 @@ const SvgSiLightning = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4876,16 +4880,16 @@ const SvgSiLock = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4898,16 +4902,16 @@ const SvgSiLockAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4920,16 +4924,16 @@ const SvgSiLockMuted = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4942,16 +4946,16 @@ const SvgSiMail = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4963,16 +4967,16 @@ const SvgSiMap = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -4985,16 +4989,16 @@ const SvgSiMemory = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5007,16 +5011,16 @@ const SvgSiMic = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5028,16 +5032,16 @@ const SvgSiMicDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5049,16 +5053,16 @@ const SvgSiMoney = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5070,16 +5074,16 @@ const SvgSiMonitor = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5092,16 +5096,16 @@ const SvgSiMonitorCheck = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5114,16 +5118,16 @@ const SvgSiMonitorClose = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5136,16 +5140,16 @@ const SvgSiMonitorDown = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5158,16 +5162,16 @@ const SvgSiMonitorPause = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5180,16 +5184,16 @@ const SvgSiMonitorPlay = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5202,16 +5206,16 @@ const SvgSiMonitorStop = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5224,16 +5228,16 @@ const SvgSiMonitorUp = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5246,16 +5250,16 @@ const SvgSiMoon = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5267,16 +5271,16 @@ const SvgSiMoreHoriz = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5288,22 +5292,22 @@ const SvgSiMoreHorizCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5315,22 +5319,22 @@ const SvgSiMoreHorizSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M18.6 3H5.4A2.4 2.4 0 0 0 3 5.4v13.2A2.4 2.4 0 0 0 5.4 21h13.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 18.6 3Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5342,16 +5346,16 @@ const SvgSiMoreMutedHoriz = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5363,16 +5367,16 @@ const SvgSiMoreMutedHorizCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5384,16 +5388,16 @@ const SvgSiMoreMutedHorizSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5405,16 +5409,16 @@ const SvgSiMoreMutedVert = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5426,16 +5430,16 @@ const SvgSiMoreMutedVertCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5447,16 +5451,16 @@ const SvgSiMoreMutedVertSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5468,16 +5472,16 @@ const SvgSiMoreSquareHoriz = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5489,16 +5493,16 @@ const SvgSiMoreSquareVert = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5510,16 +5514,16 @@ const SvgSiMoreVert = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5531,22 +5535,22 @@ const SvgSiMoreVertCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5558,22 +5562,22 @@ const SvgSiMoreVertSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M18.6 3H5.4A2.4 2.4 0 0 0 3 5.4v13.2A2.4 2.4 0 0 0 5.4 21h13.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 18.6 3Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5585,16 +5589,16 @@ const SvgSiMove = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5607,16 +5611,16 @@ const SvgSiMovie = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5629,16 +5633,16 @@ const SvgSiNorthEast = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5650,16 +5654,16 @@ const SvgSiNorthEastCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5672,16 +5676,16 @@ const SvgSiNorthEastEscape = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5693,16 +5697,16 @@ const SvgSiNorthEastEscapeAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5715,16 +5719,16 @@ const SvgSiNorthEastSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5737,16 +5741,16 @@ const SvgSiNorthWest = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5758,16 +5762,16 @@ const SvgSiNorthWestCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5780,16 +5784,16 @@ const SvgSiNorthWestEscape = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5801,16 +5805,16 @@ const SvgSiNorthWestEscapeAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5823,16 +5827,16 @@ const SvgSiNorthWestSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5845,58 +5849,58 @@ const SvgSiNortheastSouthwest = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "M18 6 6 18M18 6v4m0-4h-4M6 18v-4m0 4h4"
+  d: "M18.364 5.636 5.636 18.364M18.364 5.636h-5.657m5.657 0v5.657M5.636 18.364v-5.657m0 5.657h5.657"
 }));
 
 const SvgSiNorthwestSoutheast = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "m6 6 12 12M6 6v4m0-4h4m8 12v-4m0 4h-4"
+  d: "M18.364 18.364 5.636 5.636m12.728 12.728h-5.657m5.657 0v-5.657M5.636 5.636v5.657m0-5.657h5.657"
 }));
 
 const SvgSiNotifications = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5908,16 +5912,16 @@ const SvgSiNotificationsAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5929,16 +5933,16 @@ const SvgSiNotificationsThick = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5950,16 +5954,16 @@ const SvgSiOctagon = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -5971,16 +5975,16 @@ const SvgSiOctagonCheck = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -5992,16 +5996,16 @@ const SvgSiPause = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6013,16 +6017,16 @@ const SvgSiPausePresentation = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6035,16 +6039,16 @@ const SvgSiPhone = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6056,16 +6060,16 @@ const SvgSiPhoneAddCall = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6078,16 +6082,16 @@ const SvgSiPhoneCallback = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6100,16 +6104,16 @@ const SvgSiPhoneEnabled = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6121,16 +6125,16 @@ const SvgSiPhoneForwarded = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6143,16 +6147,16 @@ const SvgSiPhoneLocked = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6165,16 +6169,16 @@ const SvgSiPhonePaused = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6187,16 +6191,16 @@ const SvgSiPin = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6209,16 +6213,16 @@ const SvgSiPinAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6231,16 +6235,16 @@ const SvgSiPinAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6253,16 +6257,16 @@ const SvgSiPlay = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
@@ -6273,16 +6277,16 @@ const SvgSiPlayForward = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "m21 12 .43.614a.75.75 0 0 0 0-1.228zM11 5l.43-.614A.75.75 0 0 0 10.25 5zm0 14h-.75a.75.75 0 0 0 1.18.614zm.75-4.867a.75.75 0 0 0-1.5 0zM14 12l.43.614a.75.75 0 0 0 0-1.228zM4 5l.43-.614A.75.75 0 0 0 3.25 5zm0 14h-.75a.75.75 0 0 0 1.18.614zm17.43-7.614-10-7-.86 1.228 10 7zm-10 8.228 10-7-.86-1.228-10 7zM10.25 5v4.688h1.5V5zm0 9.133V19h1.5v-4.867zm4.18-2.747-10-7-.86 1.228 10 7zM3.25 5v14h1.5V5zm1.18 14.614 10-7-.86-1.228-10 7z"
 }));
@@ -6291,16 +6295,16 @@ const SvgSiPlayNext = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6312,16 +6316,16 @@ const SvgSiPlayPrevious = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6333,16 +6337,16 @@ const SvgSiPlayRewind = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "m3 12-.43-.614a.75.75 0 0 0 0 1.228zm10-7h.75a.75.75 0 0 0-1.18-.614zm0 14-.43.614A.75.75 0 0 0 13.75 19zm.75-4.867a.75.75 0 0 0-1.5 0zM10 12l-.43-.614a.75.75 0 0 0 0 1.228zm10-7h.75a.75.75 0 0 0-1.18-.614zm0 14-.43.614A.75.75 0 0 0 20.75 19zM3.43 12.614l10-7-.86-1.228-10 7zm10 5.772-10-7-.86 1.228 10 7zM12.25 5v4.688h1.5V5zm0 9.133V19h1.5v-4.867zm-1.82-1.519 10-7-.86-1.228-10 7zM19.25 5v14h1.5V5zm1.18 13.386-10-7-.86 1.228 10 7z"
 }));
@@ -6351,16 +6355,16 @@ const SvgSiProjects = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6373,16 +6377,16 @@ const SvgSiProjectsAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6395,16 +6399,16 @@ const SvgSiPullRequest = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6417,16 +6421,16 @@ const SvgSiQuote = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6439,16 +6443,16 @@ const SvgSiRecord = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6456,20 +6460,41 @@ const SvgSiRecord = ({
   d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
 }));
 
-const SvgSiRemove = ({
+const SvgSiReleaseNotes = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "m9 8 2 2 4-4M9 16l2 2 4-4M4 20.6V3.4A2.4 2.4 0 0 1 6.4 1h11.2A2.4 2.4 0 0 1 20 3.4v17.2a2.4 2.4 0 0 1-2.4 2.4H6.4A2.4 2.4 0 0 1 4 20.6"
+}));
+
+const SvgSiRemove = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6482,16 +6507,16 @@ const SvgSiRemoveAlarm = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6504,16 +6529,16 @@ const SvgSiRemoveCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6526,16 +6551,16 @@ const SvgSiRemoveFromLibrary = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6548,16 +6573,16 @@ const SvgSiRemoveSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6570,16 +6595,16 @@ const SvgSiReorder = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6592,16 +6617,16 @@ const SvgSiReorderAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6614,37 +6639,37 @@ const SvgSiRightTwoHeaded = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "M4 12h16m0 0-3-3m3 3-3 3m-5-6 3 3-3 3"
+  d: "M4 12h16m0 0-4-4m4 4-4 4m-5-8 4 4-4 4"
 }));
 
 const SvgSiRocket = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6656,16 +6681,16 @@ const SvgSiRupee = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6678,16 +6703,16 @@ const SvgSiSearch = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6700,16 +6725,16 @@ const SvgSiSearchAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6722,16 +6747,16 @@ const SvgSiSegment = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6744,28 +6769,28 @@ const SvgSiSettings = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   clipPath: "url(#si_Settings_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   d: "M21 10h-2.29a7.5 7.5 0 0 0-.54-1.32l1.62-1.62c.78-.78.78-2.05 0-2.83s-2.05-.78-2.83 0l-1.62 1.62c-.21-.11-.42-.21-.64-.3h-.01c-.22-.09-.44-.17-.67-.24V3c0-1.1-.9-2-2-2s-2 .9-2 2v2.29c-.23.07-.45.15-.67.24h-.01c-.22.09-.43.19-.64.3L7.08 4.21c-.78-.78-2.05-.78-2.83 0s-.78 2.05 0 2.83l1.62 1.62a7.5 7.5 0 0 0-.54 1.32H3c-1.1 0-2 .9-2 2s.9 2 2 2h2.29c.07.23.15.46.24.68s.19.44.31.65l-1.62 1.62c-.78.78-.78 2.05 0 2.83s2.05.78 2.83 0l1.62-1.62c.21.11.43.21.65.31.22.09.45.17.68.24v2.29c0 1.1.9 2 2 2s2-.9 2-2v-2.29c.23-.07.46-.15.68-.24s.44-.19.65-.31l1.62 1.62c.78.78 2.05.78 2.83 0s.78-2.05 0-2.83l-1.62-1.62c.11-.21.21-.43.31-.65.09-.22.17-.45.24-.68H21c1.1 0 2-.9 2-2s-.9-2-2-2z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   d: "M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Settings_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -6774,28 +6799,28 @@ const SvgSiSettingsAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   clipPath: "url(#si_Settings_alt_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   d: "M21.4 10h-2.69a6.8 6.8 0 0 0-.55-1.33l1.9-1.9c.62-.62.62-1.64 0-2.26l-.57-.57c-.62-.62-1.64-.62-2.26 0l-1.9 1.9A6.8 6.8 0 0 0 14 5.29V2.6c0-.88-.72-1.6-1.6-1.6h-.8c-.88 0-1.6.72-1.6 1.6v2.69c-.47.14-.91.32-1.33.55l-1.9-1.9c-.62-.62-1.64-.62-2.26 0l-.57.57c-.62.62-.62 1.64 0 2.26l1.9 1.9c-.23.42-.41.86-.55 1.33H2.6c-.88 0-1.6.72-1.6 1.6v.8c0 .88.72 1.6 1.6 1.6h2.69c.14.47.32.91.55 1.33l-1.9 1.9c-.62.62-.62 1.64 0 2.26l.57.57c.62.62 1.64.62 2.26 0l1.9-1.9c.42.23.86.41 1.33.55v2.69c0 .88.72 1.6 1.6 1.6h.8c.88 0 1.6-.72 1.6-1.6v-2.69c.47-.14.91-.32 1.33-.55l1.9 1.9c.62.62 1.64.62 2.26 0l.57-.57c.62-.62.62-1.64 0-2.26l-1.9-1.9c.23-.42.41-.86.55-1.33h2.69c.88 0 1.6-.72 1.6-1.6v-.8c0-.88-.72-1.6-1.6-1.6Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   d: "M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Settings_alt_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -6804,30 +6829,30 @@ const SvgSiSettingsApplications = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   clipPath: "url(#si_Settings_applications_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   d: "M20.067 1H3.933A2.933 2.933 0 0 0 1 3.933v16.134A2.933 2.933 0 0 0 3.933 23h16.134A2.933 2.933 0 0 0 23 20.067V3.933A2.933 2.933 0 0 0 20.067 1Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   d: "M18.5 10.5h-1.75c-.09-.28-.2-.54-.33-.8l1.24-1.24c.59-.59.59-1.54 0-2.12s-1.54-.59-2.12 0L14.3 7.58c-.25-.13-.52-.24-.8-.33V5.5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v1.75c-.28.09-.54.2-.8.33L8.46 6.34a1.49 1.49 0 0 0-2.12 0c-.58.59-.59 1.54 0 2.12L7.58 9.7c-.13.25-.24.52-.33.8H5.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5h1.75c.09.28.2.54.33.8l-1.24 1.24a1.49 1.49 0 0 0 0 2.12c.59.59 1.54.59 2.12 0l1.24-1.24c.25.13.52.24.8.33v1.75c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-1.75c.28-.09.54-.2.8-.33l1.24 1.24c.59.59 1.54.59 2.12 0 .59-.59.59-1.54 0-2.12l-1.24-1.24c.13-.25.24-.52.33-.8h1.75c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   d: "M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Settings_applications_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -6836,28 +6861,28 @@ const SvgSiSettingsCute = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   clipPath: "url(#si_Settings_cute_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   d: "M23 12c0-1.66-1.34-3-3-3h-.76l.54-.54a3 3 0 0 0 0-4.24 3 3 0 0 0-4.24 0l-.54.54V4c0-1.66-1.34-3-3-3S9 2.34 9 4v.76l-.54-.54a3 3 0 0 0-4.24 0 3 3 0 0 0 0 4.24l.54.54H4c-1.66 0-3 1.34-3 3s1.34 3 3 3h.76l-.54.54a3 3 0 0 0 0 4.24 3 3 0 0 0 4.24 0l.54-.54V20c0 1.66 1.34 3 3 3s3-1.34 3-3v-.76l.54.54a3 3 0 0 0 4.24 0 3 3 0 0 0 0-4.24l-.54-.54H20c1.66 0 3-1.34 3-3Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   d: "M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Settings_cute_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -6866,22 +6891,22 @@ const SvgSiSettingsThick = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M20.38 9.49h-1.87c-.05-.12-.09-.24-.14-.35l1.32-1.32c.62-.62.62-1.64 0-2.26l-1.27-1.27c-.62-.62-1.64-.62-2.26 0l-1.32 1.32c-.12-.05-.23-.1-.35-.14V3.6c0-.88-.72-1.6-1.6-1.6h-1.8c-.88 0-1.6.72-1.6 1.6v1.87c-.12.05-.24.09-.35.14L7.82 4.29c-.62-.62-1.64-.62-2.26 0L4.29 5.56c-.62.62-.62 1.64 0 2.26l1.32 1.32c-.05.12-.1.23-.14.35H3.6c-.88 0-1.6.72-1.6 1.6v1.8c0 .88.72 1.6 1.6 1.6h1.87c.05.12.09.24.14.35l-1.32 1.32c-.62.62-.62 1.64 0 2.26l1.27 1.27c.62.62 1.64.62 2.26 0l1.32-1.32c.12.05.23.1.35.14v1.87c0 .88.72 1.6 1.6 1.6h1.8c.88 0 1.6-.72 1.6-1.6v-1.87c.12-.05.24-.09.35-.14l1.32 1.32c.62.62 1.64.62 2.26 0l1.27-1.27c.62-.62.62-1.64 0-2.26l-1.32-1.32c.05-.12.1-.23.14-.35h1.87c.88 0 1.6-.72 1.6-1.6v-1.8c0-.88-.72-1.6-1.6-1.6Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6893,16 +6918,16 @@ const SvgSiShield = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -6914,16 +6939,16 @@ const SvgSiShieldAlert = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6936,16 +6961,16 @@ const SvgSiShieldBad = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6958,16 +6983,16 @@ const SvgSiShieldHealthSafety = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -6980,22 +7005,22 @@ const SvgSiShieldPolice = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12.113 21.98a.33.33 0 0 1-.226 0C10.917 21.64 4 18.94 4 11.252V4.304a.4.4 0 0 1 .303-.389l7.6-1.903a.4.4 0 0 1 .194 0l7.6 1.903a.4.4 0 0 1 .303.389v6.948c0 7.765-6.916 10.397-7.887 10.729Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7007,16 +7032,16 @@ const SvgSiShieldSecurity = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7029,16 +7054,16 @@ const SvgSiShieldTip = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7051,16 +7076,16 @@ const SvgSiShieldVerified = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7072,16 +7097,16 @@ const SvgSiSignIn = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7094,16 +7119,16 @@ const SvgSiSignInAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7116,16 +7141,16 @@ const SvgSiSignOut = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7138,16 +7163,16 @@ const SvgSiSignOutAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7160,16 +7185,16 @@ const SvgSiSmartPhone = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7182,16 +7207,16 @@ const SvgSiSort = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7204,16 +7229,16 @@ const SvgSiSortAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7226,16 +7251,16 @@ const SvgSiSouthEast = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7247,16 +7272,16 @@ const SvgSiSouthEastCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7269,16 +7294,16 @@ const SvgSiSouthEastEscape = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7290,16 +7315,16 @@ const SvgSiSouthEastEscapeAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7312,16 +7337,16 @@ const SvgSiSouthEastSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7334,16 +7359,16 @@ const SvgSiSouthWest = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7355,16 +7380,16 @@ const SvgSiSouthWestCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7377,16 +7402,16 @@ const SvgSiSouthWestEscape = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7398,16 +7423,16 @@ const SvgSiSouthWestEscapeAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7420,16 +7445,16 @@ const SvgSiSouthWestSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7438,42 +7463,64 @@ const SvgSiSouthWestSquare = ({
   d: "m16 8-8 8m0 0v-5m0 5h5M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3"
 }));
 
-const SvgSiSpinner = ({
+const SvgSiSpark = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
-  d: "M12 2v4.167m0 11.666V22m10-10h-4.166M6.167 12H2m17.209-7.208-2.917 2.917m-8.584 8.583-2.917 2.916m14.418 0-2.917-2.916M7.708 7.709 4.791 4.792"
+  d: "M3 12h18m-9.005 9.005v-18m-6.362 15.36L18.36 5.637m0 12.735L5.632 5.644"
+}));
+
+const SvgSiSpinner = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M12 2v4m0 12v4m-9.995-9.995h4m12 0h4M4.931 4.932l2.828 2.829m8.485 8.485 2.829 2.829m-14.136 0 2.829-2.829m8.485-8.485 2.829-2.829"
 }));
 
 const SvgSiSquare = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7485,16 +7532,16 @@ const SvgSiStar = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7506,16 +7553,16 @@ const SvgSiStarAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7527,16 +7574,16 @@ const SvgSiStop = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7548,22 +7595,22 @@ const SvgSiStopCircle = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7575,16 +7622,16 @@ const SvgSiStrikethrough = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7597,27 +7644,27 @@ const SvgSiSun = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("g", {
+}, title) : null, /*#__PURE__*/React.createElement("g", {
   clipPath: "url(#si_Sun_svg__a)"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M3 12H1m22 0h-2m-9 9v2m0-22v2M5.636 18.364l-1.414 1.414M19.778 4.222l-1.414 1.414m-12.728 0L4.222 4.222m15.556 15.556-1.414-1.414M18 12a6 6 0 1 1-12 0 6 6 0 0 1 12 0"
-})), /*#__PURE__*/React__namespace.createElement("defs", null, /*#__PURE__*/React__namespace.createElement("clipPath", {
+})), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
   id: "si_Sun_svg__a"
-}, /*#__PURE__*/React__namespace.createElement("path", {
+}, /*#__PURE__*/React.createElement("path", {
   fill: "#fff",
   d: "M0 0h24v24H0z"
 }))));
@@ -7626,16 +7673,16 @@ const SvgSiSunSet = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7648,16 +7695,16 @@ const SvgSiSunnySnowing = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7669,16 +7716,16 @@ const SvgSiSwapHoriz = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7691,16 +7738,16 @@ const SvgSiSwapVert = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7709,20 +7756,42 @@ const SvgSiSwapVert = ({
   d: "m11 17-4 4m0 0-4-4m4 4V3m14 4-4-4m0 0-4 4m4-4v18"
 }));
 
-const SvgSiTable = ({
+const SvgSiSwatch = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeMiterlimit: 10,
+  strokeWidth: 1.5,
+  d: "M6 18h-.008M6 21h12a3 3 0 1 0 0-6h-4.787M6 21a3 3 0 0 1-3-3V6a3 3 0 0 1 6 0v12c0 .7-.24 1.346-.643 1.856M6 21c.956 0 1.808-.447 2.357-1.144M9 10.728l3.607-3.607a3 3 0 1 1 4.242 4.243l-8.492 8.492"
+}));
+
+const SvgSiTable = ({
+  title,
+  titleId,
+  ...props
+}) => /*#__PURE__*/React.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: "1em",
+  height: "1em",
+  fill: "none",
+  viewBox: "0 0 24 24",
+  "aria-labelledby": titleId
+}, props), title ? /*#__PURE__*/React.createElement("title", {
+  id: titleId
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7735,16 +7804,16 @@ const SvgSiTableColumns = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7757,16 +7826,16 @@ const SvgSiTableRows = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7779,28 +7848,28 @@ const SvgSiTarget = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7812,16 +7881,16 @@ const SvgSiTerminal = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7834,16 +7903,16 @@ const SvgSiTerminalAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7856,16 +7925,16 @@ const SvgSiText = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7878,16 +7947,16 @@ const SvgSiThumbDown = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7900,16 +7969,16 @@ const SvgSiThumbDownAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7921,16 +7990,16 @@ const SvgSiThumbDownAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7942,16 +8011,16 @@ const SvgSiThumbUp = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -7964,16 +8033,16 @@ const SvgSiThumbUpAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -7985,16 +8054,16 @@ const SvgSiThumbUpAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -8006,22 +8075,22 @@ const SvgSiToggleOff = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M17 6H7a6 6 0 1 0 0 12h10a6 6 0 0 0 0-12Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -8033,22 +8102,22 @@ const SvgSiToggleOn = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
   strokeWidth: 1.5,
   d: "M17 6H7a6 6 0 1 0 0 12h10a6 6 0 0 0 0-12Z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -8060,16 +8129,16 @@ const SvgSiTrafficCone = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "M4.277 20.8a.75.75 0 1 0 1.446.4zM9.84 3.59l-.721-.206-.002.005zm4.32 0 .723-.2-.002-.006zm4.117 17.61a.75.75 0 1 0 1.446-.4zm-2.5-10.793a.75.75 0 0 0-.274-1.474zM8.369 8.908l-.737-.139-.277 1.475.737.138zm9.024 7.296a.75.75 0 1 0-.304-1.468zm-10.6-1.488a.75.75 0 0 0-.305 1.468zM2 20.25a.75.75 0 0 0 0 1.5zm20 1.5a.75.75 0 0 0 0-1.5zM5.723 21.2l4.84-17.41-1.446-.4-4.84 17.41zM10.56 3.797a.07.07 0 0 1 .024-.038.04.04 0 0 1 .025-.008v-1.5c-.706 0-1.302.473-1.491 1.134zm.049-.046h2.78v-1.5h-2.78zm2.78 0a.04.04 0 0 1 .025.008.07.07 0 0 1 .024.038l1.442-.412a1.55 1.55 0 0 0-1.49-1.135zm.047.04 4.84 17.41 1.446-.4-4.84-17.41zm2.066 5.143A19 19 0 0 1 12 9.25v1.5c1.284 0 2.55-.114 3.778-.343zM12 9.25c-1.243 0-2.45-.12-3.632-.342l-.277 1.474c1.268.239 2.568.368 3.909.368zm5.088 5.486q-2.462.512-5.088.514v1.5c1.85 0 3.651-.185 5.392-.546zM12 15.25c-1.749 0-3.527-.185-5.207-.534l-.306 1.468c1.78.37 3.662.566 5.513.566zm-10 6.5h20v-1.5H2z"
 }));
@@ -8078,16 +8147,16 @@ const SvgSiTrain = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8100,16 +8169,16 @@ const SvgSiTwitter = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -8121,16 +8190,16 @@ const SvgSiUnderline = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8143,16 +8212,16 @@ const SvgSiUnfoldMore = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8164,16 +8233,16 @@ const SvgSiUnlock = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8186,16 +8255,16 @@ const SvgSiUnlockAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8208,16 +8277,16 @@ const SvgSiUnlockMuted = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8230,58 +8299,58 @@ const SvgSiUpDown = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "M12 4v16m0-16L9 7m3-3 3 3m-3 13-3-3m3 3 3-3"
+  d: "M12 3v18m0-18L8 7m4-4 4 4m-4 14-4-4m4 4 4-4"
 }));
 
 const SvgSiUpTwoHeaded = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
-  d: "M12 20V4m0 0L9 7m3-3 3 3m-6 5 3-3 3 3"
+  d: "M12 20V4m0 0L8 8m4-4 4 4m-8 5 4-4 4 4"
 }));
 
 const SvgSiUser = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8293,22 +8362,22 @@ const SvgSiUserAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
   d: "M20.4 22H3.6c-.88 0-1.6-.72-1.6-1.6v-4.65c0-.25 0-.38.12-.62.38-.88 1.5-1.62 3.25-2.25 1.25 2.38 3.75 4 6.62 4s5.38-1.62 6.62-4c1.75.62 2.88 1.38 3.25 2.25.12.12.12.38.12.62v4.65c0 .88-.72 1.6-1.6 1.6z"
-}), /*#__PURE__*/React__namespace.createElement("path", {
+}), /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8320,16 +8389,16 @@ const SvgSiUserAlt2 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8341,16 +8410,16 @@ const SvgSiUserAlt3 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8363,16 +8432,16 @@ const SvgSiUserAlt4 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8384,16 +8453,16 @@ const SvgSiUserAlt5 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8405,16 +8474,16 @@ const SvgSiVerified = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8426,16 +8495,16 @@ const SvgSiVideo = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeWidth: 1.5,
@@ -8446,16 +8515,16 @@ const SvgSiViewCompact = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8468,16 +8537,16 @@ const SvgSiViewStream = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8490,16 +8559,16 @@ const SvgSiWallet = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8511,16 +8580,16 @@ const SvgSiWalletAlt = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8533,16 +8602,16 @@ const SvgSiWalletDetailed = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8554,16 +8623,16 @@ const SvgSiWarning = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8576,16 +8645,16 @@ const SvgSiWebcam = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   fill: "currentColor",
   d: "M11.25 22a.75.75 0 0 0 1.5 0zM6 22.75h12v-1.5H6zm6.75-.75v-4h-1.5v4zm6.5-12A7.25 7.25 0 0 1 12 17.25v1.5A8.75 8.75 0 0 0 20.75 10zM12 17.25A7.25 7.25 0 0 1 4.75 10h-1.5A8.75 8.75 0 0 0 12 18.75zM4.75 10A7.25 7.25 0 0 1 12 2.75v-1.5A8.75 8.75 0 0 0 3.25 10zM12 2.75A7.25 7.25 0 0 1 19.25 10h1.5A8.75 8.75 0 0 0 12 1.25zM13.25 10c0 .69-.56 1.25-1.25 1.25v1.5A2.75 2.75 0 0 0 14.75 10zM12 11.25c-.69 0-1.25-.56-1.25-1.25h-1.5A2.75 2.75 0 0 0 12 12.75zM10.75 10c0-.69.56-1.25 1.25-1.25v-1.5A2.75 2.75 0 0 0 9.25 10zM12 8.75c.69 0 1.25.56 1.25 1.25h1.5A2.75 2.75 0 0 0 12 7.25z"
 }));
@@ -8594,16 +8663,16 @@ const SvgSiWidget = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8616,16 +8685,16 @@ const SvgSiWidgetAlt1 = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8638,16 +8707,16 @@ const SvgSiWindow = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8660,16 +8729,16 @@ const SvgSiWrench = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8682,16 +8751,16 @@ const SvgSiYouTube = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinejoin: "round",
   strokeMiterlimit: 10,
@@ -8703,16 +8772,16 @@ const SvgSiZoomIn = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8725,16 +8794,16 @@ const SvgSiZoomOut = ({
   title,
   titleId,
   ...props
-}) => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+}) => /*#__PURE__*/React.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: "1em",
   height: "1em",
   fill: "none",
   viewBox: "0 0 24 24",
   "aria-labelledby": titleId
-}, props), title ? /*#__PURE__*/React__namespace.createElement("title", {
+}, props), title ? /*#__PURE__*/React.createElement("title", {
   id: titleId
-}, title) : null, /*#__PURE__*/React__namespace.createElement("path", {
+}, title) : null, /*#__PURE__*/React.createElement("path", {
   stroke: "currentColor",
   strokeLinecap: "round",
   strokeLinejoin: "round",
@@ -8761,13 +8830,13 @@ var index = /*#__PURE__*/Object.freeze({
   SiAiEdit: SvgSiAiEdit,
   SiAiEditAlt1: SvgSiAiEditAlt1,
   SiAiEditAlt2: SvgSiAiEditAlt2,
+  SiAiFact: SvgSiAiFact,
+  SiAiFactAlt1: SvgSiAiFactAlt1,
   SiAiInventory: SvgSiAiInventory,
   SiAiLock: SvgSiAiLock,
   SiAiMonitor: SvgSiAiMonitor,
   SiAiNote: SvgSiAiNote,
-  SiAiNote1: SvgSiAiNote1,
   SiAiNoteAlt1: SvgSiAiNoteAlt1,
-  SiAiNoteAlt11: SvgSiAiNoteAlt11,
   SiAiPhone: SvgSiAiPhone,
   SiAiPhoneAlt1: SvgSiAiPhoneAlt1,
   SiAiScan: SvgSiAiScan,
@@ -8857,6 +8926,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiCity: SvgSiCity,
   SiClearAll: SvgSiClearAll,
   SiClearDay: SvgSiClearDay,
+  SiClick: SvgSiClick,
   SiClipboard: SvgSiClipboard,
   SiClipboardAlt: SvgSiClipboardAlt,
   SiClipboardCheck: SvgSiClipboardCheck,
@@ -9039,6 +9109,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiPullRequest: SvgSiPullRequest,
   SiQuote: SvgSiQuote,
   SiRecord: SvgSiRecord,
+  SiReleaseNotes: SvgSiReleaseNotes,
   SiRemove: SvgSiRemove,
   SiRemoveAlarm: SvgSiRemoveAlarm,
   SiRemoveCircle: SvgSiRemoveCircle,
@@ -9082,6 +9153,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiSouthWestEscape: SvgSiSouthWestEscape,
   SiSouthWestEscapeAlt: SvgSiSouthWestEscapeAlt,
   SiSouthWestSquare: SvgSiSouthWestSquare,
+  SiSpark: SvgSiSpark,
   SiSpinner: SvgSiSpinner,
   SiSquare: SvgSiSquare,
   SiStar: SvgSiStar,
@@ -9094,6 +9166,7 @@ var index = /*#__PURE__*/Object.freeze({
   SiSunnySnowing: SvgSiSunnySnowing,
   SiSwapHoriz: SvgSiSwapHoriz,
   SiSwapVert: SvgSiSwapVert,
+  SiSwatch: SvgSiSwatch,
   SiTable: SvgSiTable,
   SiTableColumns: SvgSiTableColumns,
   SiTableRows: SvgSiTableRows,
@@ -9143,400 +9216,4 @@ var index = /*#__PURE__*/Object.freeze({
   SiZoomOut: SvgSiZoomOut
 });
 
-exports.SvgSiActions = SvgSiActions;
-exports.SvgSiAdd = SvgSiAdd;
-exports.SvgSiAddAlarm = SvgSiAddAlarm;
-exports.SvgSiAddCircle = SvgSiAddCircle;
-exports.SvgSiAddSquare = SvgSiAddSquare;
-exports.SvgSiAddToLibrary = SvgSiAddToLibrary;
-exports.SvgSiAddToPlaylist = SvgSiAddToPlaylist;
-exports.SvgSiAi = SvgSiAi;
-exports.SvgSiAiAlt1 = SvgSiAiAlt1;
-exports.SvgSiAiArchive = SvgSiAiArchive;
-exports.SvgSiAiBriefcase = SvgSiAiBriefcase;
-exports.SvgSiAiChat = SvgSiAiChat;
-exports.SvgSiAiChecklist = SvgSiAiChecklist;
-exports.SvgSiAiEdit = SvgSiAiEdit;
-exports.SvgSiAiEditAlt1 = SvgSiAiEditAlt1;
-exports.SvgSiAiEditAlt2 = SvgSiAiEditAlt2;
-exports.SvgSiAiInventory = SvgSiAiInventory;
-exports.SvgSiAiLock = SvgSiAiLock;
-exports.SvgSiAiMonitor = SvgSiAiMonitor;
-exports.SvgSiAiNote = SvgSiAiNote;
-exports.SvgSiAiNote1 = SvgSiAiNote1;
-exports.SvgSiAiNoteAlt1 = SvgSiAiNoteAlt1;
-exports.SvgSiAiNoteAlt11 = SvgSiAiNoteAlt11;
-exports.SvgSiAiPhone = SvgSiAiPhone;
-exports.SvgSiAiPhoneAlt1 = SvgSiAiPhoneAlt1;
-exports.SvgSiAiScan = SvgSiAiScan;
-exports.SvgSiAiSearch = SvgSiAiSearch;
-exports.SvgSiAiShield = SvgSiAiShield;
-exports.SvgSiAiSmartphone = SvgSiAiSmartphone;
-exports.SvgSiAiSort = SvgSiAiSort;
-exports.SvgSiAiSortAlt1 = SvgSiAiSortAlt1;
-exports.SvgSiAiSummarize = SvgSiAiSummarize;
-exports.SvgSiAiSummarizeAlt = SvgSiAiSummarizeAlt;
-exports.SvgSiAiUnlock = SvgSiAiUnlock;
-exports.SvgSiAirplane = SvgSiAirplane;
-exports.SvgSiAirplaneAlt = SvgSiAirplaneAlt;
-exports.SvgSiAlbum = SvgSiAlbum;
-exports.SvgSiAlert = SvgSiAlert;
-exports.SvgSiAlignBottomDetailed = SvgSiAlignBottomDetailed;
-exports.SvgSiAlignBottomSimple = SvgSiAlignBottomSimple;
-exports.SvgSiAlignCenter = SvgSiAlignCenter;
-exports.SvgSiAlignHorizCenterDetailed = SvgSiAlignHorizCenterDetailed;
-exports.SvgSiAlignHorizCenterSimple = SvgSiAlignHorizCenterSimple;
-exports.SvgSiAlignJustify = SvgSiAlignJustify;
-exports.SvgSiAlignLeft = SvgSiAlignLeft;
-exports.SvgSiAlignLeftDetailed = SvgSiAlignLeftDetailed;
-exports.SvgSiAlignLeftSimple = SvgSiAlignLeftSimple;
-exports.SvgSiAlignRight = SvgSiAlignRight;
-exports.SvgSiAlignRightDetailed = SvgSiAlignRightDetailed;
-exports.SvgSiAlignRightSimple = SvgSiAlignRightSimple;
-exports.SvgSiAlignTopDetailed = SvgSiAlignTopDetailed;
-exports.SvgSiAlignTopSimple = SvgSiAlignTopSimple;
-exports.SvgSiAlignVertCenterDetailed = SvgSiAlignVertCenterDetailed;
-exports.SvgSiAlignVertCenterSimple = SvgSiAlignVertCenterSimple;
-exports.SvgSiApple = SvgSiApple;
-exports.SvgSiArchive = SvgSiArchive;
-exports.SvgSiArchiveAlt = SvgSiArchiveAlt;
-exports.SvgSiArrowDownward = SvgSiArrowDownward;
-exports.SvgSiArrowDownwardCircle = SvgSiArrowDownwardCircle;
-exports.SvgSiArrowDownwardSquare = SvgSiArrowDownwardSquare;
-exports.SvgSiArrowLeft = SvgSiArrowLeft;
-exports.SvgSiArrowLeftCircle = SvgSiArrowLeftCircle;
-exports.SvgSiArrowLeftSquare = SvgSiArrowLeftSquare;
-exports.SvgSiArrowRight = SvgSiArrowRight;
-exports.SvgSiArrowRightCircle = SvgSiArrowRightCircle;
-exports.SvgSiArrowRightSquare = SvgSiArrowRightSquare;
-exports.SvgSiArrowUpward = SvgSiArrowUpward;
-exports.SvgSiArrowUpwardCircle = SvgSiArrowUpwardCircle;
-exports.SvgSiArrowUpwardSquare = SvgSiArrowUpwardSquare;
-exports.SvgSiArticle = SvgSiArticle;
-exports.SvgSiAssignment = SvgSiAssignment;
-exports.SvgSiAttachment = SvgSiAttachment;
-exports.SvgSiBallot = SvgSiBallot;
-exports.SvgSiBarcode = SvgSiBarcode;
-exports.SvgSiBarcodeScan = SvgSiBarcodeScan;
-exports.SvgSiBarcodeScanAlt = SvgSiBarcodeScanAlt;
-exports.SvgSiBin = SvgSiBin;
-exports.SvgSiBluetooth = SvgSiBluetooth;
-exports.SvgSiBold = SvgSiBold;
-exports.SvgSiBookmark = SvgSiBookmark;
-exports.SvgSiBriefcase = SvgSiBriefcase;
-exports.SvgSiBriefcaseDetailed = SvgSiBriefcaseDetailed;
-exports.SvgSiBriefcaseMedical = SvgSiBriefcaseMedical;
-exports.SvgSiBriefcases = SvgSiBriefcases;
-exports.SvgSiBuilding = SvgSiBuilding;
-exports.SvgSiBuildingAlt1 = SvgSiBuildingAlt1;
-exports.SvgSiBuildingAlt2 = SvgSiBuildingAlt2;
-exports.SvgSiBuildingAlt3 = SvgSiBuildingAlt3;
-exports.SvgSiBus = SvgSiBus;
-exports.SvgSiCancelPhoto = SvgSiCancelPhoto;
-exports.SvgSiCancelPresentation = SvgSiCancelPresentation;
-exports.SvgSiCastle = SvgSiCastle;
-exports.SvgSiCastleAlt1 = SvgSiCastleAlt1;
-exports.SvgSiChat = SvgSiChat;
-exports.SvgSiChatText = SvgSiChatText;
-exports.SvgSiCheck = SvgSiCheck;
-exports.SvgSiCheckAlt = SvgSiCheckAlt;
-exports.SvgSiCheckCircle = SvgSiCheckCircle;
-exports.SvgSiCheckSquare = SvgSiCheckSquare;
-exports.SvgSiChecklist = SvgSiChecklist;
-exports.SvgSiChecklistAlt = SvgSiChecklistAlt;
-exports.SvgSiChevronLeft = SvgSiChevronLeft;
-exports.SvgSiChevronLeftAlt = SvgSiChevronLeftAlt;
-exports.SvgSiChevronLeftCircle = SvgSiChevronLeftCircle;
-exports.SvgSiChevronLeftSquare = SvgSiChevronLeftSquare;
-exports.SvgSiChevronRight = SvgSiChevronRight;
-exports.SvgSiChevronRightAlt = SvgSiChevronRightAlt;
-exports.SvgSiChevronRightCircle = SvgSiChevronRightCircle;
-exports.SvgSiChevronRightSquare = SvgSiChevronRightSquare;
-exports.SvgSiCity = SvgSiCity;
-exports.SvgSiClearAll = SvgSiClearAll;
-exports.SvgSiClearDay = SvgSiClearDay;
-exports.SvgSiClipboard = SvgSiClipboard;
-exports.SvgSiClipboardAlt = SvgSiClipboardAlt;
-exports.SvgSiClipboardCheck = SvgSiClipboardCheck;
-exports.SvgSiClipboardCheckAlt = SvgSiClipboardCheckAlt;
-exports.SvgSiClipboardFilled = SvgSiClipboardFilled;
-exports.SvgSiClipboardFilledAlt = SvgSiClipboardFilledAlt;
-exports.SvgSiClock = SvgSiClock;
-exports.SvgSiClockAlt = SvgSiClockAlt;
-exports.SvgSiClose = SvgSiClose;
-exports.SvgSiCloseCircle = SvgSiCloseCircle;
-exports.SvgSiCloseSquare = SvgSiCloseSquare;
-exports.SvgSiCloud = SvgSiCloud;
-exports.SvgSiCode = SvgSiCode;
-exports.SvgSiCodeMuted = SvgSiCodeMuted;
-exports.SvgSiColumns = SvgSiColumns;
-exports.SvgSiCopy = SvgSiCopy;
-exports.SvgSiCopyAlt = SvgSiCopyAlt;
-exports.SvgSiCopyright = SvgSiCopyright;
-exports.SvgSiCopyrightAlt = SvgSiCopyrightAlt;
-exports.SvgSiCreditCard = SvgSiCreditCard;
-exports.SvgSiCreditCardDetailed = SvgSiCreditCardDetailed;
-exports.SvgSiCreditCardDetailedAlt = SvgSiCreditCardDetailedAlt;
-exports.SvgSiCrosshairDetailed = SvgSiCrosshairDetailed;
-exports.SvgSiCrosshairSimple = SvgSiCrosshairSimple;
-exports.SvgSiDangerous = SvgSiDangerous;
-exports.SvgSiDashboard = SvgSiDashboard;
-exports.SvgSiDashboardCustomize = SvgSiDashboardCustomize;
-exports.SvgSiDashboardHorz = SvgSiDashboardHorz;
-exports.SvgSiDashboardVert = SvgSiDashboardVert;
-exports.SvgSiDeleteAlarm = SvgSiDeleteAlarm;
-exports.SvgSiDiamondsFour = SvgSiDiamondsFour;
-exports.SvgSiDirection = SvgSiDirection;
-exports.SvgSiDirectionAlt = SvgSiDirectionAlt;
-exports.SvgSiDollar = SvgSiDollar;
-exports.SvgSiDollarAlt1 = SvgSiDollarAlt1;
-exports.SvgSiDollarAlt2 = SvgSiDollarAlt2;
-exports.SvgSiDoubleArrowRight = SvgSiDoubleArrowRight;
-exports.SvgSiDownLeft = SvgSiDownLeft;
-exports.SvgSiDownRight = SvgSiDownRight;
-exports.SvgSiDownTwoHeaded = SvgSiDownTwoHeaded;
-exports.SvgSiDownloadOffline = SvgSiDownloadOffline;
-exports.SvgSiDragHandle = SvgSiDragHandle;
-exports.SvgSiDragIndicator = SvgSiDragIndicator;
-exports.SvgSiDragIndicatorAlt = SvgSiDragIndicatorAlt;
-exports.SvgSiEditDetailed = SvgSiEditDetailed;
-exports.SvgSiEditDetailedAlt = SvgSiEditDetailedAlt;
-exports.SvgSiEditSimple = SvgSiEditSimple;
-exports.SvgSiEject = SvgSiEject;
-exports.SvgSiEmoji = SvgSiEmoji;
-exports.SvgSiEmojiAlt = SvgSiEmojiAlt;
-exports.SvgSiEqualizer = SvgSiEqualizer;
-exports.SvgSiError = SvgSiError;
-exports.SvgSiExpandLess = SvgSiExpandLess;
-exports.SvgSiExpandLessAlt = SvgSiExpandLessAlt;
-exports.SvgSiExpandLessCircle = SvgSiExpandLessCircle;
-exports.SvgSiExpandLessSquare = SvgSiExpandLessSquare;
-exports.SvgSiExpandMore = SvgSiExpandMore;
-exports.SvgSiExpandMoreAlt = SvgSiExpandMoreAlt;
-exports.SvgSiExpandMoreCircle = SvgSiExpandMoreCircle;
-exports.SvgSiExpandMoreSquare = SvgSiExpandMoreSquare;
-exports.SvgSiFactCheck = SvgSiFactCheck;
-exports.SvgSiFeaturedPlaylist = SvgSiFeaturedPlaylist;
-exports.SvgSiFileDownload = SvgSiFileDownload;
-exports.SvgSiFileUpload = SvgSiFileUpload;
-exports.SvgSiFilterList = SvgSiFilterList;
-exports.SvgSiFilterListAlt = SvgSiFilterListAlt;
-exports.SvgSiFilterNone = SvgSiFilterNone;
-exports.SvgSiFlag = SvgSiFlag;
-exports.SvgSiFlagAlt1 = SvgSiFlagAlt1;
-exports.SvgSiFlagAlt2 = SvgSiFlagAlt2;
-exports.SvgSiFlagAlt3 = SvgSiFlagAlt3;
-exports.SvgSiFlagAlt4 = SvgSiFlagAlt4;
-exports.SvgSiFlare = SvgSiFlare;
-exports.SvgSiFlowLine = SvgSiFlowLine;
-exports.SvgSiFlowParallel = SvgSiFlowParallel;
-exports.SvgSiGlobeDetailed = SvgSiGlobeDetailed;
-exports.SvgSiGrid = SvgSiGrid;
-exports.SvgSiGridOn = SvgSiGridOn;
-exports.SvgSiGridView = SvgSiGridView;
-exports.SvgSiHammer = SvgSiHammer;
-exports.SvgSiHammerAlt = SvgSiHammerAlt;
-exports.SvgSiHeart = SvgSiHeart;
-exports.SvgSiHeartAlt = SvgSiHeartAlt;
-exports.SvgSiHelp = SvgSiHelp;
-exports.SvgSiHome = SvgSiHome;
-exports.SvgSiHomeDetailed = SvgSiHomeDetailed;
-exports.SvgSiHospital = SvgSiHospital;
-exports.SvgSiHospitalAlt1 = SvgSiHospitalAlt1;
-exports.SvgSiHourglass = SvgSiHourglass;
-exports.SvgSiInfo = SvgSiInfo;
-exports.SvgSiInput = SvgSiInput;
-exports.SvgSiInsights = SvgSiInsights;
-exports.SvgSiInventory = SvgSiInventory;
-exports.SvgSiItalic = SvgSiItalic;
-exports.SvgSiJson = SvgSiJson;
-exports.SvgSiJsonAlt1 = SvgSiJsonAlt1;
-exports.SvgSiJsonAlt2 = SvgSiJsonAlt2;
-exports.SvgSiJsonAlt3 = SvgSiJsonAlt3;
-exports.SvgSiJsonAlt4 = SvgSiJsonAlt4;
-exports.SvgSiJsonAlt5 = SvgSiJsonAlt5;
-exports.SvgSiKeypad = SvgSiKeypad;
-exports.SvgSiLamp = SvgSiLamp;
-exports.SvgSiLeftDown = SvgSiLeftDown;
-exports.SvgSiLeftRight = SvgSiLeftRight;
-exports.SvgSiLeftTwoHeaded = SvgSiLeftTwoHeaded;
-exports.SvgSiLeftUp = SvgSiLeftUp;
-exports.SvgSiLibraryBooks = SvgSiLibraryBooks;
-exports.SvgSiLightMode = SvgSiLightMode;
-exports.SvgSiLightning = SvgSiLightning;
-exports.SvgSiLock = SvgSiLock;
-exports.SvgSiLockAlt = SvgSiLockAlt;
-exports.SvgSiLockMuted = SvgSiLockMuted;
-exports.SvgSiMail = SvgSiMail;
-exports.SvgSiMap = SvgSiMap;
-exports.SvgSiMemory = SvgSiMemory;
-exports.SvgSiMic = SvgSiMic;
-exports.SvgSiMicDetailed = SvgSiMicDetailed;
-exports.SvgSiMoney = SvgSiMoney;
-exports.SvgSiMonitor = SvgSiMonitor;
-exports.SvgSiMonitorCheck = SvgSiMonitorCheck;
-exports.SvgSiMonitorClose = SvgSiMonitorClose;
-exports.SvgSiMonitorDown = SvgSiMonitorDown;
-exports.SvgSiMonitorPause = SvgSiMonitorPause;
-exports.SvgSiMonitorPlay = SvgSiMonitorPlay;
-exports.SvgSiMonitorStop = SvgSiMonitorStop;
-exports.SvgSiMonitorUp = SvgSiMonitorUp;
-exports.SvgSiMoon = SvgSiMoon;
-exports.SvgSiMoreHoriz = SvgSiMoreHoriz;
-exports.SvgSiMoreHorizCircle = SvgSiMoreHorizCircle;
-exports.SvgSiMoreHorizSquare = SvgSiMoreHorizSquare;
-exports.SvgSiMoreMutedHoriz = SvgSiMoreMutedHoriz;
-exports.SvgSiMoreMutedHorizCircle = SvgSiMoreMutedHorizCircle;
-exports.SvgSiMoreMutedHorizSquare = SvgSiMoreMutedHorizSquare;
-exports.SvgSiMoreMutedVert = SvgSiMoreMutedVert;
-exports.SvgSiMoreMutedVertCircle = SvgSiMoreMutedVertCircle;
-exports.SvgSiMoreMutedVertSquare = SvgSiMoreMutedVertSquare;
-exports.SvgSiMoreSquareHoriz = SvgSiMoreSquareHoriz;
-exports.SvgSiMoreSquareVert = SvgSiMoreSquareVert;
-exports.SvgSiMoreVert = SvgSiMoreVert;
-exports.SvgSiMoreVertCircle = SvgSiMoreVertCircle;
-exports.SvgSiMoreVertSquare = SvgSiMoreVertSquare;
-exports.SvgSiMove = SvgSiMove;
-exports.SvgSiMovie = SvgSiMovie;
-exports.SvgSiNorthEast = SvgSiNorthEast;
-exports.SvgSiNorthEastCircle = SvgSiNorthEastCircle;
-exports.SvgSiNorthEastEscape = SvgSiNorthEastEscape;
-exports.SvgSiNorthEastEscapeAlt = SvgSiNorthEastEscapeAlt;
-exports.SvgSiNorthEastSquare = SvgSiNorthEastSquare;
-exports.SvgSiNorthWest = SvgSiNorthWest;
-exports.SvgSiNorthWestCircle = SvgSiNorthWestCircle;
-exports.SvgSiNorthWestEscape = SvgSiNorthWestEscape;
-exports.SvgSiNorthWestEscapeAlt = SvgSiNorthWestEscapeAlt;
-exports.SvgSiNorthWestSquare = SvgSiNorthWestSquare;
-exports.SvgSiNortheastSouthwest = SvgSiNortheastSouthwest;
-exports.SvgSiNorthwestSoutheast = SvgSiNorthwestSoutheast;
-exports.SvgSiNotifications = SvgSiNotifications;
-exports.SvgSiNotificationsAlt = SvgSiNotificationsAlt;
-exports.SvgSiNotificationsThick = SvgSiNotificationsThick;
-exports.SvgSiOctagon = SvgSiOctagon;
-exports.SvgSiOctagonCheck = SvgSiOctagonCheck;
-exports.SvgSiPause = SvgSiPause;
-exports.SvgSiPausePresentation = SvgSiPausePresentation;
-exports.SvgSiPhone = SvgSiPhone;
-exports.SvgSiPhoneAddCall = SvgSiPhoneAddCall;
-exports.SvgSiPhoneCallback = SvgSiPhoneCallback;
-exports.SvgSiPhoneEnabled = SvgSiPhoneEnabled;
-exports.SvgSiPhoneForwarded = SvgSiPhoneForwarded;
-exports.SvgSiPhoneLocked = SvgSiPhoneLocked;
-exports.SvgSiPhonePaused = SvgSiPhonePaused;
-exports.SvgSiPin = SvgSiPin;
-exports.SvgSiPinAlt1 = SvgSiPinAlt1;
-exports.SvgSiPinAlt2 = SvgSiPinAlt2;
-exports.SvgSiPlay = SvgSiPlay;
-exports.SvgSiPlayForward = SvgSiPlayForward;
-exports.SvgSiPlayNext = SvgSiPlayNext;
-exports.SvgSiPlayPrevious = SvgSiPlayPrevious;
-exports.SvgSiPlayRewind = SvgSiPlayRewind;
-exports.SvgSiProjects = SvgSiProjects;
-exports.SvgSiProjectsAlt = SvgSiProjectsAlt;
-exports.SvgSiPullRequest = SvgSiPullRequest;
-exports.SvgSiQuote = SvgSiQuote;
-exports.SvgSiRecord = SvgSiRecord;
-exports.SvgSiRemove = SvgSiRemove;
-exports.SvgSiRemoveAlarm = SvgSiRemoveAlarm;
-exports.SvgSiRemoveCircle = SvgSiRemoveCircle;
-exports.SvgSiRemoveFromLibrary = SvgSiRemoveFromLibrary;
-exports.SvgSiRemoveSquare = SvgSiRemoveSquare;
-exports.SvgSiReorder = SvgSiReorder;
-exports.SvgSiReorderAlt = SvgSiReorderAlt;
-exports.SvgSiRightTwoHeaded = SvgSiRightTwoHeaded;
-exports.SvgSiRocket = SvgSiRocket;
-exports.SvgSiRupee = SvgSiRupee;
-exports.SvgSiSearch = SvgSiSearch;
-exports.SvgSiSearchAlt = SvgSiSearchAlt;
-exports.SvgSiSegment = SvgSiSegment;
-exports.SvgSiSettings = SvgSiSettings;
-exports.SvgSiSettingsAlt = SvgSiSettingsAlt;
-exports.SvgSiSettingsApplications = SvgSiSettingsApplications;
-exports.SvgSiSettingsCute = SvgSiSettingsCute;
-exports.SvgSiSettingsThick = SvgSiSettingsThick;
-exports.SvgSiShield = SvgSiShield;
-exports.SvgSiShieldAlert = SvgSiShieldAlert;
-exports.SvgSiShieldBad = SvgSiShieldBad;
-exports.SvgSiShieldHealthSafety = SvgSiShieldHealthSafety;
-exports.SvgSiShieldPolice = SvgSiShieldPolice;
-exports.SvgSiShieldSecurity = SvgSiShieldSecurity;
-exports.SvgSiShieldTip = SvgSiShieldTip;
-exports.SvgSiShieldVerified = SvgSiShieldVerified;
-exports.SvgSiSignIn = SvgSiSignIn;
-exports.SvgSiSignInAlt = SvgSiSignInAlt;
-exports.SvgSiSignOut = SvgSiSignOut;
-exports.SvgSiSignOutAlt = SvgSiSignOutAlt;
-exports.SvgSiSmartPhone = SvgSiSmartPhone;
-exports.SvgSiSort = SvgSiSort;
-exports.SvgSiSortAlt = SvgSiSortAlt;
-exports.SvgSiSouthEast = SvgSiSouthEast;
-exports.SvgSiSouthEastCircle = SvgSiSouthEastCircle;
-exports.SvgSiSouthEastEscape = SvgSiSouthEastEscape;
-exports.SvgSiSouthEastEscapeAlt = SvgSiSouthEastEscapeAlt;
-exports.SvgSiSouthEastSquare = SvgSiSouthEastSquare;
-exports.SvgSiSouthWest = SvgSiSouthWest;
-exports.SvgSiSouthWestCircle = SvgSiSouthWestCircle;
-exports.SvgSiSouthWestEscape = SvgSiSouthWestEscape;
-exports.SvgSiSouthWestEscapeAlt = SvgSiSouthWestEscapeAlt;
-exports.SvgSiSouthWestSquare = SvgSiSouthWestSquare;
-exports.SvgSiSpinner = SvgSiSpinner;
-exports.SvgSiSquare = SvgSiSquare;
-exports.SvgSiStar = SvgSiStar;
-exports.SvgSiStarAlt = SvgSiStarAlt;
-exports.SvgSiStop = SvgSiStop;
-exports.SvgSiStopCircle = SvgSiStopCircle;
-exports.SvgSiStrikethrough = SvgSiStrikethrough;
-exports.SvgSiSun = SvgSiSun;
-exports.SvgSiSunSet = SvgSiSunSet;
-exports.SvgSiSunnySnowing = SvgSiSunnySnowing;
-exports.SvgSiSwapHoriz = SvgSiSwapHoriz;
-exports.SvgSiSwapVert = SvgSiSwapVert;
-exports.SvgSiTable = SvgSiTable;
-exports.SvgSiTableColumns = SvgSiTableColumns;
-exports.SvgSiTableRows = SvgSiTableRows;
-exports.SvgSiTarget = SvgSiTarget;
-exports.SvgSiTerminal = SvgSiTerminal;
-exports.SvgSiTerminalAlt = SvgSiTerminalAlt;
-exports.SvgSiText = SvgSiText;
-exports.SvgSiThumbDown = SvgSiThumbDown;
-exports.SvgSiThumbDownAlt1 = SvgSiThumbDownAlt1;
-exports.SvgSiThumbDownAlt2 = SvgSiThumbDownAlt2;
-exports.SvgSiThumbUp = SvgSiThumbUp;
-exports.SvgSiThumbUpAlt1 = SvgSiThumbUpAlt1;
-exports.SvgSiThumbUpAlt2 = SvgSiThumbUpAlt2;
-exports.SvgSiToggleOff = SvgSiToggleOff;
-exports.SvgSiToggleOn = SvgSiToggleOn;
-exports.SvgSiTrafficCone = SvgSiTrafficCone;
-exports.SvgSiTrain = SvgSiTrain;
-exports.SvgSiTwitter = SvgSiTwitter;
-exports.SvgSiUnderline = SvgSiUnderline;
-exports.SvgSiUnfoldMore = SvgSiUnfoldMore;
-exports.SvgSiUnlock = SvgSiUnlock;
-exports.SvgSiUnlockAlt = SvgSiUnlockAlt;
-exports.SvgSiUnlockMuted = SvgSiUnlockMuted;
-exports.SvgSiUpDown = SvgSiUpDown;
-exports.SvgSiUpTwoHeaded = SvgSiUpTwoHeaded;
-exports.SvgSiUser = SvgSiUser;
-exports.SvgSiUserAlt = SvgSiUserAlt;
-exports.SvgSiUserAlt2 = SvgSiUserAlt2;
-exports.SvgSiUserAlt3 = SvgSiUserAlt3;
-exports.SvgSiUserAlt4 = SvgSiUserAlt4;
-exports.SvgSiUserAlt5 = SvgSiUserAlt5;
-exports.SvgSiVerified = SvgSiVerified;
-exports.SvgSiVideo = SvgSiVideo;
-exports.SvgSiViewCompact = SvgSiViewCompact;
-exports.SvgSiViewStream = SvgSiViewStream;
-exports.SvgSiWallet = SvgSiWallet;
-exports.SvgSiWalletAlt = SvgSiWalletAlt;
-exports.SvgSiWalletDetailed = SvgSiWalletDetailed;
-exports.SvgSiWarning = SvgSiWarning;
-exports.SvgSiWebcam = SvgSiWebcam;
-exports.SvgSiWidget = SvgSiWidget;
-exports.SvgSiWidgetAlt1 = SvgSiWidgetAlt1;
-exports.SvgSiWindow = SvgSiWindow;
-exports.SvgSiWrench = SvgSiWrench;
-exports.SvgSiYouTube = SvgSiYouTube;
-exports.SvgSiZoomIn = SvgSiZoomIn;
-exports.SvgSiZoomOut = SvgSiZoomOut;
-exports.index = index;
+export { SvgSiAlignVertCenterDetailed as $, SvgSiAiUnlock as A, SvgSiActions as B, SvgSiAdd as C, SvgSiAddAlarm as D, SvgSiAddCircle as E, SvgSiAddSquare as F, SvgSiAddToLibrary as G, SvgSiAddToPlaylist as H, SvgSiAirplane as I, SvgSiAirplaneAlt as J, SvgSiAlbum as K, SvgSiAlert as L, SvgSiAlignBottomDetailed as M, SvgSiAlignBottomSimple as N, SvgSiAlignCenter as O, SvgSiAlignHorizCenterDetailed as P, SvgSiAlignHorizCenterSimple as Q, SvgSiAlignJustify as R, SvgSiAi as S, SvgSiAlignLeft as T, SvgSiAlignLeftDetailed as U, SvgSiAlignLeftSimple as V, SvgSiAlignRight as W, SvgSiAlignRightDetailed as X, SvgSiAlignRightSimple as Y, SvgSiAlignTopDetailed as Z, SvgSiAlignTopSimple as _, SvgSiAiAlt1 as a, SvgSiClipboardCheckAlt as a$, SvgSiAlignVertCenterSimple as a0, SvgSiApple as a1, SvgSiArchive as a2, SvgSiArchiveAlt as a3, SvgSiArrowDownward as a4, SvgSiArrowDownwardCircle as a5, SvgSiArrowDownwardSquare as a6, SvgSiArrowLeft as a7, SvgSiArrowLeftCircle as a8, SvgSiArrowLeftSquare as a9, SvgSiCancelPhoto as aA, SvgSiCancelPresentation as aB, SvgSiCastle as aC, SvgSiCastleAlt1 as aD, SvgSiChat as aE, SvgSiChatText as aF, SvgSiCheck as aG, SvgSiCheckAlt as aH, SvgSiCheckCircle as aI, SvgSiCheckSquare as aJ, SvgSiChecklist as aK, SvgSiChecklistAlt as aL, SvgSiChevronLeft as aM, SvgSiChevronLeftAlt as aN, SvgSiChevronLeftCircle as aO, SvgSiChevronLeftSquare as aP, SvgSiChevronRight as aQ, SvgSiChevronRightAlt as aR, SvgSiChevronRightCircle as aS, SvgSiChevronRightSquare as aT, SvgSiCity as aU, SvgSiClearAll as aV, SvgSiClearDay as aW, SvgSiClick as aX, SvgSiClipboard as aY, SvgSiClipboardAlt as aZ, SvgSiClipboardCheck as a_, SvgSiArrowRight as aa, SvgSiArrowRightCircle as ab, SvgSiArrowRightSquare as ac, SvgSiArrowUpward as ad, SvgSiArrowUpwardCircle as ae, SvgSiArrowUpwardSquare as af, SvgSiArticle as ag, SvgSiAssignment as ah, SvgSiAttachment as ai, SvgSiBallot as aj, SvgSiBarcode as ak, SvgSiBarcodeScan as al, SvgSiBarcodeScanAlt as am, SvgSiBin as an, SvgSiBluetooth as ao, SvgSiBold as ap, SvgSiBookmark as aq, SvgSiBriefcase as ar, SvgSiBriefcaseDetailed as as, SvgSiBriefcaseMedical as at, SvgSiBriefcases as au, SvgSiBuilding as av, SvgSiBuildingAlt1 as aw, SvgSiBuildingAlt2 as ax, SvgSiBuildingAlt3 as ay, SvgSiBus as az, SvgSiAiArchive as b, SvgSiFlag as b$, SvgSiClipboardFilled as b0, SvgSiClipboardFilledAlt as b1, SvgSiClock as b2, SvgSiClockAlt as b3, SvgSiClose as b4, SvgSiCloseCircle as b5, SvgSiCloseSquare as b6, SvgSiCloud as b7, SvgSiCode as b8, SvgSiCodeMuted as b9, SvgSiDownloadOffline as bA, SvgSiDragHandle as bB, SvgSiDragIndicator as bC, SvgSiDragIndicatorAlt as bD, SvgSiEditDetailed as bE, SvgSiEditDetailedAlt as bF, SvgSiEditSimple as bG, SvgSiEject as bH, SvgSiEmoji as bI, SvgSiEmojiAlt as bJ, SvgSiEqualizer as bK, SvgSiError as bL, SvgSiExpandLess as bM, SvgSiExpandLessAlt as bN, SvgSiExpandLessCircle as bO, SvgSiExpandLessSquare as bP, SvgSiExpandMore as bQ, SvgSiExpandMoreAlt as bR, SvgSiExpandMoreCircle as bS, SvgSiExpandMoreSquare as bT, SvgSiFactCheck as bU, SvgSiFeaturedPlaylist as bV, SvgSiFileDownload as bW, SvgSiFileUpload as bX, SvgSiFilterList as bY, SvgSiFilterListAlt as bZ, SvgSiFilterNone as b_, SvgSiColumns as ba, SvgSiCopy as bb, SvgSiCopyAlt as bc, SvgSiCopyright as bd, SvgSiCopyrightAlt as be, SvgSiCreditCard as bf, SvgSiCreditCardDetailed as bg, SvgSiCreditCardDetailedAlt as bh, SvgSiCrosshairDetailed as bi, SvgSiCrosshairSimple as bj, SvgSiDangerous as bk, SvgSiDashboard as bl, SvgSiDashboardCustomize as bm, SvgSiDashboardHorz as bn, SvgSiDashboardVert as bo, SvgSiDeleteAlarm as bp, SvgSiDiamondsFour as bq, SvgSiDirection as br, SvgSiDirectionAlt as bs, SvgSiDollar as bt, SvgSiDollarAlt1 as bu, SvgSiDollarAlt2 as bv, SvgSiDoubleArrowRight as bw, SvgSiDownLeft as bx, SvgSiDownRight as by, SvgSiDownTwoHeaded as bz, SvgSiAiBriefcase as c, SvgSiMoreMutedHorizCircle as c$, SvgSiFlagAlt1 as c0, SvgSiFlagAlt2 as c1, SvgSiFlagAlt3 as c2, SvgSiFlagAlt4 as c3, SvgSiFlare as c4, SvgSiFlowLine as c5, SvgSiFlowParallel as c6, SvgSiGlobeDetailed as c7, SvgSiGrid as c8, SvgSiGridOn as c9, SvgSiLeftTwoHeaded as cA, SvgSiLeftUp as cB, SvgSiLibraryBooks as cC, SvgSiLightMode as cD, SvgSiLightning as cE, SvgSiLock as cF, SvgSiLockAlt as cG, SvgSiLockMuted as cH, SvgSiMail as cI, SvgSiMap as cJ, SvgSiMemory as cK, SvgSiMic as cL, SvgSiMicDetailed as cM, SvgSiMoney as cN, SvgSiMonitor as cO, SvgSiMonitorCheck as cP, SvgSiMonitorClose as cQ, SvgSiMonitorDown as cR, SvgSiMonitorPause as cS, SvgSiMonitorPlay as cT, SvgSiMonitorStop as cU, SvgSiMonitorUp as cV, SvgSiMoon as cW, SvgSiMoreHoriz as cX, SvgSiMoreHorizCircle as cY, SvgSiMoreHorizSquare as cZ, SvgSiMoreMutedHoriz as c_, SvgSiGridView as ca, SvgSiHammer as cb, SvgSiHammerAlt as cc, SvgSiHeart as cd, SvgSiHeartAlt as ce, SvgSiHelp as cf, SvgSiHome as cg, SvgSiHomeDetailed as ch, SvgSiHospital as ci, SvgSiHospitalAlt1 as cj, SvgSiHourglass as ck, SvgSiInfo as cl, SvgSiInput as cm, SvgSiInsights as cn, SvgSiInventory as co, SvgSiItalic as cp, SvgSiJson as cq, SvgSiJsonAlt1 as cr, SvgSiJsonAlt2 as cs, SvgSiJsonAlt3 as ct, SvgSiJsonAlt4 as cu, SvgSiJsonAlt5 as cv, SvgSiKeypad as cw, SvgSiLamp as cx, SvgSiLeftDown as cy, SvgSiLeftRight as cz, SvgSiAiChat as d, SvgSiSearchAlt as d$, SvgSiMoreMutedHorizSquare as d0, SvgSiMoreMutedVert as d1, SvgSiMoreMutedVertCircle as d2, SvgSiMoreMutedVertSquare as d3, SvgSiMoreSquareHoriz as d4, SvgSiMoreSquareVert as d5, SvgSiMoreVert as d6, SvgSiMoreVertCircle as d7, SvgSiMoreVertSquare as d8, SvgSiMove as d9, SvgSiPhoneLocked as dA, SvgSiPhonePaused as dB, SvgSiPin as dC, SvgSiPinAlt1 as dD, SvgSiPinAlt2 as dE, SvgSiPlay as dF, SvgSiPlayForward as dG, SvgSiPlayNext as dH, SvgSiPlayPrevious as dI, SvgSiPlayRewind as dJ, SvgSiProjects as dK, SvgSiProjectsAlt as dL, SvgSiPullRequest as dM, SvgSiQuote as dN, SvgSiRecord as dO, SvgSiReleaseNotes as dP, SvgSiRemove as dQ, SvgSiRemoveAlarm as dR, SvgSiRemoveCircle as dS, SvgSiRemoveFromLibrary as dT, SvgSiRemoveSquare as dU, SvgSiReorder as dV, SvgSiReorderAlt as dW, SvgSiRightTwoHeaded as dX, SvgSiRocket as dY, SvgSiRupee as dZ, SvgSiSearch as d_, SvgSiMovie as da, SvgSiNorthEast as db, SvgSiNorthEastCircle as dc, SvgSiNorthEastEscape as dd, SvgSiNorthEastEscapeAlt as de, SvgSiNorthEastSquare as df, SvgSiNorthWest as dg, SvgSiNorthWestCircle as dh, SvgSiNorthWestEscape as di, SvgSiNorthWestEscapeAlt as dj, SvgSiNorthWestSquare as dk, SvgSiNortheastSouthwest as dl, SvgSiNorthwestSoutheast as dm, SvgSiNotifications as dn, SvgSiNotificationsAlt as dp, SvgSiNotificationsThick as dq, SvgSiOctagon as dr, SvgSiOctagonCheck as ds, SvgSiPause as dt, SvgSiPausePresentation as du, SvgSiPhone as dv, SvgSiPhoneAddCall as dw, SvgSiPhoneCallback as dx, SvgSiPhoneEnabled as dy, SvgSiPhoneForwarded as dz, SvgSiAiChecklist as e, SvgSiUnderline as e$, SvgSiSegment as e0, SvgSiSettings as e1, SvgSiSettingsAlt as e2, SvgSiSettingsApplications as e3, SvgSiSettingsCute as e4, SvgSiSettingsThick as e5, SvgSiShield as e6, SvgSiShieldAlert as e7, SvgSiShieldBad as e8, SvgSiShieldHealthSafety as e9, SvgSiStop as eA, SvgSiStopCircle as eB, SvgSiStrikethrough as eC, SvgSiSun as eD, SvgSiSunSet as eE, SvgSiSunnySnowing as eF, SvgSiSwapHoriz as eG, SvgSiSwapVert as eH, SvgSiSwatch as eI, SvgSiTable as eJ, SvgSiTableColumns as eK, SvgSiTableRows as eL, SvgSiTarget as eM, SvgSiTerminal as eN, SvgSiTerminalAlt as eO, SvgSiText as eP, SvgSiThumbDown as eQ, SvgSiThumbDownAlt1 as eR, SvgSiThumbDownAlt2 as eS, SvgSiThumbUp as eT, SvgSiThumbUpAlt1 as eU, SvgSiThumbUpAlt2 as eV, SvgSiToggleOff as eW, SvgSiToggleOn as eX, SvgSiTrafficCone as eY, SvgSiTrain as eZ, SvgSiTwitter as e_, SvgSiShieldPolice as ea, SvgSiShieldSecurity as eb, SvgSiShieldTip as ec, SvgSiShieldVerified as ed, SvgSiSignIn as ee, SvgSiSignInAlt as ef, SvgSiSignOut as eg, SvgSiSignOutAlt as eh, SvgSiSmartPhone as ei, SvgSiSort as ej, SvgSiSortAlt as ek, SvgSiSouthEast as el, SvgSiSouthEastCircle as em, SvgSiSouthEastEscape as en, SvgSiSouthEastEscapeAlt as eo, SvgSiSouthEastSquare as ep, SvgSiSouthWest as eq, SvgSiSouthWestCircle as er, SvgSiSouthWestEscape as es, SvgSiSouthWestEscapeAlt as et, SvgSiSouthWestSquare as eu, SvgSiSpark as ev, SvgSiSpinner as ew, SvgSiSquare as ex, SvgSiStar as ey, SvgSiStarAlt as ez, SvgSiAiEdit as f, SvgSiUnfoldMore as f0, SvgSiUnlock as f1, SvgSiUnlockAlt as f2, SvgSiUnlockMuted as f3, SvgSiUpDown as f4, SvgSiUpTwoHeaded as f5, SvgSiUser as f6, SvgSiUserAlt as f7, SvgSiUserAlt2 as f8, SvgSiUserAlt3 as f9, SvgSiUserAlt4 as fa, SvgSiUserAlt5 as fb, SvgSiVerified as fc, SvgSiVideo as fd, SvgSiViewCompact as fe, SvgSiViewStream as ff, SvgSiWallet as fg, SvgSiWalletAlt as fh, SvgSiWalletDetailed as fi, SvgSiWarning as fj, SvgSiWebcam as fk, SvgSiWidget as fl, SvgSiWidgetAlt1 as fm, SvgSiWindow as fn, SvgSiWrench as fo, SvgSiYouTube as fp, SvgSiZoomIn as fq, SvgSiZoomOut as fr, SvgSiAiEditAlt1 as g, SvgSiAiEditAlt2 as h, index as i, SvgSiAiFact as j, SvgSiAiFactAlt1 as k, SvgSiAiInventory as l, SvgSiAiLock as m, SvgSiAiMonitor as n, SvgSiAiNote as o, SvgSiAiNoteAlt1 as p, SvgSiAiPhone as q, SvgSiAiPhoneAlt1 as r, SvgSiAiScan as s, SvgSiAiSearch as t, SvgSiAiShield as u, SvgSiAiSmartphone as v, SvgSiAiSort as w, SvgSiAiSortAlt1 as x, SvgSiAiSummarize as y, SvgSiAiSummarizeAlt as z };

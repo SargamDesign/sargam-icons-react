@@ -1,5 +1,5 @@
 import * as React from "react";
-const SvgSiNortheastSouthwest = ({ title, titleId, ...props }) => (
+const SvgSiReleaseNotes = ({ title, titleId, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
@@ -15,8 +15,8 @@ const SvgSiNortheastSouthwest = ({ title, titleId, ...props }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M18.364 5.636 5.636 18.364M18.364 5.636h-5.657m5.657 0v5.657M5.636 18.364v-5.657m0 5.657h5.657"
+      d="m9 8 2 2 4-4M9 16l2 2 4-4M4 20.6V3.4A2.4 2.4 0 0 1 6.4 1h11.2A2.4 2.4 0 0 1 20 3.4v17.2a2.4 2.4 0 0 1-2.4 2.4H6.4A2.4 2.4 0 0 1 4 20.6"
     />
   </svg>
 );
-export default SvgSiNortheastSouthwest;
+export default SvgSiReleaseNotes;
