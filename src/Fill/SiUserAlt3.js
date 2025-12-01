@@ -1,19 +1,24 @@
 import * as React from "react";
-const SvgSiUserAlt3 = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiUserAlt3 = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M7.25 7a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0M5 16.4A1.4 1.4 0 0 1 6.4 15h11.2a1.4 1.4 0 0 1 1.4 1.4V21a1 1 0 1 0 2 0v-4.6a3.4 3.4 0 0 0-3.4-3.4H6.4A3.4 3.4 0 0 0 3 16.4V21a1 1 0 1 0 2 0z"
+      d="M7.25 7a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0m13.5 14a.75.75 0 0 1-.75.75H4a.75.75 0 0 1-.75-.75v-4.6a3.15 3.15 0 0 1 3.15-3.15h11.2a3.15 3.15 0 0 1 3.15 3.15z"
     />
   </svg>
 );
-export default SvgSiUserAlt3;
+SvgSiUserAlt3.displayName = "SvgSiUserAlt3";
+const ForwardRef = forwardRef(SvgSiUserAlt3);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiNortheastSouthwest = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiNortheastSouthwest = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -19,4 +21,7 @@ const SvgSiNortheastSouthwest = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiNortheastSouthwest;
+SvgSiNortheastSouthwest.displayName = "SvgSiNortheastSouthwest";
+const ForwardRef = forwardRef(SvgSiNortheastSouthwest);
+const Memo = memo(ForwardRef);
+export default Memo;

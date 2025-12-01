@@ -1,16 +1,18 @@
 import * as React from "react";
-const SvgSiBarcodeScanAlt = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiBarcodeScanAlt = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g clipPath="url(#si_Barcode_scan_alt_svg__a)">
+    <g clipPath="url(#a)">
       <path
         fill="currentColor"
         fillOpacity={0.16}
@@ -26,10 +28,13 @@ const SvgSiBarcodeScanAlt = ({ title, titleId, ...props }) => (
       />
     </g>
     <defs>
-      <clipPath id="si_Barcode_scan_alt_svg__a">
+      <clipPath id="a">
         <path fill="#fff" d="M0 0h24v24H0z" />
       </clipPath>
     </defs>
   </svg>
 );
-export default SvgSiBarcodeScanAlt;
+SvgSiBarcodeScanAlt.displayName = "SvgSiBarcodeScanAlt";
+const ForwardRef = forwardRef(SvgSiBarcodeScanAlt);
+const Memo = memo(ForwardRef);
+export default Memo;

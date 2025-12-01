@@ -1,19 +1,24 @@
 import * as React from "react";
-const SvgSiSunSet = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiSunSet = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
       fill="currentColor"
-      d="M12 1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1M0 13a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1m20 0a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1m.485-8.485a1 1 0 0 1 0 1.414l-1.414 1.414a1 1 0 0 1-1.414-1.414l1.414-1.414a1 1 0 0 1 1.414 0m-16.97 0a1 1 0 0 1 1.414 0l1.414 1.414A1 1 0 1 1 4.93 7.343L3.515 5.93a1 1 0 0 1 0-1.414M7 21a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m13-4h-2.257A6.96 6.96 0 0 0 19 13c0-3.862-3.138-7-7-7s-7 3.138-7 7c0 1.483.459 2.865 1.247 4H4a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2"
+      d="M16 20a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2zM12 7c3.31 0 6 2.69 6 6a5.97 5.97 0 0 1-1.53 4H20a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2h3.519A6 6 0 0 1 6 13c0-3.31 2.69-6 6-6m-9 5a1 1 0 1 1 0 2H1a1 1 0 1 1 0-2zm20 0a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2zM3.515 4.515a1 1 0 0 1 1.414 0l1.414 1.414a1 1 0 1 1-1.414 1.414L3.515 5.929a1 1 0 0 1 0-1.414m15.556 0a1 1 0 0 1 1.414 1.414l-1.414 1.414a1 1 0 1 1-1.414-1.414zM12 1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1"
     />
   </svg>
 );
-export default SvgSiSunSet;
+SvgSiSunSet.displayName = "SvgSiSunSet";
+const ForwardRef = forwardRef(SvgSiSunSet);
+const Memo = memo(ForwardRef);
+export default Memo;

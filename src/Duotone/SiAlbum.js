@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiAlbum = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiAlbum = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -40,4 +42,7 @@ const SvgSiAlbum = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiAlbum;
+SvgSiAlbum.displayName = "SvgSiAlbum";
+const ForwardRef = forwardRef(SvgSiAlbum);
+const Memo = memo(ForwardRef);
+export default Memo;

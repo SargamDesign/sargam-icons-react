@@ -1,16 +1,18 @@
 import * as React from "react";
-const SvgSiWalletAlt = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiWalletAlt = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
     {title ? <title id={titleId}>{title}</title> : null}
-    <g fill="currentColor" clipPath="url(#si_Wallet_alt_svg__a)">
+    <g fill="currentColor" clipPath="url(#a)">
       <path d="M17.6 4H5a1 1 0 1 1 0-2h12.6C21.132 2 24 4.868 24 8.4V17a1 1 0 1 1-2 0V8.4C22 5.972 20.028 4 17.6 4" />
       <path
         fillRule="evenodd"
@@ -19,10 +21,13 @@ const SvgSiWalletAlt = ({ title, titleId, ...props }) => (
       />
     </g>
     <defs>
-      <clipPath id="si_Wallet_alt_svg__a">
+      <clipPath id="a">
         <path fill="#fff" d="M0 0h24v24H0z" />
       </clipPath>
     </defs>
   </svg>
 );
-export default SvgSiWalletAlt;
+SvgSiWalletAlt.displayName = "SvgSiWalletAlt";
+const ForwardRef = forwardRef(SvgSiWalletAlt);
+const Memo = memo(ForwardRef);
+export default Memo;
