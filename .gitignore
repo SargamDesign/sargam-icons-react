@@ -1,4 +1,33 @@
+# Dependencies
 node_modules
+
+# Build outputs (keep for npm publish)
+# dist is published, so we don't ignore it
+
+# Source assets (downloaded from sargam-icons package)
 assets
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# OS
 .DS_Store
 **/.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# Misc
+.env
+.env.local

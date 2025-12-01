@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiUserAlt5 = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiUserAlt5 = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -16,8 +18,11 @@ const SvgSiUserAlt5 = ({ title, titleId, ...props }) => (
     />
     <path
       fill="currentColor"
-      d="M18.944 12.937a1 1 0 0 0-.668 1.886c.825.292 1.458.602 1.91.912.458.315.67.589.754.786q.018.042.039.082l.001.147v3.65c0 .328-.272.6-.6.6H3.6a.605.605 0 0 1-.6-.6v-3.65l.001-.132v-.014l.013-.027.024-.05c.09-.207.303-.479.758-.79.452-.31 1.084-.618 1.913-.916a1 1 0 1 0-.678-1.882c-.92.332-1.723.708-2.364 1.147-.63.43-1.16.96-1.454 1.622-.09.183-.153.366-.185.57-.028.175-.028.343-.028.45V20.4C1 21.832 2.168 23 3.6 23h16.833a2.605 2.605 0 0 0 2.547-2.6v-3.668c0-.108 0-.293-.024-.472a1.5 1.5 0 0 0-.232-.646c-.297-.615-.808-1.117-1.405-1.527-.643-.442-1.45-.822-2.375-1.15"
+      d="M3.6 22h16.78c.88 0 1.6-.72 1.6-1.6v-3.65c0-.24 0-.5-.12-.62-.37-.87-1.5-1.63-3.25-2.25C17.657 14.63 15 16 12 16s-5.42-1.37-6.63-2.12c-1.75.63-2.87 1.37-3.25 2.25-.12.24-.12.37-.12.62v3.65c0 .88.72 1.6 1.6 1.6"
     />
   </svg>
 );
-export default SvgSiUserAlt5;
+SvgSiUserAlt5.displayName = "SvgSiUserAlt5";
+const ForwardRef = forwardRef(SvgSiUserAlt5);
+const Memo = memo(ForwardRef);
+export default Memo;

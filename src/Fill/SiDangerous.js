@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiDangerous = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiDangerous = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -18,4 +20,7 @@ const SvgSiDangerous = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiDangerous;
+SvgSiDangerous.displayName = "SvgSiDangerous";
+const ForwardRef = forwardRef(SvgSiDangerous);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiSettingsCute = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiSettingsCute = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -15,16 +17,19 @@ const SvgSiSettingsCute = ({ title, titleId, ...props }) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      clipPath="url(#si_Settings_cute_svg__a)"
+      clipPath="url(#a)"
     >
       <path d="M23 12c0-1.66-1.34-3-3-3h-.76l.54-.54a3 3 0 0 0 0-4.24 3 3 0 0 0-4.24 0l-.54.54V4c0-1.66-1.34-3-3-3S9 2.34 9 4v.76l-.54-.54a3 3 0 0 0-4.24 0 3 3 0 0 0 0 4.24l.54.54H4c-1.66 0-3 1.34-3 3s1.34 3 3 3h.76l-.54.54a3 3 0 0 0 0 4.24 3 3 0 0 0 4.24 0l.54-.54V20c0 1.66 1.34 3 3 3s3-1.34 3-3v-.76l.54.54a3 3 0 0 0 4.24 0 3 3 0 0 0 0-4.24l-.54-.54H20c1.66 0 3-1.34 3-3Z" />
       <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
     </g>
     <defs>
-      <clipPath id="si_Settings_cute_svg__a">
+      <clipPath id="a">
         <path fill="#fff" d="M0 0h24v24H0z" />
       </clipPath>
     </defs>
   </svg>
 );
-export default SvgSiSettingsCute;
+SvgSiSettingsCute.displayName = "SvgSiSettingsCute";
+const ForwardRef = forwardRef(SvgSiSettingsCute);
+const Memo = memo(ForwardRef);
+export default Memo;

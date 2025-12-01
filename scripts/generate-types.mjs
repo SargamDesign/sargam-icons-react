@@ -18,21 +18,52 @@ async function readIconNames(styleDir) {
 }
 
 function fileHeader() {
-  return `import * as React from 'react';\n\n`;
+  return `import * as React from 'react';
+
+/**
+ * Props for Sargam icon components
+ * @property {string} [title] - Accessible title for the icon. When provided, the icon will have an accessibility label.
+ */
+export interface IconProps extends React.SVGProps<SVGSVGElement> {
+  title?: string;
+}
+
+`;
 }
 
 function iconTypeLine(name) {
-  return `export const ${name}: (props: React.SVGProps<SVGSVGElement> & { title?: string }) => JSX.Element;`;
+  return `/**
+ * ${name} icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const ${name}: React.FC<IconProps>;`;
 }
 
 async function writeStyleDts(styleName, names) {
   const target = path.join(DIST, `${styleName}.d.ts`);
-  const lines = [fileHeader(), ...names.map(iconTypeLine), '\nexport default {};\n'];
+  const lines = [
+    fileHeader(),
+    ...names.map(iconTypeLine),
+    '\n// Re-export IconProps for convenience',
+    'export type { IconProps };\n'
+  ];
   await fs.writeFile(target, lines.join('\n'), 'utf8');
 }
 
 async function writeIndexDts() {
-  const content = `export * as Line from './line.js';\nexport * as Duotone from './duotone.js';\nexport * as Fill from './fill.js';\n`;
+  const content = `import type { IconProps } from './line.js';
+
+export * as Line from './line.js';
+export * as Duotone from './duotone.js';
+export * as Fill from './fill.js';
+
+/**
+ * Props for all Sargam icon components
+ * Re-exported from individual style modules for convenience
+ */
+export type { IconProps };
+`;
   await fs.writeFile(path.join(DIST, 'index.d.ts'), content, 'utf8');
 }
 

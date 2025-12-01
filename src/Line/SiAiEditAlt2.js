@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiAiEditAlt2 = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiAiEditAlt2 = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -20,4 +22,7 @@ const SvgSiAiEditAlt2 = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiAiEditAlt2;
+SvgSiAiEditAlt2.displayName = "SvgSiAiEditAlt2";
+const ForwardRef = forwardRef(SvgSiAiEditAlt2);
+const Memo = memo(ForwardRef);
+export default Memo;

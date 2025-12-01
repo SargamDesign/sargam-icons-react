@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiSwatch = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiSwatch = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -25,4 +27,7 @@ const SvgSiSwatch = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiSwatch;
+SvgSiSwatch.displayName = "SvgSiSwatch";
+const ForwardRef = forwardRef(SvgSiSwatch);
+const Memo = memo(ForwardRef);
+export default Memo;

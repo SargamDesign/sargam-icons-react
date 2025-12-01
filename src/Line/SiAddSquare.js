@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiAddSquare = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiAddSquare = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -20,4 +22,7 @@ const SvgSiAddSquare = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiAddSquare;
+SvgSiAddSquare.displayName = "SvgSiAddSquare";
+const ForwardRef = forwardRef(SvgSiAddSquare);
+const Memo = memo(ForwardRef);
+export default Memo;

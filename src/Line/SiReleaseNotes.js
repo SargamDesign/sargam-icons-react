@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiReleaseNotes = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiReleaseNotes = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -19,4 +21,7 @@ const SvgSiReleaseNotes = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiReleaseNotes;
+SvgSiReleaseNotes.displayName = "SvgSiReleaseNotes";
+const ForwardRef = forwardRef(SvgSiReleaseNotes);
+const Memo = memo(ForwardRef);
+export default Memo;

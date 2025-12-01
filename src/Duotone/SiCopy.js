@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiCopy = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiCopy = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -25,4 +27,7 @@ const SvgSiCopy = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiCopy;
+SvgSiCopy.displayName = "SvgSiCopy";
+const ForwardRef = forwardRef(SvgSiCopy);
+const Memo = memo(ForwardRef);
+export default Memo;

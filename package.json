@@ -1,6 +1,6 @@
 {
   "name": "@sargamdesign/icons-react",
-  "version": "1.6.2",
+  "version": "1.6.6",
   "description": "A collection of open-source icons crafted to match your exquisite designs.",
   "module": "dist/index.mjs",
   "files": [
@@ -9,23 +9,39 @@
   "scripts": {
     "prebuild": "bunx rimraf dist",
     "build": "bun run line && bun run duotone && bun run fill && bunx rollup -c --bundleConfigAsCjs && bun run gen:types",
-    "line": "bunx svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Line assets/Line",
-    "duotone": "bunx svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Duotone assets/Duotone",
-    "fill": "bunx svgr --icon --title-prop --replace-attr-values '#000=currentColor' -d src/Fill assets/Fill",
+    "line": "bunx svgr -d src/Line assets/Line",
+    "duotone": "bunx svgr -d src/Duotone assets/Duotone",
+    "fill": "bunx svgr -d src/Fill assets/Fill",
     "gen:types": "bun scripts/generate-types.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SargamDesign/sargam-icons-react.git"
   },
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "icons",
     "line-icons",
     "fill-icons",
+    "duotone-icons",
     "iconset",
     "svg",
     "react",
-    "library"
+    "react-icons",
+    "react-components",
+    "library",
+    "ui",
+    "components",
+    "sargam",
+    "sargam-icons",
+    "design-system",
+    "icon-pack",
+    "icon-library"
   ],
   "author": "@planetabhi",
   "license": "MIT",
@@ -34,16 +50,16 @@
   },
   "homepage": "https://sargamicons.com/",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.28.3",
-    "@babel/preset-env": "^7.28.3",
-    "@babel/preset-react": "^7.27.1",
-    "@rollup/plugin-babel": "^6.0.4",
-    "@rollup/plugin-node-resolve": "^16.0.2",
+    "@babel/plugin-transform-runtime": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@rollup/plugin-babel": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
     "@svgr/cli": "^8.1.0",
-    "rimraf": "^6.0.1",
-    "rollup": "^4.52.4",
+    "rimraf": "^6.1.2",
+    "rollup": "^4.53.3",
     "rollup-plugin-filesize": "^10.0.0",
-    "sargam-icons": "^1.6.2"
+    "sargam-icons": "^1.6.6"
   },
   "dependencies": {
     "@babel/runtime": "^7.28.4"

@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiAlignRightDetailed = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiAlignRightDetailed = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -25,4 +27,7 @@ const SvgSiAlignRightDetailed = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiAlignRightDetailed;
+SvgSiAlignRightDetailed.displayName = "SvgSiAlignRightDetailed";
+const ForwardRef = forwardRef(SvgSiAlignRightDetailed);
+const Memo = memo(ForwardRef);
+export default Memo;

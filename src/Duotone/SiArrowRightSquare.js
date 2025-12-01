@@ -1,11 +1,13 @@
 import * as React from "react";
-const SvgSiArrowRightSquare = ({ title, titleId, ...props }) => (
+import { forwardRef, memo } from "react";
+const SvgSiArrowRightSquare = ({ title, titleId, ...props }, ref) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
     fill="none"
     viewBox="0 0 24 24"
+    aria-hidden={!title}
+    ref={ref}
     aria-labelledby={titleId}
     {...props}
   >
@@ -25,4 +27,7 @@ const SvgSiArrowRightSquare = ({ title, titleId, ...props }) => (
     />
   </svg>
 );
-export default SvgSiArrowRightSquare;
+SvgSiArrowRightSquare.displayName = "SvgSiArrowRightSquare";
+const ForwardRef = forwardRef(SvgSiArrowRightSquare);
+const Memo = memo(ForwardRef);
+export default Memo;
