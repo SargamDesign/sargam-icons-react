@@ -4,8 +4,7 @@ node_modules
 # Build outputs (keep for npm publish)
 # dist is published, so we don't ignore it
 
-# Source assets (downloaded from sargam-icons package)
-assets
+
 
 # IDE
 .vscode/

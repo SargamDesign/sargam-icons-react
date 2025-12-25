@@ -1,0 +1,57 @@
+{
+    "compilerOptions": {
+        // Language and Environment
+        "target": "ES2020",
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+        "jsx": "react",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        // Type Checking
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        // JavaScript Support
+        "allowJs": true,
+        "checkJs": true,
+        // Emit
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "removeComments": false,
+        "noEmit": true,
+        // Interop Constraints
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        // Skip Lib Check
+        "skipLibCheck": true,
+        // Advanced
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*",
+        "scripts/**/*",
+        "rollup.config.ts",
+        ".svgrrc.js"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "assets"
+    ]
+}

@@ -1084,6 +1084,12 @@ export const SiExpandMoreCircle: React.FC<IconProps>;
  */
 export const SiExpandMoreSquare: React.FC<IconProps>;
 /**
+ * SiEye icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiEye: React.FC<IconProps>;
+/**
  * SiFactCheck icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
  * @returns {JSX.Element} SVG icon element
@@ -1162,6 +1168,24 @@ export const SiFlagAlt4: React.FC<IconProps>;
  */
 export const SiFlare: React.FC<IconProps>;
 /**
+ * SiFlow icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiFlow: React.FC<IconProps>;
+/**
+ * SiFlowBranch icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiFlowBranch: React.FC<IconProps>;
+/**
+ * SiFlowCascade icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiFlowCascade: React.FC<IconProps>;
+/**
  * SiFlowLine icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
  * @returns {JSX.Element} SVG icon element
@@ -1173,6 +1197,12 @@ export const SiFlowLine: React.FC<IconProps>;
  * @returns {JSX.Element} SVG icon element
  */
 export const SiFlowParallel: React.FC<IconProps>;
+/**
+ * SiFlowTree icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiFlowTree: React.FC<IconProps>;
 /**
  * SiGarage icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
@@ -1414,6 +1444,12 @@ export const SiLightMode: React.FC<IconProps>;
  */
 export const SiLightning: React.FC<IconProps>;
 /**
+ * SiLink icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiLink: React.FC<IconProps>;
+/**
  * SiLock icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
  * @returns {JSX.Element} SVG icon element
@@ -1623,6 +1659,12 @@ export const SiMove: React.FC<IconProps>;
  * @returns {JSX.Element} SVG icon element
  */
 export const SiMovie: React.FC<IconProps>;
+/**
+ * SiNope icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiNope: React.FC<IconProps>;
 /**
  * SiNorthEast icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
@@ -1959,6 +2001,12 @@ export const SiSearchAlt: React.FC<IconProps>;
  * @returns {JSX.Element} SVG icon element
  */
 export const SiSegment: React.FC<IconProps>;
+/**
+ * SiServer icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiServer: React.FC<IconProps>;
 /**
  * SiSettings icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
@@ -2368,6 +2416,12 @@ export const SiTrain: React.FC<IconProps>;
  */
 export const SiTwitter: React.FC<IconProps>;
 /**
+ * SiUmbrella icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiUmbrella: React.FC<IconProps>;
+/**
  * SiUnderline icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
  * @returns {JSX.Element} SVG icon element
@@ -2379,6 +2433,12 @@ export const SiUnderline: React.FC<IconProps>;
  * @returns {JSX.Element} SVG icon element
  */
 export const SiUnfoldMore: React.FC<IconProps>;
+/**
+ * SiUnlink icon component
+ * @param {IconProps} props - Icon props including SVG attributes and optional title
+ * @returns {JSX.Element} SVG icon element
+ */
+export const SiUnlink: React.FC<IconProps>;
 /**
  * SiUnlock icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
