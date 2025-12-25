@@ -19,10 +19,7 @@ module.exports = {
     // Enable ref forwarding to allow parent components to access the SVG element
     ref: true,
 
-    // Add aria-hidden when no title is provided (for decorative icons)
-    svgProps: {
-        'aria-hidden': '{!title}',
-    },
+
 
     // SVGO configuration for SVG optimization
     svgoConfig: {
@@ -43,20 +40,35 @@ module.exports = {
         ],
     },
 
-    // Template for generated components
+    /**
+     * @param {{ imports: string; interfaces: string; componentName: string; props: string; jsx: string; exports: string; }} variables
+     * @param {{ tpl: (strings: TemplateStringsArray, ...expr: any[]) => string }} context
+     */
     template: (variables, { tpl }) => {
         return tpl`
 ${variables.imports};
+import { useId } from 'react';
 
 ${variables.interfaces};
 
-const ${variables.componentName} = (${variables.props}) => (
-  ${variables.jsx}
-);
+const ${variables.componentName} = ({ title, titleId, ...props }) => {
+  const generatedId = useId();
+  const validTitleId = titleId || generatedId;
+  const isTitlePresent = !!title;
+
+  return (
+    ${variables.jsx}
+  );
+};
 
 ${variables.componentName}.displayName = '${variables.componentName}';
 
 ${variables.exports};
 `;
+    },
+    // Customize SVG props to use the computed values
+    svgProps: {
+        'aria-hidden': '{!isTitlePresent}',
+        'aria-labelledby': '{isTitlePresent ? validTitleId : undefined}',
     },
 };

@@ -46,7 +46,7 @@
     "include": [
         "src/**/*",
         "scripts/**/*",
-        "rollup.config.js",
+        "rollup.config.ts",
         ".svgrrc.js"
     ],
     "exclude": [

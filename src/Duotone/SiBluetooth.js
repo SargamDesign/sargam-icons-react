@@ -1,28 +1,34 @@
 import * as React from "react";
 import { forwardRef, memo } from "react";
-const SvgSiBluetooth = ({ title, titleId, ...props }, ref) => (
-  <svg
-    width="1em"
-    height="1em"
-    fill="none"
-    viewBox="0 0 24 24"
-    aria-hidden={!title}
-    ref={ref}
-    aria-labelledby={titleId}
-    {...props}
-  >
-    {title ? <title id={titleId}>{title}</title> : null}
-    <path fill="currentColor" fillOpacity={0.16} d="m12 12 6 5-6 5V2l6 5z" />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="m5 6 13 11-6 5V2l6 5L5 18"
-    />
-  </svg>
-);
+import { useId } from "react";
+const SvgSiBluetooth = ({ title, titleId, ...props }) => {
+  const generatedId = useId();
+  const validTitleId = titleId || generatedId;
+  const isTitlePresent = !!title;
+  return (
+    <svg
+      width="1em"
+      height="1em"
+      fill="none"
+      viewBox="0 0 24 24"
+      aria-hidden={!isTitlePresent}
+      aria-labelledby={titleId}
+      ref={ref}
+      {...props}
+    >
+      {title ? <title id={titleId}>{title}</title> : null}
+      <path fill="currentColor" fillOpacity={0.16} d="m12 12 6 5-6 5V2l6 5z" />
+      <path
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeMiterlimit={10}
+        strokeWidth={1.5}
+        d="m5 6 13 11-6 5V2l6 5L5 18"
+      />
+    </svg>
+  );
+};
 SvgSiBluetooth.displayName = "SvgSiBluetooth";
 const ForwardRef = forwardRef(SvgSiBluetooth);
 const Memo = memo(ForwardRef);

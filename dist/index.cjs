@@ -1,8 +1,8 @@
 'use strict';
 
-var line = require('./index-BY61RaLP.js');
-var duotone = require('./index-DSBjl1EN.js');
-var fill = require('./index-CN4p4q2R.js');
+var line = require('./index-B18Mjc-j.js');
+var duotone = require('./index-Ct82bq3d.js');
+var fill = require('./index-BS5brlk4.js');
 require('@babel/runtime/helpers/extends');
 require('react');
 

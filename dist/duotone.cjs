@@ -1,6 +1,6 @@
 'use strict';
 
-var duotone = require('./index-DSBjl1EN.js');
+var duotone = require('./index-Ct82bq3d.js');
 require('@babel/runtime/helpers/extends');
 require('react');
 
