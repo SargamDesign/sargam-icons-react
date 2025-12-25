@@ -2,238 +2,118 @@
 
 A collection of open-source icons crafted to match your exquisite designs.
 
-Part of [sargamicons.com](https://sargamicons.com/)
+Part of [sargamicons.com](https://sargamicons.com/) ♪♪♪ ヽ(ˇ∀ˇ )ゞ
 
 ## Features
 
-- Tree-shakeable - only import what you use.
-- TypeScript support with full type definitions.
-- Accessibility features built-in.
-- React.memo and ref forwarding included.
-- Customizable with standard CSS.
+- **Tree-shakeable**: Modular imports ensure you only bundle what you use.
+- **TypeScript**: Full type definitions included.
+- **Accessibility**: Built-in support for titles and ARIA attributes.
+- **Optimization**: Wrapped in `React.memo` for performance.
+- **Theming**: Uses `currentColor` for easy CSS styling.
 
 ## Installation
 
 ```bash
 npm install @sargamdesign/icons-react
-```
-
-or with yarn:
-
-```bash
+# or
 yarn add @sargamdesign/icons-react
-```
-
-or with bun:
-
-```bash
+# or
 bun add @sargamdesign/icons-react
 ```
 
 ## Usage
 
-### Basic Usage
+Import icons from their specific style paths (preferred) or the main package.
 
-Import icons from their respective style directories:
+**Note**: All icon components are prefixed with `Si` (e.g., `SiStar`, `SiHome`).
+
+### Style Imports (Recommended)
 
 ```jsx
-import { Star } from '@sargamdesign/icons-react/line';
-import { Heart } from '@sargamdesign/icons-react/duotone';
-import { Home } from '@sargamdesign/icons-react/fill';
+import { SiStar } from '@sargamdesign/icons-react/line';
+import { SiHeart } from '@sargamdesign/icons-react/duotone';
+import { SiHome } from '@sargamdesign/icons-react/fill';
 
 function App() {
   return (
-    <div>
-      <Star />
-      <Heart />
-      <Home />
+    <div style={{ fontSize: '24px', color: '#555' }}>
+      <SiStar />
+      <SiHeart />
+      <SiHome />
     </div>
   );
 }
 ```
 
-### CommonJS
-
-```javascript
-const { Star } = require('@sargamdesign/icons-react/line');
-```
-
-### Namespace Import
+### Namespace Imports
 
 ```jsx
 import * as Icons from '@sargamdesign/icons-react';
 
 function App() {
-  return (
-    <div>
-      <Icons.Line.Star />
-      <Icons.Duotone.Heart />
-      <Icons.Fill.Home />
-    </div>
-  );
+  return <Icons.Line.SiStar />;
 }
 ```
-
-## Props
-
-All icons accept standard SVG attributes as props plus an optional `title` for accessibility:
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `title` | `string` | `undefined` | Accessible title for screen readers |
-| `className` | `string` | `undefined` | CSS class name |
-| `style` | `CSSProperties` | `undefined` | Inline styles |
-| `width` | `string \| number` | `"1em"` | Icon width |
-| `height` | `string \| number` | `"1em"` | Icon height |
-| `color` | `string` | `"currentColor"` | Icon color (via stroke/fill) |
-| `onClick` | `function` | `undefined` | Click handler |
-| `ref` | `Ref<SVGSVGElement>` | `undefined` | React ref to SVG element |
-| ...rest | `SVGProps<SVGSVGElement>` | - | All other SVG attributes |
 
 ## Customization
 
-### Sizing
-
-Icons default to `1em` which inherits the font size:
+Icons inherit `fontSize` and `color` (via `currentColor`) from their parent. You can also pass props directly.
 
 ```jsx
-// 24px icon (inherits font-size)
-<div style={{ fontSize: '24px' }}>
-  <Star />
+// Inherit styles (2em red icon)
+<div style={{ fontSize: '2em', color: 'red' }}>
+  <SiStar />
 </div>
 
-// Or set width/height directly
-<Star width={32} height={32} />
-<Star width="2rem" height="2rem" />
-```
-
-### Colors
-
-Icons use `currentColor` by default, inheriting text color:
-
-```jsx
-// Inherits color from parent
-<div style={{ color: 'red' }}>
-  <Star />
-</div>
-
-// Set color directly via className
-<Star className="text-blue-500" />
-
-// Or inline style
-<Star style={{ color: '#3b82f6' }} />
-```
-
-### Custom Styling
-
-```jsx
-import { Star } from '@sargamdesign/icons-react/line';
-
-function App() {
-  return (
-    <Star 
-      className="my-icon"
-      style={{ 
-        width: '40px',
-        height: '40px',
-        color: '#f59e0b',
-        cursor: 'pointer'
-      }}
-      onClick={() => console.log('clicked!')}
-    />
-  );
-}
-```
-
-## TypeScript
-
-Full TypeScript support with auto-completion:
-
-```typescript
-import { Star, IconProps } from '@sargamdesign/icons-react/line';
-import type { FC } from 'react';
-
-// Use the exported IconProps type
-const CustomIcon: FC<IconProps> = (props) => {
-  return <Star {...props} />;
-};
-
-// Or inline
-const IconButton: FC<{ icon: FC<IconProps> }> = ({ icon: Icon }) => {
-  return <button><Icon title="Click me" /></button>;
-};
-```
-
-### Using with Refs
-
-```typescript
-import { useRef, useEffect } from 'react';
-import { Star } from '@sargamdesign/icons-react/line';
-
-function App() {
-  const iconRef = useRef<SVGSVGElement>(null);
-
-  useEffect(() => {
-    if (iconRef.current) {
-      const bbox = iconRef.current.getBoundingClientRect();
-      console.log('Icon dimensions:', bbox.width, bbox.height);
-    }
-  }, []);
-
-  return <Star ref={iconRef} />;
-}
+// Direct props
+<SiStar 
+  width={32} 
+  height={32}
+  color="#3b82f6"
+  className="my-icon" 
+  style={{ margin: '8px' }}
+/>
 ```
 
 ## Accessibility
 
-### With Title (Semantic Icon)
+- **Semantic**: Add a `title` prop. The icon will render a `<title>` tag and use `aria-labelledby`.
+  ```jsx
+  <SiStar title="Add to favorites" />
+  ```
+- **Decorative**: Omit the `title`. The icon will have `aria-hidden="true"`.
+  ```jsx
+  <SiStar /> 
+  ```
 
-When an icon conveys meaning, provide a `title`:
+## TypeScript
 
-```jsx
-<Star title="Favorite" />
-// Renders: <svg aria-labelledby="title-id"><title>Favorite</title>...</svg>
+All components are fully typed with `IconProps`.
+
+```typescript
+import { SiStar, IconProps } from '@sargamdesign/icons-react/line';
+
+const MyButton = ({ icon: Icon }: { icon: React.FC<IconProps> }) => (
+  <button><Icon /></button>
+);
 ```
 
-### Decorative Icon
+### Ref Forwarding
 
-When an icon is purely decorative, it's automatically hidden from screen readers:
-
-```jsx
-<Star />
-// Renders: <svg aria-hidden="true">...</svg>
-```
-
-### In Buttons
+Access the underlying SVG element using standard refs.
 
 ```jsx
-<button>
-  <Star title="Add to favorites" />
-</button>
-
-// Or with visible text
-<button>
-  <Star aria-hidden />
-  Add to favorites
-</button>
+const iconRef = useRef<SVGSVGElement>(null);
+return <SiStar ref={iconRef} />;
 ```
 
-## Icon Styles
+## Props
 
-### Line
-Outlined stroke-based icons for a clean, minimal look.
-```jsx
-import { Star } from '@sargamdesign/icons-react/line';
-```
-
-### Duotone
-Two-tone icons with primary and secondary elements.
-```jsx
-import { Star } from '@sargamdesign/icons-react/duotone';
-```
-
-### Fill
-Solid filled icons for bold emphasis.
-```jsx
-import { Star } from '@sargamdesign/icons-react/fill';
-```
+| Prop | Type | Default | Description |
+|------|------|---------|-------------|
+| `title` | `string` | - | Accessible title. If omitted, icon is hidden from screen readers. |
+| `width` | `number \| string` | `1em` | Icon width. |
+| `height` | `number \| string` | `1em` | Icon height. |
+| `color` | `string` | `currentColor` | Icon fill/stroke color. |
+| `...props`| `SVGProps` | - | All standard SVG attributes (onClick, style, etc.) |

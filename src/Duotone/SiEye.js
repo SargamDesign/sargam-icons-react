@@ -1,6 +1,6 @@
 import * as React from "react";
 import { forwardRef, memo } from "react";
-const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
+const SvgSiEye = ({ title, titleId, ...props }, ref) => (
   <svg
     width="1em"
     height="1em"
@@ -15,7 +15,9 @@ const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
     <path
       fill="currentColor"
       fillOpacity={0.16}
-      d="M7 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4M17 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+      fillRule="evenodd"
+      d="M12 6c5.522 0 10 6 10 6s-4.478 6-10 6-10-6-10-6 4.478-6 10-6m0 3a3 3 0 1 0 0 6 3 3 0 0 0 0-6"
+      clipRule="evenodd"
     />
     <path
       stroke="currentColor"
@@ -23,11 +25,19 @@ const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4m10 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+      d="M22 12s-4.478 6-10 6-10-6-10-6 4.478-6 10-6 10 6 10 6"
+    />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={1.5}
+      d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
     />
   </svg>
 );
-SvgSiFlowParallel.displayName = "SvgSiFlowParallel";
-const ForwardRef = forwardRef(SvgSiFlowParallel);
+SvgSiEye.displayName = "SvgSiEye";
+const ForwardRef = forwardRef(SvgSiEye);
 const Memo = memo(ForwardRef);
 export default Memo;

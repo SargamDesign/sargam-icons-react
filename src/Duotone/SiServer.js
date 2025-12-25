@@ -1,6 +1,6 @@
 import * as React from "react";
 import { forwardRef, memo } from "react";
-const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
+const SvgSiServer = ({ title, titleId, ...props }, ref) => (
   <svg
     width="1em"
     height="1em"
@@ -13,16 +13,20 @@ const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
+      fill="currentColor"
+      fillOpacity={0.16}
+      d="M18.6 3H5.4A2.4 2.4 0 0 0 3 5.4v13.2A2.4 2.4 0 0 0 5.4 21h13.2a2.4 2.4 0 0 0 2.4-2.4V5.4A2.4 2.4 0 0 0 18.6 3"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4m10 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+      d="M3 9h18M3 15h18m-4-3h1m-1 6h1M17 6h1M5.4 3h13.2A2.4 2.4 0 0 1 21 5.4v13.2a2.4 2.4 0 0 1-2.4 2.4H5.4A2.4 2.4 0 0 1 3 18.6V5.4A2.4 2.4 0 0 1 5.4 3"
     />
   </svg>
 );
-SvgSiFlowParallel.displayName = "SvgSiFlowParallel";
-const ForwardRef = forwardRef(SvgSiFlowParallel);
+SvgSiServer.displayName = "SvgSiServer";
+const ForwardRef = forwardRef(SvgSiServer);
 const Memo = memo(ForwardRef);
 export default Memo;

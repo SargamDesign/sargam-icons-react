@@ -1,10 +1,12 @@
 import resolve from '@rollup/plugin-node-resolve';
 import babel from '@rollup/plugin-babel';
+// @ts-ignore
 import filesize from 'rollup-plugin-filesize';
+import { RollupOptions } from 'rollup';
 
-const config = {
+const config: RollupOptions = {
   input: {
-    index: 'src/index.js',
+    index: 'src/index.ts',
     line: 'src/Line/index.js',
     duotone: 'src/Duotone/index.js',
     fill: 'src/Fill/index.js'
@@ -24,9 +26,10 @@ const config = {
   external: [/@babel\/runtime/, 'react'],
   plugins: [
     resolve(),
-    babel({ 
+    babel({
       babelHelpers: 'runtime',
-      plugins: ['@babel/plugin-transform-runtime'] 
+      plugins: ['@babel/plugin-transform-runtime'],
+      extensions: ['.js', '.jsx', '.ts', '.tsx']
     }),
     filesize(),
   ],

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { forwardRef, memo } from "react";
-const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
+const SvgSiFlow = ({ title, titleId, ...props }, ref) => (
   <svg
     width="1em"
     height="1em"
@@ -13,16 +13,21 @@ const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
+      fill="currentColor"
+      fillOpacity={0.16}
+      d="M12 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4m10 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+      d="M12 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
     />
   </svg>
 );
-SvgSiFlowParallel.displayName = "SvgSiFlowParallel";
-const ForwardRef = forwardRef(SvgSiFlowParallel);
+SvgSiFlow.displayName = "SvgSiFlow";
+const ForwardRef = forwardRef(SvgSiFlow);
 const Memo = memo(ForwardRef);
 export default Memo;

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { forwardRef, memo } from "react";
-const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
+const SvgSiUmbrella = ({ title, titleId, ...props }, ref) => (
   <svg
     width="1em"
     height="1em"
@@ -18,11 +18,11 @@ const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4m10 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+      d="M17.217 19.39c.044 1.391-1.087 2.565-2.521 2.609h-.088c-1.39.043-2.565-1.087-2.608-2.522V12m10 0c0-5.523-4.477-10-10-10S2 6.477 2 12z"
     />
   </svg>
 );
-SvgSiFlowParallel.displayName = "SvgSiFlowParallel";
-const ForwardRef = forwardRef(SvgSiFlowParallel);
+SvgSiUmbrella.displayName = "SvgSiUmbrella";
+const ForwardRef = forwardRef(SvgSiUmbrella);
 const Memo = memo(ForwardRef);
 export default Memo;

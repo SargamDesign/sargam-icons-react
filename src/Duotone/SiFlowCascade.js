@@ -1,6 +1,6 @@
 import * as React from "react";
 import { forwardRef, memo } from "react";
-const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
+const SvgSiFlowCascade = ({ title, titleId, ...props }, ref) => (
   <svg
     width="1em"
     height="1em"
@@ -13,16 +13,21 @@ const SvgSiFlowParallel = ({ title, titleId, ...props }, ref) => (
   >
     {title ? <title id={titleId}>{title}</title> : null}
     <path
+      fill="currentColor"
+      fillOpacity={0.16}
+      d="M7 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m10 9a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+    />
+    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeMiterlimit={10}
       strokeWidth={1.5}
-      d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4m10 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m0 0V6m0 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
+      d="M7 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4m0 0v10c0 2.2 1.694 4 3.765 4H15M7 6v3c0 2.2 1.694 4 3.765 4H15m0 7a2 2 0 1 0 4 0 2 2 0 0 0-4 0m0-7a2 2 0 1 0 4 0 2 2 0 0 0-4 0"
     />
   </svg>
 );
-SvgSiFlowParallel.displayName = "SvgSiFlowParallel";
-const ForwardRef = forwardRef(SvgSiFlowParallel);
+SvgSiFlowCascade.displayName = "SvgSiFlowCascade";
+const ForwardRef = forwardRef(SvgSiFlowCascade);
 const Memo = memo(ForwardRef);
 export default Memo;

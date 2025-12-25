@@ -5,19 +5,21 @@ const ROOT = process.cwd();
 const SRC = path.join(ROOT, 'src');
 const DIST = path.join(ROOT, 'dist');
 
-async function readIconNames(styleDir) {
+async function readIconNames(styleDir: string): Promise<string[]> {
   const indexPath = path.join(SRC, styleDir, 'index.js');
   const content = await fs.readFile(indexPath, 'utf8');
-  const names = [];
+  const names: string[] = [];
   const regex = /export\s*\{\s*default\s+as\s+([A-Za-z0-9_]+)\s*\}\s*from\s*"\.\/[^"]+";/g;
   let match;
   while ((match = regex.exec(content)) !== null) {
-    names.push(match[1]);
+    if (match[1]) {
+      names.push(match[1]);
+    }
   }
   return names;
 }
 
-function fileHeader() {
+function fileHeader(): string {
   return `import * as React from 'react';
 
 /**
@@ -31,7 +33,7 @@ export interface IconProps extends React.SVGProps<SVGSVGElement> {
 `;
 }
 
-function iconTypeLine(name) {
+function iconTypeLine(name: string): string {
   return `/**
  * ${name} icon component
  * @param {IconProps} props - Icon props including SVG attributes and optional title
@@ -40,7 +42,7 @@ function iconTypeLine(name) {
 export const ${name}: React.FC<IconProps>;`;
 }
 
-async function writeStyleDts(styleName, names) {
+async function writeStyleDts(styleName: string, names: string[]): Promise<void> {
   const target = path.join(DIST, `${styleName}.d.ts`);
   const lines = [
     fileHeader(),
@@ -51,7 +53,7 @@ async function writeStyleDts(styleName, names) {
   await fs.writeFile(target, lines.join('\n'), 'utf8');
 }
 
-async function writeIndexDts() {
+async function writeIndexDts(): Promise<void> {
   const content = `import type { IconProps } from './line.js';
 
 export * as Line from './line.js';
@@ -67,11 +69,11 @@ export type { IconProps };
   await fs.writeFile(path.join(DIST, 'index.d.ts'), content, 'utf8');
 }
 
-async function ensureDist() {
+async function ensureDist(): Promise<void> {
   await fs.mkdir(DIST, { recursive: true });
 }
 
-async function main() {
+async function main(): Promise<void> {
   await ensureDist();
   const [line, duotone, fill] = await Promise.all([
     readIconNames('Line'),
@@ -91,5 +93,3 @@ main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
-
-
